@@ -1,6 +1,7 @@
 # Lists of astronomical objects
 
 This is a list of lists, grouped by type of astronomical object.
+
 Reference: https://en.wikipedia.org/wiki/Lists_of_astronomical_objects
 
 ## Stars
