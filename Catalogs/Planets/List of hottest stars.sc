@@ -203,3 +203,135 @@ Star	"WR 30a B"
 		MeanAnomaly     0
 	}
 }
+
+// WR 38
+// B maybe optical companion because thay have defferent parallaxes
+Star	"** WLC 1A/WDS J11058-6114A/Gaia DR2 5337277763391646336/Gaia DR3 5337277763391646336"
+{
+	ParentBody     "WR 38"
+	Class          "WC4"
+	MassSol         10.4
+	Radius          587613.25161121622659265995025635 // Calculated by Stefan-Boltzmann law
+	Luminosity      162000
+	Teff            126000
+
+	/* BinaryOrbit
+	{
+		Separation 14940.4 // 1.63 Asec.
+	} */
+}
+
+/* Star	"** WLC 1B/WDS J11058-6114B/Gaia DR2 5337277763372243840/Gaia DR3 5337277763372243840"
+{
+	ParentBody     "WR 38"
+	Class          "?"
+} */
+
+// AB7
+// binary star in SMC, complete data
+Remove "AB7 A"{ParentBody "AB7"}
+Remove "AB7 B"{ParentBody "AB7"}
+Star	"AB7 A"
+{
+	ParentBody     "SMC AB 7"
+	Class          "WN4"
+	MassSol         23
+	RadSol          3.4
+	Luminosity      1259000
+	Teff            105000
+
+	Orbit
+	{
+		PeriodDays      19.560
+		Eccentricity    0.07
+		Inclination     68
+		Epoch           2451549.2
+		ArgOfPericenter 101
+		MeanAnomaly     0
+	}
+}
+
+Star	"AB7 B"
+{
+	ParentBody     "SMC AB 7"
+	Class          "O6I(f)"
+	MassSol         44
+	RadSol          14
+	Luminosity      316000
+	Teff            36000
+	Age             0.0034
+
+	Orbit
+	{
+		PeriodDays      19.560
+		Eccentricity    0.07
+		Inclination     68
+		Epoch           2451549.2
+		ArgOfPericenter 281
+		MeanAnomaly     0
+	}
+}
+
+// HD 195177
+Star	"HD 195177 A"
+{
+	ParentBody     "HD 195177"
+	Class          "WC4"
+	MassSol        8
+	Radius         691853.29914601473137736320495605 // Calculated by Stefan-Boltzmann law
+	Luminosity     89100
+	Teff           100000
+
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          0.105489793
+		Eccentricity    0.293935835
+		Inclination     -0.796666145
+		AscendingNode   0
+		ArgOfPericenter 77.4150417
+		MeanAnomaly     -95.5759196
+	}
+}
+
+Star	"HD 195177 B"
+{
+	ParentBody     "HD 195177"
+	Class          "Be"
+}
+
+// EZ CMa
+Star	"EZ CMa A"
+{
+	ParentBody     "V* EZ CMa"
+	Class          "WN4b"
+	MassSol        23
+	RadSol         3.25
+	LumBol         620000
+	Teff           89100
+
+	Orbit
+	{
+		PeriodDays      3.63
+		Eccentricity    0.10
+		Inclination     74
+		ArgOfPericenter 0
+		MeanAnomaly     0
+	}
+}
+
+Star	"EZ CMa B"
+{
+	ParentBody     "V* EZ CMa"
+	Class          ""
+	MassSol        1.5
+
+	Orbit
+	{
+		PeriodDays      3.63
+		Eccentricity    0.10
+		Inclination     74
+		ArgOfPericenter 180
+		MeanAnomaly     0
+	}
+}

@@ -1,0 +1,182 @@
+StarBarycenter "RMC 31/TYC 9138-1898-1/2MASS J01032522-7206439/SSTISAGE1C J010325.19-720643.9/XMMU J010325.4-720643/AzV 332/OGLE SMC-SC10 33875/TIC 182735538/[AM77] 51/CSI-72-01017/OGLE SMC-SC9 175315/UBV 1069/Gaia DR2 4690509113669470592/CSI-72-01018 2/UBV M 43655/Gaia DR3 4690509113669470592/GCRV 80017/SBC9 56/UCAC2 1163388/GEN# +6.20053332/SK 108/uvby98 620053332/MACHO 206.16834.11/SMC AB 6/WEB 977"
+{
+	/*Observation data*/
+	RA      01 03 25.2272050176
+	Dec     -72 06 43.857668340
+	AppMagn 12.30
+	/*Characteristics*/
+	Class   "WN"
+	/*Astrometry*/
+	Dist    64420
+	AbsMagn -5.15
+}
+
+Star "[MA93] 1466/2MASS J01042783-7204525/[M2002] SMC 59319/[MWD2000] h53-207/Gaia DR3 4690508808750307840/TIC 182730261/Gaia DR2 4690508808750307840"
+{
+	/*Observation data*/
+	RA      01 04 27.8449073448
+	Dec     -72 04 52.472684424
+	AppMagn 14.5
+	/*Characteristics*/
+	Class   "O5-7Ve"
+	/*Astrometry*/
+	Dist    64410
+	AbsMagn -4.8
+	/*Details*/
+	MassSol 53
+	Radius  5934701.7638856936246156692504883 // Manually calculated
+	LumBol  413045.95513075154 // MBol = -9.3
+	Teff    50100
+}
+
+StarBarycenter "MOA J010321.3-720538/OGLE SMC-SC10 33878/OGLE SMC-ECL- 4690/SSTISAGE1C J010321.25-720538.1/Gaia DR2 4690509324146632704/OGLE SMC725.14.000030/[M2002] SMC 56068/OGLE SMC-SC9 175323/OGLE SMC113.6 11293/[MWD2000] h53-47/OGLE J010321.27-720537.8/SBC9 1765/Gaia DR3 4690509324146632704"
+{
+	/*Observation data*/
+	RA      01 03 21.3011685264
+	Dec     -72 05 38.152558428
+	AppMagn 13.36
+	/*Characteristics*/
+	Class   "O6V"
+	/*Astrometry*/
+	Dist    64413
+	AbsMagn -4.9
+}
+
+Star "[MWD2000] h53-60/UCAC4 090-006646/TIC 182730160/Gaia DR3 4690509049268759808/2MASS J01032524-7207037/[M2002] SMC 56267/Gaia DR2 4690509049268759808"
+{
+	/*Observation data*/
+	RA      01 03 25.2183624048
+	Dec     -72 07 03.733860432
+	AppMagn 13.88
+	/*Characteristics*/
+	Class   "O8III"
+	/*Astrometry*/
+	Dist    64415
+	AbsMagn -5.4
+	/*Details*/
+	MassSol 36
+	Radius  9375371.1878604982048273086547852 // Manually calculated
+	LumBol  313327.3990186982 // MBol = -9
+	Teff    37200
+}
+
+Star "RMC 28/2MASS J01031053-7202143/GCRV 80014/SSTISAGE1C J010310.52-720214.4/Gaia DR2 4690512691400904448/AzV 327/GEN# +6.20053327/TIC 182730274/Gaia DR3 4690512691400904448/CSI-72-01016 1/GEN# +6.20053327D/UBV M 44350/Dachs SMC 2-11/[M2002] SMC 55537"
+{
+	/*Observation data*/
+	RA      01 03 10.5480205584
+	Dec     -72 02 14.335031256
+	AppMagn 13.086
+	/*Characteristics*/
+	Class   "O9.7I"
+	/*Astrometry*/
+	Dist    64411
+	AbsMagn -5.8
+	/*Details*/
+	MassSol 35
+	Radius  12475169.964200569316744804382324 // Manually calculated
+	Luminosity 343556.6612782582 // MBol = -9.1
+	Teff    33000
+}
+
+Star "[MWD2000] h53-141/UCAC2 1163446/UCAC4 090-006752/2MASS J01034467-7205584/[M2002] SMC 57249/Gaia DR2 4690509461585365888/TIC 182735604/[M2002] SMC 57238/Gaia DR3 4690509461585365888"
+{
+	/*Observation data*/
+	RA      01 03 44.6810178528
+	Dec     -72 05 58.362255384
+	AppMagn 13.42
+	/*Characteristics*/
+	Class   "O9III"
+	/*Astrometry*/
+	Dist    64418
+	AbsMagn -5.8
+	/*Details*/
+	MassSol 34
+	Radius  12021466.924441730603575706481934 // Manually calculated
+	LumBol  376702.3882313594 // MBol = -9.2
+	Teff    34400
+}
+
+Star "[MWD2000] h53-137/UCAC2 1163442/UCAC3 36-10300/2MASS J01034334-7203030/UCAC4 090-006744/Gaia DR2 4690512794480131072/TIC 182730265/[M2002] SMC 57182/Gaia DR3 4690512794480131072"
+{
+	/*Observation data*/
+	RA      01 03 43.3397769912
+	Dec     -72 03 03.142539036
+	AppMagn 13.60
+	/*Characteristics*/
+	Class   "O8.5III"
+	/*Astrometry*/
+	Dist    64414
+	AbsMagn -5.6
+	/*Details*/
+	MassSol 34
+	Radius  10659526.627132751047611236572266 // Manually calculated
+	Luminosity 343556.6612782582 // MBol = -9.1
+	Teff    35700
+}
+
+Star "[MWD2000] h53-118"
+{
+	/*Observation data*/
+	RA      01 03 37.40
+	Dec     -72 01 29.4
+	AppMagn 14.67
+	/*Characteristics*/
+	Class   "O4?"
+	/*Astrometry*/
+	Dist    64416
+	AbsMagn -4.6
+	/*Details*/
+	MassSol 34
+	Radius  5974430.1907336525619029998779297 // Manually calculated
+	LumBol  216769.59867861096 // MBol = -8.6
+	Teff    42500
+}
+
+StarBarycenter "[MWD2000] h53-91/OGLE SMC-ECL- 4728/OGLE SMC725.14.000034/UCAC2 1163406/2MASS J01033195-7205215/OGLE SMC113.6 11298/Gaia DR3 4690509358506360320/OGLE SMC-SC10 33891/TIC 182730237/[M2002] SMC 56613/Gaia DR2 4690509358506360320"
+{
+	/*Observation data*/
+	RA      01 03 31.9493430024
+	Dec     -72 05 21.584788980
+	AppMagn 13.950
+	/*Characteristics*/
+	Class   "O8.5V"
+	/*Astrometry*/
+	Dist    64419
+	AbsMagn -5.1
+}
+
+Star "[MWD2000] h53-11"
+{
+	/*Observation data*/
+	RA      01 03 06.72
+	Dec     -72 06 58.2
+	AppMagn 14.90
+	/*Characteristics*/
+	Class   "O5?"
+	/*Astrometry*/
+	Dist    64417
+	AbsMagn -4.4
+	/*Details*/
+	MassSol 31
+	Radius  5379250.729806421324610710144043 // Manually calculated
+	LumBol  164436.55650567016 // MBol = -8.3
+	Teff    41800
+}
+
+Star "[MWD2000] h53-74"
+{
+	/*Observation data*/
+	RA      01 03 28.51
+	Dec     -72 06 15.0
+	AppMagn 14.66
+	/*Characteristics*/
+	Class   "O6?"
+	/*Astrometry*/
+	Dist    64415
+	AbsMagn -4.6
+	/*Details*/
+	MassSol 30
+	Radius  6339892.6950543019920587539672852 // Manually calculated
+	LumBol  180301.09885733417 // MBol = -8.4
+	Teff    39400
+}
