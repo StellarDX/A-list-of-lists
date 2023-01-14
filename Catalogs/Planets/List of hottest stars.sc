@@ -435,3 +435,62 @@ Star	"WR 19 B"
 		// asini = 5.3 AU
 	}
 }
+
+// WR 86, visual binary
+Star	"WR 86 A"
+{
+	ParentBody     "WR 86"
+	Class          "WC7"
+	RadSol         10
+	Luminosity     200000
+	Teff           56000
+
+	BinaryOrbit
+	{
+		Separation      630
+	}
+}
+
+Star	"WR 86 B"
+{
+	ParentBody     "WR 86"
+	Class          "B0III"
+	MassSol        19
+	RadSol         8.5
+	Luminosity     63000
+	Teff           31405
+	Age            0.004
+}
+
+// WR 134, Eclipsing Binary
+Star	"WR 134 A"
+{
+	ParentBody "WR 134"
+	Class      "WN6-s"
+  MassSol    18
+	RadSol     5.25
+	Luminosity 407000
+	Teff       63100
+
+	Orbit
+  {
+    PeriodDays      1.887 // 2.25?
+		Inclination     90
+		ArgOfPericenter 0
+		MeanAnomaly     0
+  }
+}
+
+Star	"WR 134 B"
+{
+	ParentBody     "WR 134"
+	Class          "K-M?"
+
+	Orbit
+	{
+		PeriodDays      1.887 // 2.25?
+		Inclination     90
+		ArgOfPericenter 180
+		MeanAnomaly     0
+	}
+}

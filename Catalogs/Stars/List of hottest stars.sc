@@ -639,7 +639,142 @@ Star "[W65] c18/WR 45/LLNS 5745/UCAC2 4317777/ALS 2423/LS 2423/UCAC4 139-064973/
 	//AbsMagn 0.6586257999934464 // Calculated from AppMagn and Parallax
 	/*Details*/
 	MassSol 14.1
-	Radius  1972175.3931409358046948909759521
+	Radius  1972175.3931409358046948909759521 // Calculated by Stefan-Boltzmann law
 	Luminosity 282000
 	Teff    79000
+}
+
+// 36.WR 86
+// https://en.wikipedia.org/wiki/WR_86
+Remove "HIP 84655"
+StarBarycenter "HD 156327/GSC 07370-00511/PPM 296171/V* V1035 Sco/** RST 3084/Hen 3-1368/SAO 208655/WDS J17184-3425AB/ALS 4057/HIC 84655/THA 10-11/WRAY 15-1665/CCDM J17184-3425AB/HIP 84655/TIC 153566009/WR 86/CD-34 11622/IDS 17118-3418 AB/TYC 7370-511-1/AAVSO 1711-34/CPC 17 9126/LS 4057/UBV 14692/Gaia DR2 5978698590355238912/CPD-34 6800/2MASS J17182306-3424306/UBV M 22071/GEN# +1.00156327/MR 68/UCAC4 278-117561"
+{
+	/*Observation data*/
+	RA      17 18 23.0613730
+	Dec     -34 24 30.630847
+	AppMagn 9.32
+	/*Characteristics*/
+	Class   "WC7"
+	AppMagnJ 7.436
+	AppMagnK 6.666
+	/*Astrometry*/
+	Dist    2100
+	AbsMagn -4.3
+}
+
+// 37.WR 136(in NGC 6888)
+// https://en.wikipedia.org/wiki/WR_136
+Remove "HIP 99546"
+Star "HD 192163/GSC 03151-01765/PPM 84423/V* V1770 Cyg/AG+38 1977/HBHA 3703-58/RX J2012.1+3821/WR 136/ALS 10934/Hen 3-1849/RX J2012.1+3821a/[HFE83] 1350/BD+37 3821/HIC 99546/SAO 69592/[KW97] 43-32/CEL 4971/HIP 99546/SKY# 38042/[WW2002] 05/CSV 102983/IRAS 20102+3812/TD1 26267/Gaia DR2 2061690233159124352/DO 18703/JP11 3188/TIC 43780908/Gaia DR3 2061690233159124352/EXO 201017+3812.3/LS II +38 11/TYC 3151-1765-1/Gaia DR1 2061690233159124352/GC 28056/2MASS J20120654+3821178/UBV M 24614/GCRV 12567/MR 102/UBV 17452/GEN# +1.00192163/NSV 12896/UCAC3 257-199024"
+{
+	CenterOf "Crescent Nebula"
+	/*Observation data*/
+	RA      20 12 06.5418877464
+	Dec     +38 21 17.784181008
+	AppMagn 7.50
+	/*Characteristics*/
+	Class   "WN6(h)-s"
+	/*Astrometry*/
+	Dist    1533
+	//AbsMagn -5.63
+	/*Details*/
+	MassSol 21
+	RadSol  5.10
+	Luminosity 600000
+	Teff    70800
+	RotationPeriod 888
+	Age     0.0047
+}
+
+// 38.WR 75
+// https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=WR+75&submit=SIMBAD+search
+Star "HD 147419/Hen 3-1186/TYC 8324-3694-1/Gaia DR2 5934037012236694272/ALS 3595/LS 3595/UCAC2 9551804/Gaia DR3 5934037012236694272/CD-51 10119/2MASS J16242623-5132060/UCAC4 193-134405/Gaia DR1 5934037007839815296/CPD-51 9469/MR 60/WRAY 15-1471/GSC 08324-03694/TIC 1456691/WR 75"
+{
+	/*Observation data*/
+	RA      16 24 26.2279587024
+	Dec     -51 32 06.061114140
+	AppMagn 10.50
+	/*Characteristics*/
+	Class   "WN6-s"
+	/*Astrometry*/
+	Dist    3847.6337052712581762216237014236 // Plx. 0.2599 mas
+	//AbsMagn -2.4259686024949367 // Calculated from AppMagn and Parallax
+	/*Details*/
+	MassSol 18
+	Radius  3630707.3667293721809983253479004 // Calculated by Stefan-Boltzmann law
+	Luminosity 389000
+	Teff    63100
+}
+
+// 39.WR 134
+// https://en.wikipedia.org/wiki/WR_134
+StarBarycenter "HD 191765/GCRV 12529/2MASS J20101420+3610350/TYC 2683-1164-1/AG+36 1953/GEN# +1.00191765/MR 100/UBV 17401/AKARI-IRC-V1 J2010141+361035/GSC 02683-01164/NSV 12863/UBV M 24581/ALS 10899/Hen 3-1839/PLX 4792/UCAC3 253-213614/BD+35 4001/HIC 99377/PLX 4792.00/V* V1769 Cyg/CEL 4955/HIP 99377/PPM 84358/WR 134/CSV 101949/IRAS 20083+3601/SAO 69541/[KW97] 43-10/DO 18657/JP11 3183/SV* ZI 1876/Gaia DR2 2059146654767199872/2E 4330/LF 3a +36 25/TD1 26191/Gaia DR3 2059146654767199872/2E 2008.3+3601/LS II +36 23/TIC 42837421/Gaia DR1 2059146650444898688"
+{
+	/*Observation data*/
+	RA      20 10 14.1928045152
+	Dec     +36 10 35.070683376
+	AppMagn 8.08
+	/*Characteristics*/
+	Class   "WN6-s"
+	/*Astrometry*/
+	Dist    1905.8509624547360396417000190585 // Plx. 0.5247 mas
+	AbsMagn -5.09
+}
+
+// 40.WR 60
+// https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=WR+60&submit=SIMBAD+search
+Star "HD 121194/LS 3173/UCAC2 4868897/Gaia DR2 5867123139651286528/ALS 3173/2MASS J13554846-6109484/UCAC4 145-144541/Gaia DR3 5867123139651286528/DENIS J135548.4-610948/MR 52/WRAY 15-1150/Hen 3-945/TIC 324256993/WR 60"
+{
+	/*Observation data*/
+	RA      13 55 48.4481808288
+	Dec     -61 09 48.459624804
+	AppMagn 12.20
+	/*Characteristics*/
+	Class   "WC8"
+	/*Astrometry*/
+	Dist    3575.2592062924562030747229174115 // Plx. 0.2797 mas
+	//AbsMagn -0.5665376681423648 // Calculated from AppMagn and Parallax
+	/*Details*/
+	MassSol 23
+	Radius  4624141.6087076263502240180969238 // Calculated by Stefan-Boltzmann law
+	Luminosity 631000
+	Teff    63100
+}
+
+// 41.WR 149
+// https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=WR+149&submit=SIMBAD+search
+Star "WR 149/HBHA 4703-52/[KW97] 55-46/Gaia DR3 2165537770680635904/EM* CGHA 39/2MASS J21071169+4825361/[S66] 4/GSC 03592-06255/TIC 267280385/Gaia DR2 2165537770680635904"
+{
+	/*Observation data*/
+	RA      21 07 11.6933616840
+	Dec     +48 25 36.238552680
+	AppMagn 14.70
+	/*Characteristics*/
+	Class   "WN5-s"
+	/*Astrometry*/
+	Dist    6540.2223675604970568999345977763 // Plx. 0.1529 mas
+	//AbsMagn 0.6220374270616009 // Calculated from AppMagn and Parallax
+	/*Details*/
+	MassSol 14
+	Radius  3019204.8866389980539679527282715 // Calculated by Stefan-Boltzmann law
+	Luminosity 269000
+	Teff    63100
+}
+
+// 42.WR 102f(in Quintuplet Cluster)
+// https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=WR+102f&submit=SIMBAD+search
+Star "WR 102f/qF 235N/[FMG99] 2/LHO 47/[DWC2011] 13"
+{
+	/*Observation data*/
+	RA      17 46 15.16
+	Dec     -28 49 39.4
+	AppMagnK 11.74
+	/*Characteristics*/
+	Class   "WC8"
+	/*Astrometry*/
+	Dist    7999.4500151644233483239077031612 // random
+	/*Details*/
+	Radius  2879304.932894959580153226852417 // Calculated by Stefan-Boltzmann law
+	Luminosity 200000
+	Teff    60000
 }
