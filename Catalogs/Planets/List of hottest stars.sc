@@ -272,10 +272,10 @@ Star	"AB7 B"
 	}
 }
 
-// HD 195177
-Star	"HD 195177 A"
+// WR 143
+Star	"WR 143 A"
 {
-	ParentBody     "HD 195177"
+	ParentBody     "WR 143"
 	Class          "WC4"
 	MassSol        8
 	Radius         691853.29914601473137736320495605 // Calculated by Stefan-Boltzmann law
@@ -294,9 +294,9 @@ Star	"HD 195177 A"
 	}
 }
 
-Star	"HD 195177 B"
+Star	"WR 143 B"
 {
-	ParentBody     "HD 195177"
+	ParentBody     "WR 143"
 	Class          "Be"
 }
 
@@ -333,5 +333,105 @@ Star	"EZ CMa B"
 		Inclination     74
 		ArgOfPericenter 180
 		MeanAnomaly     0
+	}
+}
+
+// TET Mus
+// Reference: NoirLab
+// http://www.ctio.noirlab.edu/~atokovin/stars/stars.php?cat=HD&number=113904
+// G. M. Hill, A. F. J. Moffat2 and N. St-Louis2
+// "Modelling the colliding-winds spectra of the 19-d WR + OB binary in the massive triple system θ Muscae"
+// https://academic.oup.com/mnras/article/335/4/1069/962568
+Remove "TET Mus (Aa)"{ParentBody "TET Mus"}
+Remove "TET Mus Aa1"{ParentBody "TET Mus (Aa)"}
+Remove "TET Mus Aa2"{ParentBody "TET Mus (Aa)"}
+Remove "TET Mus Ab"{ParentBody "TET Mus"}
+Barycenter "TET Mus Aa"
+{
+	ParentBody "TET Mus A"
+	BinaryOrbit
+	{
+		Period   153.43
+	}
+}
+
+Star	"TET Mus A1"
+{
+	ParentBody     "TET Mus Aa"
+	Class          "WC5"
+	MassSol        11.5
+	Radius         1627522.1511263046413660049438477 // Calculated by Stefan-Boltzmann law
+	Luminosity     234000
+	Teff           83000
+
+	Orbit
+	{
+		PeriodDays      19.1375 // adopted
+		Eccentricity    0.00 // adopted
+		Epoch           2451377.51
+		ArgOfPericenter 0
+		MeanAnomaly     0
+	}
+}
+
+Star	"TET Mus A2"
+{
+	ParentBody     "TET Mus Aa"
+	Class          "O6/7V"
+	MassSol        44
+
+	Orbit
+	{
+		PeriodDays      19.1375 // adopted
+		Eccentricity    0.00 // adopted
+		Epoch           2451377.51
+		ArgOfPericenter 180
+		MeanAnomaly     0
+	}
+}
+
+Star	"TET Mus Ab"
+{
+	ParentBody     "TET Mus A"
+	Class          "B0III"
+}
+
+// WR 19
+// Reference: P. M. Williams,G. Rauw2 and K. A. van der Hucht
+// "Dust formation by the colliding wind WC5+O9 binary WR 19 at periastron passage"
+// https://academic.oup.com/mnras/article/395/4/2221/972096
+Star	"WR 19 A"
+{
+	ParentBody     "WR 19"
+	Class          "WC5"
+	MassSol        11
+	Radius         2325220.5633415766060352325439453
+	Luminosity     400000
+	Teff           79400
+
+	Orbit
+	{
+		PeriodDays      3689 // Fixed
+		Epoch           2450500.5
+		Eccentricity    0.80
+		ArgOfPericenter 4
+		MeanAnomaly     0
+	}
+}
+
+Star	"WR 19 B"
+{
+	ParentBody     "WR 19"
+	Class          "O9"
+	MassSol        20
+
+	Orbit
+	{
+		PeriodDays      3689 // Fixed
+		Epoch           2450500.5
+		Eccentricity    0.80
+		ArgOfPericenter 184
+		MeanAnomaly     0
+		// asini = 5.3 AU
 	}
 }
