@@ -71,3 +71,73 @@ Star	"M33-013406.63 B"
 		MeanAnomaly     156.935764
 	}
 }
+
+// 海山二(LBV**)
+// SpaceEngineer; wiki
+Remove "ETA Car A" {ParentBody "ETA Car"}
+Remove "ETA Car B" {ParentBody "ETA Car"}
+/* Star	"HD 93308 A"
+{
+	ParentBody "V* ETA Car"
+	Class      "Variable" // LBV
+	MassSol    100 // >90 // 100 - 120
+	RadSol     240 // 60 - 881 // 1400??? // 250
+  LumBol     4600429.4353008345 // MBol = -11.917
+	Teff       35200 // 9400 - 35200 // 20000 - 25000
+	Age        0.003
+  Oblateness 0
+
+	// powerful star wind imitation
+	Corona
+	{
+		Radius      2E+10
+		Brightness  12
+		RayDensity  17.244
+		RayCurv     45
+	}
+
+	Orbit
+	{
+		PeriodDays      2022.7
+		//Separation      2.2 // 15.4 AU mutual
+		Eccentricity    0.9
+		Inclination     130 // 130 - 145
+		AscendingNode   0	// unknown
+    Epoch           2454842.67045309
+		ArgOfPericenter 0	// unknown
+		MeanAnomaly     0	// unknown
+	}
+}
+
+Star	"HD 93308 B"
+{
+	ParentBody "V* ETA Car"
+	Class      "O" // WR?
+	MassSol    30	// 30 - 80 // 30 - 60
+	RadSol     23.6	// 14.3 - 23.6
+	Teff       37200
+	Luminosity 1000000
+	Age        0.003
+	Oblateness 0
+
+	// powerful star wind imitation
+	Corona
+	{
+		Period      0.020234
+		Brightness  0.91603
+		RayDensity  12.133
+		RayCurv     3.0263
+	}
+
+	Orbit
+	{
+		PeriodDays      2022.7
+		//Separation      13.2 // 15.4 AU mutual
+		Eccentricity    0.9
+		Inclination     130 // 130 - 145
+		AscendingNode   0	// unknown
+    Epoch           2454842.67045309
+		ArgOfPericenter 180	// unknown
+		MeanAnomaly     0	// unknown
+	}
+} */
