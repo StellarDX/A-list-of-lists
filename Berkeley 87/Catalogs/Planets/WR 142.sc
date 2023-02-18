@@ -6,16 +6,16 @@ Star	"WR 142 A"
 {
 	ParentBody "WR 142"
 	Class      "WO2"
-  MassSol    28.6
+	MassSol    28.6
 	RadSol     0.80
-  AbsMagn    -3.13
+	AbsMagn    -3.13
 	LumBol     912000
 	Teff       200000
 	FeH        0
 	BinaryOrbit
-  {
-    Separation 1
-  }
+	{
+		Separation 1
+	}
 }
 
 Star	"WR 142 B"

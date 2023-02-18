@@ -4,11 +4,11 @@
 Barycenter	"HD 93129 A"
 {
 	ParentBody     "HD 93129"
-  BinaryOrbit
-  {
-    Separation      6852
+	BinaryOrbit
+	{
+		Separation      6852
 		Period          76918
-  }
+	}
 }
 
 // Orbit Aa,Ab. q=0.49. Aa might be a tight binary. Analoque of eta Car
@@ -16,15 +16,15 @@ Star	"HD 93129 Aa"
 {
 	ParentBody     "HD 93129 A"
 	Class          "O2If"
-  MassSol        110
+	MassSol        110
 	RadSol         22.5
-  AbsMagn        -6.1
+	AbsMagn        -6.1
 	LumBol         1479102.8489197718 // MBol = -10.685
 	Teff           42500
 
   Orbit
 	{
-    PeriodDays      121
+		PeriodDays      121
 		Epoch           2457972.79609665
 		//Eccentricity    0.967 // too big
 		AscendingNode   192
@@ -38,9 +38,9 @@ Star	"HD 93129 Ab"
 {
 	ParentBody     "HD 93129 A"
 	Class          "O3.5V"
-  MassSol        70
+	MassSol        70
 	RadSol         13.1
-  AbsMagn        -5.2
+	AbsMagn        -5.2
 	Luminosity     575000
 	Teff           44000
 
@@ -61,9 +61,9 @@ Star	"HD 93129 B"
 {
 	ParentBody     "HD 93129"
 	Class          "O3.5V((f))z"
-  MassSol        52
+	MassSol        52
 	RadSol         13
-  AbsMagn        -4.9
+	AbsMagn        -4.9
 	Luminosity     575000
 	Teff           44000
 }
@@ -73,9 +73,9 @@ Star	"HD 93128 A"
 {
 	ParentBody     "HD 93128"
 	Class          "O3.5V((fc))z"
-  MassSol        75
+	MassSol        75
 	Radius         7813392.1305077970027923583984375 // Calculated
-  AbsMagn        -5.4
+	AbsMagn        -5.4
 	LumBol         787042.8422152558 // MBol = -10
 	Teff           51300
 
@@ -113,9 +113,9 @@ Star	"HD 93160 A"
 {
 	ParentBody     "HD 93160"
 	Class          "O7III((f))"
-  MassSol        62
+	MassSol        62
 	Radius         10770071.858801307156682014465332 // Calculated
-  AbsMagn        -5.9
+	AbsMagn        -5.9
 	LumBol         717791.6031377971 // MBol = -9.9
 	Teff           42700
 

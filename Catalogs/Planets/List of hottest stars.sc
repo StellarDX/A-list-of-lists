@@ -4,14 +4,14 @@ Star	"BAT99 53 A"
 {
 	ParentBody "BAT99 53"
 	Class      "WC4"
-  MassSol    13
+	MassSol    13
 	Radius     439425.24089379416545853018760681 // Calculated by Stefan-Boltzmann law
 	Luminosity 224000
 	Teff       158000
 
 	Orbit
   {
-    PeriodDays      3.234671
+		PeriodDays      3.234671
 		Inclination     90
 		ArgOfPericenter 0
 		MeanAnomaly     0
@@ -441,14 +441,14 @@ Star	"WR 134 A"
 {
 	ParentBody "WR 134"
 	Class      "WN6-s"
-  MassSol    18
+	MassSol    18
 	RadSol     5.25
 	Luminosity 407000
 	Teff       63100
 
 	Orbit
   {
-    PeriodDays      1.887 // 2.25?
+		PeriodDays      1.887 // 2.25?
 		Inclination     90
 		ArgOfPericenter 0
 		MeanAnomaly     0

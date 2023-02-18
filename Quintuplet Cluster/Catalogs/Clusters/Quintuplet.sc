@@ -7,6 +7,6 @@ Cluster "Quintuplet Cluster/MGM 5/[BDB2003] G000.16-00.06/IRAS 17430-2848/RAFGL 
 	AppMagn 7
 	Radius  2
 	Type    "Open"
-  Age     0.0048
+	Age     0.0048
 	NStars  3266 // Simbad Data, bright stars are in stars catalog.
 }

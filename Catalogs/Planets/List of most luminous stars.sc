@@ -54,10 +54,10 @@ Remove "ETA Car B" {ParentBody "ETA Car"}
 	Class      "Variable" // LBV
 	MassSol    100 // >90 // 100 - 120
 	RadSol     240 // 60 - 881 // 1400??? // 250
-  LumBol     4600429.4353008345 // MBol = -11.917
+	LumBol     4600429.4353008345 // MBol = -11.917
 	Teff       35200 // 9400 - 35200 // 20000 - 25000
 	Age        0.003
-  Oblateness 0
+	Oblateness 0
 
 	// powerful star wind imitation
 	Corona
@@ -75,7 +75,7 @@ Remove "ETA Car B" {ParentBody "ETA Car"}
 		Eccentricity    0.9
 		Inclination     130 // 130 - 145
 		AscendingNode   0	// unknown
-    Epoch           2454842.67045309
+		Epoch           2454842.67045309
 		ArgOfPericenter 0	// unknown
 		MeanAnomaly     0	// unknown
 	}
@@ -108,7 +108,7 @@ Star	"HD 93308 B"
 		Eccentricity    0.9
 		Inclination     130 // 130 - 145
 		AscendingNode   0	// unknown
-    Epoch           2454842.67045309
+		Epoch           2454842.67045309
 		ArgOfPericenter 180	// unknown
 		MeanAnomaly     0	// unknown
 	}

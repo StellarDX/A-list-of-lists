@@ -6,7 +6,7 @@ Cluster "NGC 2070/GRS G279.40 -31.70/30 Dor Association/PKS 0539-69/GCRV 2223 E/
 	Dec	     -69 06 00
 	Dist     49980 // match nebula, real value is 48500
 	Galaxy   "LMC"
-  Radius   25.44255 // Dim. 3.5'
+	Radius   25.44255 // Dim. 3.5'
 	AppMagn  7.25 // includes light from R136
 	CenPow   0.35
 	Age      0.0015
@@ -37,6 +37,6 @@ Cluster "H88 301/[M87] OB 1"
 	Galaxy   "LMC"
 	AppMagn  10.89
 	Radius   5.45195
-  Age      0.001
+	Age      0.001
 	Type     "Open"
 }

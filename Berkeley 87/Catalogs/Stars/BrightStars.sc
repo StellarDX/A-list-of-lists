@@ -27,7 +27,7 @@ Star "HD 229059/GCRV 23509/2MASS J20211535+3724311/UBV M 27644/AG+37 1967/GEN# +
 	AbsMagn -7.7
 	/*Details*/
 	MassSol 69
-  Radius  34132087.79237291717529296875 // Calculated by Stefan-Boltzmann law
+	Radius  34132087.79237291717529296875 // Calculated by Stefan-Boltzmann law
 	LumBol  1037524.5302828484 // From bolometric magnitude -10.3
 	Teff    26300
 }

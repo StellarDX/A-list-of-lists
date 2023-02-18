@@ -37,13 +37,13 @@ Star "HD 269321/JP11 3740/TIC 179208877/[H2013] LMCe 575/** FGS 2/2MASS J0517560
 	AppMagn 10.84
 	/*Characteristics*/
 	Class   "B5Iae"
-  AppMagnU 10.28
-  AppMagnB 10.93
-  AppMagnR 10.53
-  AppNagnI 10.342
-  AppMagnJ 10.103
-  AppMagnH 9.980
-  AppMagnK 9.822
+	AppMagnU 10.28
+	AppMagnB 10.93
+	AppMagnR 10.53
+	AppNagnI 10.342
+	AppMagnJ 10.103
+	AppMagnH 9.980
+	AppMagnK 9.822
 	/*Astrometry*/
 	Dist    50000
 	//AbsMagn -8.2 // -8.5

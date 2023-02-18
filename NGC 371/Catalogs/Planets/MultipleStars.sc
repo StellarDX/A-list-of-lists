@@ -8,16 +8,16 @@
 
 Barycenter	"AB6 AB"
 {
-	ParentBody     "SMC AB 6"
+  ParentBody     "SMC AB 6"
   Orbit // There is a doubt in the stability of this orbit.
-	{
+  {
     PeriodDays      139.1
     ArgOfPericenter 244
     Eccentricity    0.46
     Epoch           2451937.8
     MeanAnomaly     0
     SemiMajorAxisKm 83241460.181880548596382141113281 // Total ~500RSun
-	}
+  }
 }
 
 Star	"AB6 A"

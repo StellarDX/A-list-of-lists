@@ -70,12 +70,12 @@ StarBarycenter	"海山二/ETA Car/2E 1043.1-5925/H 1044-59/4U 1053-58/EM* MWC 21
 	AppMagn  -1 //7.6(Minor) //4.8(2011) //4.6(2013) //4.3(2018)
 
 	Class   "OBepec"
-  AppMagnU 6.37
-  AppMagnB 6.82
-  AppMagnR 4.9
-  AppMagnJ 3.39
-  AppMagnH 2.51
-  AppMagnK 0.94
+	AppMagnU 6.37
+	AppMagnB 6.82
+	AppMagnR 4.9
+	AppMagnJ 3.39
+	AppMagnH 2.51
+	AppMagnK 0.94
 
 	Dist     2285 // 2300
   AbsMagn  -8.6 //(2012)
@@ -117,3 +117,6 @@ StarBarycenter "HD 269927/CCDM J05390-6929A/CPD-69 468/LMC AB 13/UCAC4 103-01717
 
 // 9.V4998 Sagittarii (near Quintuplet Cluster)
 // https://en.wikipedia.org/wiki/V4998_Sagittarii
+
+// 10.R136c (in Tarantula Nebula of LMC)
+// https://en.wikipedia.org/wiki/R136c
