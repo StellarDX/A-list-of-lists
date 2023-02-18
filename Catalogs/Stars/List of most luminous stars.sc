@@ -1,13 +1,5 @@
 // 1.Godzilla (in Sunburst galaxy)
 // https://en.wikipedia.org/wiki/Godzilla_Star
-StarBarycenter "Godzilla Star in PSZ1 G311.65-18.48"
-{
-	RA      15 50 00.66
-	Dec     -78 11 09.96
-	Dist    3422792915
-  AppMagn 22
-  ForceAppMagn true
-}
 
 // 2.BAT99-98 (in Tarantula Nebula of LMC)
 // https://en.wikipedia.org/wiki/BAT99-98
@@ -50,25 +42,6 @@ Star "[MCD2010] 18/[DWC2011] 56/[MCD2010] G0.238-0.071"
 
 // 4.R136a1 (in Tarantula Nebula of LMC)
 // https://en.wikipedia.org/wiki/R136a1
-Remove "R136a1 system"
-Star "BAT99 108/RMC 136a1/[H2013] LMCe 1398/[P93] 954/Cl* NGC 2070 MH 498/[CHH92] 1/[HSH95] 3/[WO84] 1b"
-{
-	/*Observation data*/
-	RA      05 38 42.39
-	Dec     -69 06 02.91
-	AppMagn 12.77
-	/*Characteristics*/
-	Class   "WN5h"
-	/*Astrometry*/
-	Dist    49970
-	AbsMagn -8.18
-	/*Details*/
-	MassSol 196
-	RadSol  34.1
-	LumBol  4698923.488557426 // MBol = -11.94
-	Teff    46000
-	Age     0.00114
-}
 
 // 5.M33-013406.63 (in Triangulum Galaxy)
 // https://en.wikipedia.org/wiki/M33-013406.63
@@ -108,3 +81,39 @@ StarBarycenter	"海山二/ETA Car/2E 1043.1-5925/H 1044-59/4U 1053-58/EM* MWC 21
   AbsMagn  -8.6 //(2012)
 	//ForceSystemLum true // use provided AppMagn despite on actual components luminosity
 }
+
+// 7.Westerhout 49-2 (in Westerhout 49)
+// https://en.wikipedia.org/wiki/Westerhout_49-2
+Star "OH 43.165 -0.028/2MASS J19102185+0905025/MSX6C G043.1650-00.0285/SSTOERC G043.1651-00.0285/[TVH89] 387/CORNISH G043.1651-00.0283/TIC 202340617/[WBB2016] 2/GPSR 043.166-0.029/OH 43.2 +0.0/[SVM2001b] 280"
+{
+	/*Observation data*/
+	RA      19 10 21.819
+	Dec     +09 05 02.83
+	//AppMagnJ 18.246
+	/*Characteristics*/
+	Class   "O2If*" // O2-3.5If*
+	/*Astrometry*/
+	Dist    11100
+	/*Details*/
+	MassSol 250
+	RadSol  55.29
+	LumBol  4365141.974920565 // MBol = -11.86
+	Teff    35500
+}
+
+// 8.Sk -69° 249 A (in NGC 2074 of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Sk+-69+249
+StarBarycenter "HD 269927/CCDM J05390-6929A/CPD-69 468/LMC AB 13/UCAC4 103-017179/** I 742AB/GSC 09167-00759/2MASS J05385885-6929228/uvby98 100269927/** TDS 3273/SK -69 249/WDS J05390-6929AB"
+{
+	/*Observation data*/
+	RA      05 38 58.856976
+	Dec     -69 29 22.47504
+	AppMagn 10.68 // Combined
+	/*Characteristics*/
+	Class   "B0I"
+	/*Astrometry*/
+	Dist    49950
+}
+
+// 9.V4998 Sagittarii (near Quintuplet Cluster)
+// https://en.wikipedia.org/wiki/V4998_Sagittarii

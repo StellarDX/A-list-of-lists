@@ -1,3 +1,23 @@
+Remove "R136a1 system"
+Star "BAT99 108/RMC 136a1/[H2013] LMCe 1398/[P93] 954/Cl* NGC 2070 MH 498/[CHH92] 1/[HSH95] 3/[WO84] 1b"
+{
+	/*Observation data*/
+	RA      05 38 42.39
+	Dec     -69 06 02.91
+	AppMagn 12.77
+	/*Characteristics*/
+	Class   "WN5h"
+	/*Astrometry*/
+	Dist    49970
+	AbsMagn -8.18
+	/*Details*/
+	MassSol 196
+	RadSol  34.1
+	LumBol  4698923.488557426 // MBol = -11.94
+	Teff    46000
+	Age     0.00114
+}
+
 Star "BAT99 109/RMC 136a2/[H2013] LMCe 1399/Cl* NGC 2070 MH 511/[CHH92] 2/[HSH95] 5"
 {
 	/*Observation data*/

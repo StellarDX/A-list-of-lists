@@ -78,3 +78,20 @@ Star "BI 140/UCAC2 1799437/2MASS J05190179-6913067/UBV M 44060/[MR72] 29/SSTISAG
 	Dist    50000
 	AbsMagn -5.4 // Calculated from AppMagn and Dist
 }
+
+Star "[MNM2014] LMC195-1/IRSF J05181033-6913025"
+{
+	/*Observation data*/
+	RA      05 18 10.33
+	Dec     -69 13 02.5
+	AppMagn 15.15
+	/*Characteristics*/
+	Class   "WO2"
+	/*Astrometry*/
+	Dist    49950
+	//AbsMagn -4.1
+	/*Details*/
+	RadSol  1.4
+	Luminosity 257000
+	Teff    200000 // 111000
+}

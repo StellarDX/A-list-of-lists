@@ -25,40 +25,9 @@ Star "V* V3893 Sgr/WR 102/GAL 002.40+01.40/UCAC4 320-122902/[S71d] 4/ALS 4368/LS
 
 // 2.WR 142(in Cl Berkeley 87)
 // https://en.wikipedia.org/wiki/WR_142
-StarBarycenter "WR 142/HBHA 3703-43/USNO-B1.0 1273-00510128/[S71d] 5/Cl Berkeley 87 29/2MASS J20214434+3722306/WISEA J202144.34+372230.5/Gaia DR3 2057966393428544128/GEN# +5.00870029/TIC 13558068/WISE J202144.34+372230.5/Gaia DR2 2057966393428544128/GSC2.3 N336000040/UCAC2 44891902/[KW97] 45-49/GSC 02684-00001/UCAC4 637-093004/UCAC4/[S66] 3"
-{
-	/*Observation data*/
-	RA      20 21 44.3438785440
-	Dec     +37 22 30.544989960
-	AppMagn 12.99
-	/*Characteristics*/
-	Class   "WO2"
-	AppMagnJ 9.538
-	AppMagnH 8.889
-	AppMagnK 8.596
-	/*Astrometry*/
-	Dist    1677.5708773695688642845160208019 // Plx. 0.5961 mas
-	AbsMagn -3.13
-}
 
 // 3.LMC195-1(in LHA 120-N 119)
 // https://en.wikipedia.org/wiki/LMC195-1
-Star "[MNM2014] LMC195-1/IRSF J05181033-6913025"
-{
-	/*Observation data*/
-	RA      05 18 10.33
-	Dec     -69 13 02.5
-	AppMagn 15.15
-	/*Characteristics*/
-	Class   "WO2"
-	/*Astrometry*/
-	Dist    49950
-	//AbsMagn -4.1
-	/*Details*/
-	RadSol  1.4
-	Luminosity 257000
-	Teff    200000 // 111000
-}
 
 // 4.BAT99-123
 // https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=BAT99+123&submit=SIMBAD+search

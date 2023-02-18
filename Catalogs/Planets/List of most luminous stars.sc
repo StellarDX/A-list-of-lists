@@ -1,31 +1,3 @@
-// Godzilla Star, maybe a Intermediate mass blackhole
-// Reference: J.M. Diego, M. Pascale, B.J. Kavanagh, P. Kelly, L. Dai, B. Frye, T. Broadhurst
-// "Godzilla, a monster lurks in the Sunburst galaxy." (ESO 2022)
-// https://arxiv.org/abs/2203.08158
-Star	"Godzilla Star"
-{
-	ParentBody "Godzilla Star in PSZ1 G311.65-18.48"
-	AbsMagn    -20.671903121758078 // Calculated from AppMagn and Dist, But its bolometric mag is only -14, WHY???
-	// IMBH profile
-	Class      "X"
-	MassSol    1E+6 // 1E+5 - 1E+7
-	KerrSpin   0
-	KerrCharge 0 // Schwarzschild-BH assumption
-	AccretionDisk
-	{
-		InnerRadiusKm     2.9828e+06
-		OuterRadiusKm     152580670.7
-		Luminosity        1.5877E10 // Calculated from Absolute Mag.
-		LuminosityBol     3.38E+10
-	}
-	// Hyperluminous star profile
-	/* Class      "B5 0" // Estimated.
-	Radius     398968194.74062126874923706054688 // Calculated
-	LumBol     15000000 // Lower limit
-	Teff       15000 // Miniimum Value
-	Oblateness (0, 0, 0) */
-}
-
 Remove "R136a1"{ParentBody "R136a1 system"}
 
 // M33-013406.63, also called LGGS J013406.63+304147.8,
@@ -141,3 +113,24 @@ Star	"HD 93308 B"
 		MeanAnomaly     0	// unknown
 	}
 } */
+
+// Sk -69° 249
+Star	"TYC 9167-759-1/HD 269927 A/[ST92] 5-65/Gaia DR2 4657650041187537152/** TDS 3273A/WDS J05390-6929A/Gaia DR3 4657650041187537152"
+{
+	ParentBody     "Sk -69 249"
+	Class          "O7If"
+	Radius         31129715.266928628087043762207031 // Calculated
+	LumBol         4130459.5513075157 // MBol = -11.8
+	Teff           38900
+
+	BinaryOrbit
+	{
+		Separation      90909.1
+	}
+}
+
+Star	"TYC 9167-759-2/HD 269927 B/[ST92] 5-66/Gaia DR2 4657650041187537920/** TDS 3273B/WDS J05390-6929B/Gaia DR3 4657650041187537920"
+{
+	ParentBody     "Sk -69 249"
+	Class          "B0I"
+}

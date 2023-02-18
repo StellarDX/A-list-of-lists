@@ -1,4 +1,4 @@
-Cluster "Quintuplet Cluster/MGM 5/[BDB2003] G000.16-00.06/IRAS 17430-2848/IRAS	RAFGL 2004"
+Cluster "Quintuplet Cluster/MGM 5/[BDB2003] G000.16-00.06/IRAS 17430-2848/RAFGL 2004"
 {
 	RA	    17 46 13.9
 	Dec	    -28 49 48
@@ -8,4 +8,5 @@ Cluster "Quintuplet Cluster/MGM 5/[BDB2003] G000.16-00.06/IRAS 17430-2848/IRAS	R
 	Radius  2
 	Type    "Open"
   Age     0.0048
+	NStars  3266 // Simbad Data, bright stars are in stars catalog.
 }
