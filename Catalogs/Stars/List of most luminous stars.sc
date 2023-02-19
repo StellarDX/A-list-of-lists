@@ -120,3 +120,45 @@ StarBarycenter "HD 269927/CCDM J05390-6929A/CPD-69 468/LMC AB 13/UCAC4 103-01717
 
 // 10.R136c (in Tarantula Nebula of LMC)
 // https://en.wikipedia.org/wiki/R136c
+
+// 11.Arches-F7 (WR 102aj in Arches Cluster)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=FNG2002+7
+
+// 11.V1429 Aquilae
+// https://en.wikipedia.org/wiki/V1429_Aquilae
+StarBarycenter "BD+14 3887/HBHA 1203-09/MSX6C G049.5714+00.2502/V* V1429 Aql/AKARI-IRC-V1 J1921339+145257/Hen 3-1745/PLX 4531/WISEA J192133.97+145257.1/ALS 10258/Hilt 801/PLX 4531.00/WISE J192133.96+145257.0/AP J19213397+1452570/IRAS 19192+1447/TIC 338189559/[KW97] 37-7/EM* MWC 314/JP11 50/TYC 1054-441-1/Gaia DR2 4319930096909297664/GCRV 69340/LS II +14 11/UBV 16391/Gaia DR3 4319930096909297664/GEN# +0.01403887/2MASS J19213397+1452570/UBV M 670/Gaia DR1 4319930092602316800/GSC 01054-00441/MCW 730/UCAC2 37057820"
+{
+	/*Observation data*/
+	RA      19 21 33.9771479376
+	Dec     +14 52 56.910478296
+	AppMagn 9.89
+	/*Characteristics*/
+	Class   "B3Ibe"
+	/*Astrometry*/
+	Dist    4496.4028776978417266187050359712 // Plx. = 0.2224 mas
+	AbsMagn 8.2
+}
+
+// 12.R136a3 (in Tarantula Nebula of LMC)
+// https://en.wikipedia.org/wiki/R136a3
+
+// 13.Melnick 42 (in Tarantula Nebula of LMC)
+// https://en.wikipedia.org/wiki/Melnick_42
+Star "Brey 77/Cl* NGC 2070 SMB 10/TIC 404768889/[HSH95] 2/BAT99 105/CXOU J053842.1-690555/UCAC4 105-014306/[P93] 922/Cl* NGC 2070 MEL G/Dor IRS 95/[CCE2018] 2102/[PPL2002] CX4/Cl* NGC 2070 MEL 42/GEN# +6.20136077/[CHH92] 6002/[TBF2006] 73/Cl* NGC 2070 MH 374/2MASS J05384212-6905552/[H2013] LMCe 1395/Gaia DR3 4657685534828234496"
+{
+	/*Observation data*/
+	RA      05 38 42.1044150840
+	Dec     -69 05 55.335965424
+	AppMagn 12.86
+	/*Characteristics*/
+	Class   "O2If*"
+	/*Astrometry*/
+	Dist    49970
+	AbsMagn -7.4
+	/*Details*/
+	MassSol 189
+	RadSol  21.1
+	LumBol  3630766.9504584973 // MBol = -11.66
+	Teff    47300
+	Age     0.001
+}

@@ -134,3 +134,43 @@ Star	"TYC 9167-759-2/HD 269927 B/[ST92] 5-66/Gaia DR2 4657650041187537920/** TDS
 	ParentBody     "Sk -69 249"
 	Class          "B0I"
 }
+
+// V1429 Aql, Eclipsing binary
+Star	"V1429 Aql A"
+{
+	ParentBody "V* V1429 Aql"
+	Class      "B3Ibe"
+	MassSol    39.66
+	RadSol     86.80
+	Luminosity 710000 // ?
+	LumBol     3801879.7251447947 // MBol = -11.71
+	Teff       30000 // 18000
+
+	Orbit
+	{
+		PeriodDays      60.737
+		Eccentricity    0.244
+		Epoch           2449546.01
+		ArgOfPericenter 38.7
+		MeanAnomaly     0
+	}
+}
+
+Star	"V1429 Aql B"
+{
+	ParentBody "V* V1429 Aql"
+	Class      "F7II?"
+	MassSol    26.26
+	RadSol     20.41
+	Teff       6227
+	Age        0.006
+
+	Orbit
+	{
+		PeriodDays      60.737
+		Eccentricity    0.244
+		Epoch           2449546.01
+		ArgOfPericenter 218.7
+		MeanAnomaly     0
+	}
+}
