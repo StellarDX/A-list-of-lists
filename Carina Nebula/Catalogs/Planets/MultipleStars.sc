@@ -22,7 +22,7 @@ Star	"HD 93129 Aa"
 	LumBol         1479102.8489197718 // MBol = -10.685
 	Teff           42500
 
-  Orbit
+	Orbit
 	{
 		PeriodDays      121
 		Epoch           2457972.79609665
