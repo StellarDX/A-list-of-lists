@@ -337,6 +337,10 @@ Star	"TET Mus A1"
 	Radius         1627522.1511263046413660049438477 // Calculated by Stefan-Boltzmann law
 	Luminosity     234000
 	Teff           83000
+	// The newest data released by Universe Guide, But its reference is unknown.
+	// RadSol         906
+	// LumBol         6440000
+	// Teff           9660
 
 	Orbit
 	{

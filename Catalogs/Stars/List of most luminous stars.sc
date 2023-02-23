@@ -1,6 +1,9 @@
 // 1.Godzilla (in Sunburst galaxy)
 // https://en.wikipedia.org/wiki/Godzilla_Star
 
+// (1.5).Theta Muscae (In doubt)
+// https://en.wikipedia.org/wiki/Theta_Muscae
+
 // 2.BAT99-98 (in Tarantula Nebula of LMC)
 // https://en.wikipedia.org/wiki/BAT99-98
 Star "Brey 79/LMC AB 12/UCAC3 42-32386/[P93] 691/BAT99 98/2MASS J05383914-6906211/UCAC4 105-014273/Gaia DR2 4657679654981424640/Cl* NGC 2070 MEL 49/SSTISAGEMC J053839.14-690621.2/[H2013] LMCe 1387/Gaia DR3 4657679654981424640/Cl* NGC 2070 MEL J/TIC 404768953/[M2002] LMC 171429"
@@ -24,21 +27,6 @@ Star "Brey 79/LMC AB 12/UCAC3 42-32386/[P93] 691/BAT99 98/2MASS J05383914-690621
 
 // 3.G0.238-0.071 (in Galactic Center)
 // https://simbad.u-strasbg.fr/simbad/sim-id?Ident=MCD2010+G0.238-0.071
-Star "[MCD2010] 18/[DWC2011] 56/[MCD2010] G0.238-0.071"
-{
-	/*Observation data*/
-	RA      17 46 27.60
-	Dec     -28 46 11.8
-	AppMagnJ 14.370
-	/*Characteristics*/
-	Class   "OI"
-	/*Astrometry*/
-	Dist    8584
-	/*Details*/
-	Radius  33256777.109367445111274719238281 // Calculated, Value is 26802110.787650082260370254516602 when Teff = 44000
-	LumBol  5011853.566853108 // AbsMagnBol = -12.01
-	Teff    39500 // 44000
-}
 
 // 4.R136a1 (in Tarantula Nebula of LMC)
 // https://en.wikipedia.org/wiki/R136a1
@@ -162,3 +150,27 @@ Star "Brey 77/Cl* NGC 2070 SMB 10/TIC 404768889/[HSH95] 2/BAT99 105/CXOU J053842
 	Teff    47300
 	Age     0.001
 }
+
+// 14.R136a2 (in Tarantula Nebula of LMC)
+// https://en.wikipedia.org/wiki/R136a2
+
+// 15.NGC 2403 V14 (in NGC 2403)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=%5BHSG2019%5D%2010182-pr-2
+Star "EV* N2403 V0014/TS V14/[HSG2019] 10182-pr-2/Gaia DR3 1089775697125470080"
+{
+	/*Observation data*/
+	RA      07 36 56.2338311016
+	Dec     +65 36 42.114663756
+	AppMagn 19.30
+	/*Characteristics*/
+	Class   "F5Ie"
+	/*Astrometry*/
+	Dist    3250800
+	/*Details*/
+	Radius  876755039.7739582061767578125 // Calculated
+	LumBol  3435566.612782578 // MBol = -11.6
+	Teff    7000
+}
+
+// 16.G0.070+0.025 (in Galactic Center)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=MCD2010+G0.070%2B0.025

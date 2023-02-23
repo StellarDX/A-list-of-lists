@@ -7,5 +7,5 @@ Cluster "Arches Cluster/GAL 000.12+00.02/[GSL2002] 61/GAL 000.121+00.017/[BDB200
 	Radius  0.5
 	Type    "Open"
 	NStars  14 // stars are in star catalog
-	Age     0.005 // ?
+	Age     0.001 // 0.002
 }
