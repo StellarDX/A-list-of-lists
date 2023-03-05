@@ -1,9 +1,6 @@
 // 1.Godzilla (in Sunburst galaxy)
 // https://en.wikipedia.org/wiki/Godzilla_Star
 
-// (1.5).Theta Muscae (In doubt)
-// https://en.wikipedia.org/wiki/Theta_Muscae
-
 // 2.BAT99-98 (in Tarantula Nebula of LMC)
 // https://en.wikipedia.org/wiki/BAT99-98
 Star "Brey 79/LMC AB 12/UCAC3 42-32386/[P93] 691/BAT99 98/2MASS J05383914-6906211/UCAC4 105-014273/Gaia DR2 4657679654981424640/Cl* NGC 2070 MEL 49/SSTISAGEMC J053839.14-690621.2/[H2013] LMCe 1387/Gaia DR3 4657679654981424640/Cl* NGC 2070 MEL J/TIC 404768953/[M2002] LMC 171429"
@@ -174,3 +171,30 @@ Star "EV* N2403 V0014/TS V14/[HSG2019] 10182-pr-2/Gaia DR3 1089775697125470080"
 
 // 16.G0.070+0.025 (in Galactic Center)
 // https://simbad.u-strasbg.fr/simbad/sim-id?Ident=MCD2010+G0.070%2B0.025
+
+// 17.Pistol Star (V4647 Sagittarii in Quintuplet cluster)
+// https://en.wikipedia.org/wiki/Pistol_Star
+
+// 18.Mercer 30-1 A (WR 46-3 A in Mercer 30 of Dragonfish Nebula)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=DNB2016+Mc30-1
+
+// 19.VFTS 682 (in Tarantula Nebula of LMC)
+// https://en.wikipedia.org/wiki/VFTS_682
+Star "UCAC4 105-014417/Dor IRS 153/VFTS 682/Gaia DR2 4657685637907503744/AP J05385552-6904267/IRSF J05385552-6904267/[GC2009] J053855.56-690426.5/Gaia DR3 4657685637907503744/DENIS J053855.5-690426/2MASS J05385552-6904267/[H2013] LMCe 1415/DENIS J053855.4-690425/TIC 404768640/[P93] 1732"
+{
+	/*Observation data*/
+	RA      05 38 55.5222410976
+	Dec     -69 04 26.809579344
+	AppMagn 16.08
+	/*Characteristics*/
+	Class   "WN5h"
+	/*Astrometry*/
+	Dist    49955
+	AbsMagn -6.83
+	/*Details*/
+	MassSol 137.8
+	RadSol  20.2
+	LumBol  3235924.4507411285 // MBol = -11.535
+	Teff    54450
+	Age     0.001
+}
