@@ -8,7 +8,7 @@ Star "Cl* NGC 3603 MTT 58/TIC 467481606/[SB2004] 1267/Gaia DR2 53374179854822485
 	Class   "O2If*/WN6"
 	/*Astrometry*/
 	Dist    6900
-    AbsMagn -5.7
+	AbsMagn -5.7
 
 	LumBol  855000
 }
@@ -23,7 +23,7 @@ Star "UCAC4 144-072984/TIC 467481183/[SB2004] 954/1BMC J111445.5-611500/WR 42e/G
 	Class   "O3If*/WN6"
 	/*Astrometry*/
 	Dist    6900
-    AbsMagn -6.92
+	AbsMagn -6.92
 	/*Details*/
     MassSol 123
 	Radius  21760359.096014574170112609863281 // Calculated from LBol and Teff
@@ -42,7 +42,7 @@ Star "NGC 3603 27/Cl* NGC 3603 SMD C27/Gaia DR2 5337418019842371328/Cl* NGC 3603
 	Class   "O7.5V"
 	/*Astrometry*/
 	Dist    6900.0976877716548187891021370888
-    AbsMagn -4.0 // -5.0
+	AbsMagn -4.0 // -5.0
 	/*Details*/
 	Radius  4909919.2653894703835248947143555 // Calculated from LBol and Teff
 	LumBol  65463.37224603256 // MBol = -7.3
@@ -59,7 +59,7 @@ Star "NGC 3603 63/Cl* NGC 3603 MTT 15/Cl* NGC 3603 SMD C63/[NS2003] 6N"
 	Class   "O3.5III(f)"
 	/*Astrometry*/
 	Dist    6900.4572730351546852034516632557
-    AbsMagn -5.6 // -5.9
+	AbsMagn -5.6 // -5.9
 	/*Details*/
 	Radius  8852671.5416853968054056167602539 // Calculated from LBol and Teff
 	LumBol  597033.0506917252 // MBol = -9.7
@@ -76,7 +76,7 @@ Star "NGC 3603 21/Cl* NGC 3603 SMD C21/TIC 467628294/Gaia DR3 533741819164075289
 	Class   "O6V((f))"
 	/*Astrometry*/
 	Dist    6899.8105636043601407436653971672
-    AbsMagn -4.6 // -5.1
+	AbsMagn -4.6 // -5.1
 	/*Details*/
 	Radius  6124552.3479106435552239418029785 // Calculated from LBol and Teff
 	LumBol  149967.92191953154 // MBol = -8.2
@@ -93,7 +93,7 @@ Star "NGC 3603 19/Cl* NGC 3603 SMD C19/2MASS J11151131-6115556/Gaia DR2 53374178
 	Class   "O3V((f))"
 	/*Astrometry*/
 	Dist    6900
-    AbsMagn -5.3 // -5.4
+	AbsMagn -5.3 // -5.4
 	/*Details*/
 	Radius  7569624.7553967153653502464294434 // Calculated from LBol and Teff
 	LumBol  496590.461716282 // MBol = -9.5
@@ -110,7 +110,7 @@ Star "Cl* NGC 3603 MMM 103/[HEM2008] 19/Gaia DR2 5337418019842037376/[HEM2008] 4
 	Class   "O3V((f))"
 	/*Astrometry*/
 	Dist    6900.6274732816909818211570382118
-    AbsMagn -5.7 // -5.4
+	AbsMagn -5.7 // -5.4
 	/*Details*/
 	Radius  9100690.6268130075186491012573242 // Calculated from LBol and Teff
 	LumBol  717791.6031377971 // MBol = -9.5
@@ -127,7 +127,7 @@ Star "Cl* NGC 3603 MMM 109"
 	Class   "O7V"
 	/*Astrometry*/
 	Dist    6899.0198457228734696400351822376
-    AbsMagn -4.9
+	AbsMagn -4.9
 	/*Details*/
 	Radius  7604564.5557537758722901344299316 // Calculated from LBol and Teff
 	LumBol  180301.09885733417 // MBol = -8.4
