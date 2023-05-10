@@ -1,6 +1,28 @@
 // 1.Godzilla (in Sunburst galaxy)
 // https://en.wikipedia.org/wiki/Godzilla_Star
 
+// 1.5 NGC 2363-V1 (in NGC 2366)
+// https://en.wikipedia.org/wiki/NGC_2363-V1
+Star "[DRR96] NGC 2363 V1"
+{
+	/*Observation data*/
+	RA      07 28 43.37
+	Dec     +69 11 23.9
+	AppMagn 17.88
+	/*Characteristics*/
+	Class   "B 0"
+	/*Astrometry*/
+	Dist    956279 // Match galaxy
+	AbsMagn -10.25
+	/*Details*/
+	MassSol 20
+	RadSol  194 // 356
+	LumBol  6309549.81550261 // AbsMagnBol = -12.26
+	Teff    13500 // 26000
+	FeH     -1 // -0.6
+	Age     0.004 // 0.005
+}
+
 // 2.BAT99-98 (in Tarantula Nebula of LMC)
 // https://en.wikipedia.org/wiki/BAT99-98
 Star "Brey 79/LMC AB 12/UCAC3 42-32386/[P93] 691/BAT99 98/2MASS J05383914-6906211/UCAC4 105-014273/Gaia DR2 4657679654981424640/Cl* NGC 2070 MEL 49/SSTISAGEMC J053839.14-690621.2/[H2013] LMCe 1387/Gaia DR3 4657679654981424640/Cl* NGC 2070 MEL J/TIC 404768953/[M2002] LMC 171429"
@@ -109,7 +131,7 @@ StarBarycenter "HD 269927/CCDM J05390-6929A/CPD-69 468/LMC AB 13/UCAC4 103-01717
 // 11.Arches-F7 (WR 102aj in Arches Cluster)
 // https://simbad.u-strasbg.fr/simbad/sim-id?Ident=FNG2002+7
 
-// 11.V1429 Aquilae
+// 12.V1429 Aquilae
 // https://en.wikipedia.org/wiki/V1429_Aquilae
 StarBarycenter "BD+14 3887/HBHA 1203-09/MSX6C G049.5714+00.2502/V* V1429 Aql/AKARI-IRC-V1 J1921339+145257/Hen 3-1745/PLX 4531/WISEA J192133.97+145257.1/ALS 10258/Hilt 801/PLX 4531.00/WISE J192133.96+145257.0/AP J19213397+1452570/IRAS 19192+1447/TIC 338189559/[KW97] 37-7/EM* MWC 314/JP11 50/TYC 1054-441-1/Gaia DR2 4319930096909297664/GCRV 69340/LS II +14 11/UBV 16391/Gaia DR3 4319930096909297664/GEN# +0.01403887/2MASS J19213397+1452570/UBV M 670/Gaia DR1 4319930092602316800/GSC 01054-00441/MCW 730/UCAC2 37057820"
 {
@@ -124,10 +146,10 @@ StarBarycenter "BD+14 3887/HBHA 1203-09/MSX6C G049.5714+00.2502/V* V1429 Aql/AKA
 	AbsMagn 8.2
 }
 
-// 12.R136a3 (in Tarantula Nebula of LMC)
+// 13.R136a3 (in Tarantula Nebula of LMC)
 // https://en.wikipedia.org/wiki/R136a3
 
-// 13.Melnick 42 (in Tarantula Nebula of LMC)
+// 14.Melnick 42 (in Tarantula Nebula of LMC)
 // https://en.wikipedia.org/wiki/Melnick_42
 Star "Brey 77/Cl* NGC 2070 SMB 10/TIC 404768889/[HSH95] 2/BAT99 105/CXOU J053842.1-690555/UCAC4 105-014306/[P93] 922/Cl* NGC 2070 MEL G/Dor IRS 95/[CCE2018] 2102/[PPL2002] CX4/Cl* NGC 2070 MEL 42/GEN# +6.20136077/[CHH92] 6002/[TBF2006] 73/Cl* NGC 2070 MH 374/2MASS J05384212-6905552/[H2013] LMCe 1395/Gaia DR3 4657685534828234496"
 {
@@ -148,10 +170,13 @@ Star "Brey 77/Cl* NGC 2070 SMB 10/TIC 404768889/[HSH95] 2/BAT99 105/CXOU J053842
 	Age     0.001
 }
 
-// 14.R136a2 (in Tarantula Nebula of LMC)
+// 15.Mercer 23-2 (WR 125–3 in Mercer 23 near Galactic plane)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=HKB2010b+Obj2
+
+// 16.R136a2 (in Tarantula Nebula of LMC)
 // https://en.wikipedia.org/wiki/R136a2
 
-// 15.NGC 2403 V14 (in NGC 2403)
+// 17.NGC 2403 V14 (in NGC 2403)
 // https://simbad.u-strasbg.fr/simbad/sim-id?Ident=%5BHSG2019%5D%2010182-pr-2
 Star "EV* N2403 V0014/TS V14/[HSG2019] 10182-pr-2/Gaia DR3 1089775697125470080"
 {
@@ -169,16 +194,16 @@ Star "EV* N2403 V0014/TS V14/[HSG2019] 10182-pr-2/Gaia DR3 1089775697125470080"
 	Teff    7000
 }
 
-// 16.G0.070+0.025 (in Galactic Center)
+// 18.G0.070+0.025 (in Galactic Center)
 // https://simbad.u-strasbg.fr/simbad/sim-id?Ident=MCD2010+G0.070%2B0.025
 
-// 17.Pistol Star (V4647 Sagittarii in Quintuplet cluster)
+// 19.Pistol Star (V4647 Sagittarii in Quintuplet cluster)
 // https://en.wikipedia.org/wiki/Pistol_Star
 
-// 18.Mercer 30-1 A (WR 46-3 A in Mercer 30 of Dragonfish Nebula)
+// 20.Mercer 30-1 A (WR 46-3 A in Mercer 30 of Dragonfish Nebula)
 // https://simbad.u-strasbg.fr/simbad/sim-id?Ident=DNB2016+Mc30-1
 
-// 19.VFTS 682 (in Tarantula Nebula of LMC)
+// 21.VFTS 682 (in Tarantula Nebula of LMC)
 // https://en.wikipedia.org/wiki/VFTS_682
 Star "UCAC4 105-014417/Dor IRS 153/VFTS 682/Gaia DR2 4657685637907503744/AP J05385552-6904267/IRSF J05385552-6904267/[GC2009] J053855.56-690426.5/Gaia DR3 4657685637907503744/DENIS J053855.5-690426/2MASS J05385552-6904267/[H2013] LMCe 1415/DENIS J053855.4-690425/TIC 404768640/[P93] 1732"
 {
