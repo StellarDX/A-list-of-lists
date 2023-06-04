@@ -223,3 +223,44 @@ Star "UCAC4 105-014417/Dor IRS 153/VFTS 682/Gaia DR2 4657685637907503744/AP J053
 	Teff    54450
 	Age     0.001
 }
+
+// 21.WR 42e (in HD 97950 of NGC 3603)
+// https://en.wikipedia.org/wiki/WR_42e
+
+// 22.R99 (in N44 of LMC)
+// https://en.wikipedia.org/wiki/R99_(star)
+Star "HD 269445/JP11 3742/SSTISAGEMC J052259.76-680146.6/[BE74] 261/AL 158/LHA 120-S 30/TIC 179637167/[H2013] LMCe 716/BAT99 33/2MASS J05225978-6801466/TYC 9162-453-1/AAVSO 0523-68/CSI-68-05230 1/OGLE BRIGHT-LMC-MISC-429/UBV 5229/Gaia DR3 4658737591314866688GCRV 56199/RAVE J052259.7-680146/UBV M 28686/Gaia DR1 4658737591314866688/GEN# +1.00269445/RMC 99/UCAC2 2072017/Gaia DR2 4658737591314866688/GSC 09162-00453/SK -68 73/UCAC4 110-008015"
+{
+	/*Observation data*/
+	RA      05 22 59.7855849168
+	Dec     -68 01 46.635948408
+	AppMagn 11.520
+	/*Characteristics*/
+	Class   "OI" // Ofpe/WN9 (LBV)
+	/*Astrometry*/
+	Dist    49955
+	AbsMagn -8.48
+	/*Details*/
+	MassSol 103
+	RadSol  74.8
+	LumBol  3162265.81746522 // MBol = -11.51
+	Teff    28000
+}
+
+// 23. VFTS 1022 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=VFTS+1022&submit=SIMBAD+search
+StarBarycenter "Cl* NGC 2070 MH 493/Cl* NGC 2070 SMB 28/IRSF J05384238-6906151/[CCE2018] 1442/VFTS 1022/[P93] 949"
+{
+	/*Observation data*/
+	RA      05 38 42.407
+	Dec     -69 06 15.01
+	AppMagn 13.44
+	/*Characteristics*/
+	Class   "WN?"
+	/*Astrometry*/
+	Dist    49975
+	/*Details*/
+	Radius  22617752.588087532669305801391602 // Calculated
+	LumBol  3019940.410708304 // MBol = -11.46
+	Teff    42200
+}

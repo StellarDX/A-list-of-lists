@@ -232,10 +232,16 @@ Star	"CPD-59 2610 A"
 {
 	ParentBody     "CPD-59 2610"
 	Class          "O8.5V"
-	MassSol        31
-	Radius         4369116.4112412100657820701599121 // Calculated
-	LumBol         113762.30254188432 // MBol = -7.9
-	Teff           42300
+	// MassSol        31
+	// Radius         4369116.4112412100657820701599121 // Calculated
+	// LumBol         113762.30254188432 // MBol = -7.9
+	// Teff           42300
+	MassSol         29
+	Radius          6472534.1573675908148288726806641 // Calculated
+	AbsMagn         -4.6
+	LumBol          149967.92191953154 // MBol = -8.2
+	Teff            37239.170625456851889681830448131 // Log(T) = 4.571
+ 	Age             0.00263026799189538191728979879677 // Log(A) = 6.42
 
 	Orbit // Generated
 	{
@@ -679,5 +685,272 @@ Star	"CPD-59 2591 B"
 		AscendingNode   0
 		ArgOfPericenter 80.3095512
 		MeanAnomaly     -74.6257249
+	}
+}
+
+// QZ Car
+Barycenter "HD 93206 A/TYC 8626-2523-1/** SNA 15/WDS J10444-6000Aa,Av/** HDS 1534A/CCDM J10444-6000A/SBC9 1948"
+{
+	ParentBody     "HD 93206"
+	BinaryOrbit
+	{
+		Period          25.4
+		//Separation      35
+		Eccentricity    0
+		Inclination     60
+		ArgOfPericenter 0
+		MeanAnomaly     0
+	}
+}
+
+Star "HD 93206 A1"
+{
+	ParentBody     "HD 93206 A"
+	Class          "O9.7I"
+	MassSol        69.8
+	RadSol         22.1
+	AbsMagn        -9.2
+	LumBol         400000
+	Teff           29564
+
+	Orbit
+	{
+		PeriodDays      20.72
+		//Separation      116RSun
+		Eccentricity    0.34
+		Inclination     60
+		ArgOfPericenter 321
+		MeanAnomaly     0
+	}
+}
+
+Star "HD 93206 A2"
+{
+	ParentBody     "HD 93206 A"
+	Class          "B2V"
+	MassSol        8.85
+	RadSol         3.0
+	AbsMagn        -3
+	LumBol         1260
+	Teff           23446
+
+	Orbit
+	{
+		PeriodDays      20.72
+		//Separation      116RSun
+		Eccentricity    0.34
+		Inclination     60
+		ArgOfPericenter 141
+		MeanAnomaly     0
+	}
+}
+
+Barycenter "HD 93206 B/TYC 8626-2523-2/CCDM J10444-6000D/SBC9 635/** HDS 1534B/WDS J10444-6000Ab"
+{
+	ParentBody     "HD 93206"
+}
+
+Star "HD 93206 B1"
+{
+	ParentBody     "HD 93206 B"
+	Class          "O8III"
+	MassSol        25.5
+	RadSol         13.7
+	AbsMagn        -8.5
+	LumBol         200000
+	Teff           29687
+
+	Orbit
+	{
+		PeriodDays      5.999
+		//Separation      49RSun
+		Eccentricity    0.1
+		Inclination     86
+		ArgOfPericenter 200
+		MeanAnomaly     0
+	}
+}
+
+Star "HD 93206 B2"
+{
+	ParentBody     "HD 93206 B"
+	Class          "O9V"
+	MassSol        33.2
+	RadSol         7.53
+	AbsMagn        -7
+	LumBol         50100
+	Teff           32979
+
+	Orbit
+	{
+		PeriodDays      5.999
+		//Separation      49RSun
+		Eccentricity    0.1
+		Inclination     86
+		ArgOfPericenter 20
+		MeanAnomaly     0
+	}
+}
+
+// V661 Car
+Star	"HD 93130 A"
+{
+	ParentBody     "HD 93130"
+	Class          "O7II(f)"
+	MassSol        68
+	Radius         13523040.571808718144893646240234 // Calculated
+	AbsMagn        -6.3
+	LumBol         862975.3159195893 // MBol = -10.1
+	Teff           39902.490236214207163891099410669 // Log(T) = 4.601
+
+	Orbit // Generate
+	{
+		RefPlane        "Equator"
+		Period          0.0433029185
+		Eccentricity    0.408285928
+		Inclination     -1.79056931
+		AscendingNode   0
+		ArgOfPericenter -155.325968
+		MeanAnomaly     101.181586
+	}
+}
+
+Star	"HD 93130 B"
+{
+	ParentBody     "HD 93130"
+	Class          "O?"
+
+	Orbit // Generate
+	{
+		RefPlane        "Equator"
+		Period          0.0433029185
+		Eccentricity    0.408285928
+		Inclination     -1.79056931
+		AscendingNode   0
+		ArgOfPericenter 24.674032
+		MeanAnomaly     101.181586
+	}
+}
+
+// CPD-59 2673
+Star	"CPD-59 2673 A"
+{
+	ParentBody     "CPD-59 2673"
+	Class          "O5V"
+	MassSol        47
+	Radius         6096412.5859632715582847595214844 // Calculated
+	AbsMagn        -4.8
+	LumBol         313327.3990186982 // MBol = -9.0
+	Teff           46131.757456037939056205060112337 // Log(T) = 4.664
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		Period          0.0557283821
+		Eccentricity    0.603686564
+		Inclination     0.178480387
+		AscendingNode   0
+		ArgOfPericenter 40.5039003
+		MeanAnomaly     24.9465496
+	}
+}
+
+Star	"CPD-59 2673 B"
+{
+	ParentBody     "CPD-59 2673"
+	Class          "O9.6 V" // ?
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		Period          0.0557283821
+		Eccentricity    0.603686564
+		Inclination     0.178480387
+		AscendingNode   0
+		ArgOfPericenter 220.5039003
+		MeanAnomaly     24.9465496
+	}
+}
+
+// HD 305438
+
+Star	"HD 305438 A"
+{
+	ParentBody     "HD 305438"
+	Class          "O8V"
+	MassSol        32
+	Radius         6653870.6039541894569993019104004 // Calculated
+	AbsMagn        -4.6
+	LumBol         180301.09885733417 // MBol = -8.4
+	Teff           38459.178204535356688650940629848 // Log(T) = 4.585
+	Age            0.00218776162394955256222611491638 // Log(A) = 6.34
+
+	Orbit // Generate
+	{
+		RefPlane        "Equator"
+		Period          16.9580331
+		Eccentricity    0.175493851
+		Inclination     -0.143057346
+		AscendingNode   0
+		ArgOfPericenter 104.313276
+		MeanAnomaly     20.5602555
+	}
+}
+
+Star	"HD 305438 B"
+{
+	ParentBody     "HD 305438"
+	Class          "O9?"
+
+	Orbit // Generate
+	{
+		RefPlane        "Equator"
+		Period          16.9580331
+		Eccentricity    0.175493851
+		Inclination     -0.143057346
+		AscendingNode   0
+		ArgOfPericenter 284.313276
+		MeanAnomaly     20.5602555
+	}
+}
+
+// HD 93028
+Star	"HD 93028 A"
+{
+	ParentBody     "HD 93028"
+	Class          "O8.5III"
+	MassSol        30
+	Radius         7710354.586648346856236457824707 // Calculated
+	AbsMagn        -4.9
+	LumBol         180301.09885733417 // MBol = -8.4
+	Teff           35727.283815192890246006095951693 // Log(T) = 4.553
+	Age            0.0034673685045253163945291131706 // Log(A) = 6.54
+
+	Orbit // Generate
+	{
+		RefPlane        "Equator"
+		Period          36.1700666
+		Eccentricity    0.351208911
+		Inclination     0.54185617
+		AscendingNode   0
+		ArgOfPericenter -121.535448
+		MeanAnomaly     -25.3221589
+	}
+}
+
+Star	"HD 93028 B"
+{
+	ParentBody     "HD 93028"
+	Class          "O9?"
+
+	Orbit // Generate
+	{
+		RefPlane        "Equator"
+		Period          36.1700666
+		Eccentricity    0.351208911
+		Inclination     0.54185617
+		AscendingNode   0
+		ArgOfPericenter 58.4645518
+		MeanAnomaly     -25.3221589
 	}
 }

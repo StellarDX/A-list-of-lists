@@ -174,3 +174,14 @@ Star	"V1429 Aql B"
 		MeanAnomaly     0
 	}
 }
+
+// VFTS 1022
+Star	"VFTS 1022 A"
+{
+	ParentBody "VFTS 1022"
+	Class      "WN?"
+	Radius     22617752.588087532669305801391602 // Calculated
+	LumBol     3019940.410708304 // MBol = -11.46
+	Teff       42200
+	Oblateness 0
+}
