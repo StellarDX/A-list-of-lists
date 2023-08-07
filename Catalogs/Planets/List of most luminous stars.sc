@@ -119,6 +119,7 @@ Star	"TYC 9167-759-1/HD 269927 A/[ST92] 5-65/Gaia DR2 4657650041187537152/** TDS
 {
 	ParentBody     "Sk -69 249"
 	Class          "O7If"
+	AbsMagn        -7.812677462810008 // Calculated, Combine
 	Radius         31129715.266928628087043762207031 // Calculated
 	LumBol         4130459.5513075157 // MBol = -11.8
 	Teff           38900
@@ -142,7 +143,7 @@ Star	"V1429 Aql A"
 	Class      "B3Ibe"
 	MassSol    39.66
 	RadSol     86.80
-	Luminosity 710000 // ?
+	AbsMagn    -8.2 // Combined
 	LumBol     3801879.7251447947 // MBol = -11.71
 	Teff       30000 // 18000
 
@@ -180,8 +181,126 @@ Star	"VFTS 1022 A"
 {
 	ParentBody "VFTS 1022"
 	Class      "WN?"
+	AbsMagn    -5.0537640139507705 // Calculated
 	Radius     22617752.588087532669305801391602 // Calculated
 	LumBol     3019940.410708304 // MBol = -11.46
 	Teff       42200
+	Oblateness 0
+}
+
+// CXOGC J174528.6-285605
+Star	"CXOGC J174528.6-285605 A"
+{
+	ParentBody "CXOGC J174528.6-285605"
+	Class      "WN8-9h"
+	Radius     43735272.9785254 // Calculated
+	LumBol     2884020.7024529576 // MBol = -11.41
+	Teff       30000
+	Oblateness 0
+}
+
+// Melnick 34, High Mass X-ray Binary
+Star	"Melnick 34 A"
+{
+	ParentBody "Brey 84"
+	Class      "WN5h"
+	MassSol    148
+	RadSol     19.3
+	AbsMagn    -7.42
+	LumBol     2691524.724151786 // MBol = -11.335
+	Teff       53000
+	Age        0.005
+
+	Orbit
+	{
+		PeriodDays      154.55
+		Eccentricity    0.68
+		Inclination     50
+		Epoch           2457671.2
+		ArgOfPericenter 200.9
+		MeanAnomaly     0
+	}
+}
+
+Star	"Melnick 34 B"
+{
+	ParentBody "Brey 84"
+	Class      "WN5h"
+	MassSol    135
+	RadSol     18.2
+	LumBol     2344220.0362027865 // MBol = -11.185
+	Teff       53000
+	Age        0.006
+
+	Orbit
+	{
+		PeriodDays      154.55
+		Eccentricity    0.68
+		Inclination     50
+		Epoch           2457671.2
+		ArgOfPericenter 20.9
+		MeanAnomaly     0
+	}
+}
+
+// BAT99 80
+Star	"BAT99 80 A"
+{
+	ParentBody     "BAT99 80"
+	Class          "O4If"
+    AbsMagn         -5.492677462810008 // Calculateed
+	Radius          18140502.9349952 // Calculated
+    LumBol          2511877.0245160875 // MBol = -11.26
+	Teff            45000
+
+	Orbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          0.0408066658
+		Eccentricity    0
+		Inclination     2.20503616
+		AscendingNode   0
+		ArgOfPericenter 345.856334
+		MeanAnomaly     99.9347206
+	}
+}
+
+Star	"BAT99 80 B"
+{
+	ParentBody     "BAT99 80"
+	Class          "OB"
+    AbsMagn        -5 // ?
+
+	Orbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          0.0408066658
+		Eccentricity    0
+		Inclination     2.20503616
+		AscendingNode   0
+		ArgOfPericenter 165.856334
+		MeanAnomaly     99.9347206
+	}
+}
+
+// CXOGC J174516.1-284909
+Star	"CXOGC J174516.1-284909 A"
+{
+	ParentBody "CXOGC J174516.1-284909"
+	Class      "Ofpe/WN9"
+	Radius     89745846.7918608 // Calculated
+	LumBol     2398823.9354104507 // MBol = -11.21
+	Teff       20000
+	Oblateness 0
+}
+
+// CXOGC J174711.4-283006
+Star	"CXOGC J174711.4-283006 A"
+{
+	ParentBody "CXOGC J174711.4-283006"
+	Class      "WN8-9h"
+	Radius     39887043.0186048 // Calculated
+	LumBol     2398823.9354104507 // MBol = -11.21
+	Teff       30000
 	Oblateness 0
 }
