@@ -1,0 +1,11 @@
+StarBarycenter "AGPS 273.4-17.8/HESS J1813-178/PSR J1813-1749/2XMM J181335.0-174958/AX J1813-178/IGR J18135-1751/SWIFT J1813.6-1753/[KRL2007b] 307/CXOU J181335.1-174957/PBC J1813.6-1753/TeV J1813-178"
+{
+    CenterOf "SNR G012.8-00.0"
+	/*Observation data*/
+	RA      18 13 35.05
+	Dec     -17 49 58.1
+	/*Characteristics*/
+	Class   "Q" // X-ray pulsar
+	/*Astrometry*/
+	Dist    4652.54684296309
+}
