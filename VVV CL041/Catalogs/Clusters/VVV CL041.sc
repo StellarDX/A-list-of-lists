@@ -6,6 +6,6 @@ Cluster	"VVV CL041"
 	Dec      -59 23 18
 	Dist     4200
     Radius   1.1 // Dim. 1.8 arcmin
-    Age      0.001
+    Age      0.025
     NStars   8 // Stars are in star catalog.
 }

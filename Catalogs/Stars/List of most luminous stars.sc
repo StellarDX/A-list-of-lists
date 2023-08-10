@@ -459,3 +459,10 @@ Star "SK -69 212/CPD-69 413/OGLE BRIGHT-LMC-ECL-28/TYC 9163-428-1/[WHE2010] J053
 
 // 44.Cl 1813-178 #16 (in Cl 1813-178 of W33 Complex)
 // https://simbad.u-strasbg.fr/simbad/sim-id?Ident=MFD2008+16
+
+// 45.R136a7 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=RMC136a7
+
+// 46.VVV CL074-12 (in VVV CL074)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=CBB2013+VVV+CL074+12
+
