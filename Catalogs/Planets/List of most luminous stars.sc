@@ -176,73 +176,6 @@ Star	"V1429 Aql B"
 	}
 }
 
-// VFTS 1022
-Star	"VFTS 1022 A"
-{
-	ParentBody "VFTS 1022"
-	Class      "WN?"
-	AbsMagn    -5.0537640139507705 // Calculated
-	Radius     22617752.588087532669305801391602 // Calculated
-	LumBol     3019940.410708304 // MBol = -11.46
-	Teff       42200
-	Oblateness 0
-}
-
-// CXOGC J174528.6-285605
-Star	"CXOGC J174528.6-285605 A"
-{
-	ParentBody "CXOGC J174528.6-285605"
-	Class      "WN8-9h"
-	Radius     43735272.9785254 // Calculated
-	LumBol     2884020.7024529576 // MBol = -11.41
-	Teff       30000
-	Oblateness 0
-}
-
-// Melnick 34, High Mass X-ray Binary
-Star	"Melnick 34 A"
-{
-	ParentBody "Brey 84"
-	Class      "WN5h"
-	MassSol    148
-	RadSol     19.3
-	AbsMagn    -7.42
-	LumBol     2691524.724151786 // MBol = -11.335
-	Teff       53000
-	Age        0.005
-
-	Orbit
-	{
-		PeriodDays      154.55
-		Eccentricity    0.68
-		Inclination     50
-		Epoch           2457671.2
-		ArgOfPericenter 200.9
-		MeanAnomaly     0
-	}
-}
-
-Star	"Melnick 34 B"
-{
-	ParentBody "Brey 84"
-	Class      "WN5h"
-	MassSol    135
-	RadSol     18.2
-	LumBol     2344220.0362027865 // MBol = -11.185
-	Teff       53000
-	Age        0.006
-
-	Orbit
-	{
-		PeriodDays      154.55
-		Eccentricity    0.68
-		Inclination     50
-		Epoch           2457671.2
-		ArgOfPericenter 20.9
-		MeanAnomaly     0
-	}
-}
-
 // BAT99 80
 Star	"BAT99 80 A"
 {
@@ -281,26 +214,4 @@ Star	"BAT99 80 B"
 		ArgOfPericenter 165.856334
 		MeanAnomaly     99.9347206
 	}
-}
-
-// CXOGC J174516.1-284909
-Star	"CXOGC J174516.1-284909 A"
-{
-	ParentBody "CXOGC J174516.1-284909"
-	Class      "Ofpe/WN9"
-	Radius     89745846.7918608 // Calculated
-	LumBol     2398823.9354104507 // MBol = -11.21
-	Teff       20000
-	Oblateness 0
-}
-
-// CXOGC J174711.4-283006
-Star	"CXOGC J174711.4-283006 A"
-{
-	ParentBody "CXOGC J174711.4-283006"
-	Class      "WN8-9h"
-	Radius     39887043.0186048 // Calculated
-	LumBol     2398823.9354104507 // MBol = -11.21
-	Teff       30000
-	Oblateness 0
 }
