@@ -73,22 +73,6 @@ StarBarycenter	"海山二/ETA Car/2E 1043.1-5925/H 1044-59/4U 1053-58/EM* MWC 21
 
 // 7.Westerhout 49-2 (in Westerhout 49)
 // https://en.wikipedia.org/wiki/Westerhout_49-2
-Star "OH 43.165 -0.028/2MASS J19102185+0905025/MSX6C G043.1650-00.0285/SSTOERC G043.1651-00.0285/[TVH89] 387/CORNISH G043.1651-00.0283/TIC 202340617/[WBB2016] 2/GPSR 043.166-0.029/OH 43.2 +0.0/[SVM2001b] 280"
-{
-	/*Observation data*/
-	RA      19 10 21.819
-	Dec     +09 05 02.83
-	//AppMagnJ 18.246
-	/*Characteristics*/
-	Class   "O2If*" // O2-3.5If*
-	/*Astrometry*/
-	Dist    11100
-	/*Details*/
-	MassSol 250
-	RadSol  55.29
-	LumBol  4365141.974920565 // MBol = -11.86
-	Teff    35500
-}
 
 // 8.Sk -69° 249 A (in NGC 2074 of LMC)
 // https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Sk+-69+249
