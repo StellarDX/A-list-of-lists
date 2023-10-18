@@ -64,3 +64,19 @@ StarBarycenter "2MASS J17471225-2831215/CXOGCS J174712.2-283121/TIC 126154878/CX
 	LumBol  2187753.430800727 // MBol = -11.11
 	Teff    35000
 }
+
+StarBarycenter "2MASS J17465629-2832325/CXOGC J174656.3-283232/CXOGCS J174656.3-283232"
+{
+	/*Observation data*/
+	RA      17 46 56.29536
+	Dec     -28 32 32.5032
+	//AppMagnK 10.766
+	/*Characteristics*/
+	Class   "WN8-9h"
+	/*Astrometry*/
+	Dist    8541.74110122353 // random
+	/*Details*/
+	Radius  36377415.582823 // Calculated
+	LumBol  1995254.8427283422 // MBol = -11.01
+	Teff    30000
+}

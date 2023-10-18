@@ -403,3 +403,36 @@ Star "CPD-69 471/MCPS 084.79835-69.51035/UCAC2 1677378/[WHE2010] J053911.6-69303
 
 // 60.WR 89 (in HM 1)
 // https://simbad.u-strasbg.fr/simbad/sim-id?Ident=WR+89
+
+// 61.R136a5 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=RMC136a5
+
+// 62.AFGL 2298 (near Galactic plane)
+// https://en.wikipedia.org/wiki/AFGL_2298
+Star "IRAS 18576+0341/2MASS J19001089+0345471/TIC 228204295/WISE J190010.88+034547.3/AKARI-IRC-V1 J1900108+034548/MSX6C G037.2772-00.2258/UGPS J190010.89+034547.0/AKARI-FIS-V1 J1900111+034601/RAFGL 2298/V* V1672 Aql/GLMP 855/SSTGLMC G037.277-00.227/WISEA J190010.90+034547.2"
+{
+	/*Observation data*/
+	RA      19 00 10.89456
+	Dec     +03 45 47.1096
+	//AppMagnK 7.007
+	/*Characteristics*/
+	Class   "B8I"
+	/*Astrometry*/
+	Dist    10000
+	/*Details*/
+	RadSol  158 // 158 - 385
+	LumBol  2000775.5592367386 // MBol = -11.013
+	Teff    11000 // 11000 - 15000 (26000)
+}
+
+// 63.Arches-F1 (WR 102ad in Arches Cluster)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=FNG2002+1
+
+// 64.Arches-F4 (WR 102al in Arches Cluster)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=FNG2002+4
+
+// 65.CXOGC J174656.3-283232 (WR 102–8 in Galactic Center)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=CXOGC+J174656.3-283232
+
+// 66.LBV 1806-20 (in G10.0–0.3 of Galactic Center)
+// https://en.wikipedia.org/wiki/LBV_1806-20
