@@ -3,7 +3,7 @@ Star	"VFTS 1022 A"
 {
 	ParentBody "VFTS 1022"
 	Class      "WN?"
-	AbsMagn    -5.053358458678952 // Calculated
+	AbsMagn    -7.05 // Calculated (Extinction +2)
 	Radius     22617752.588087532669305801391602 // Calculated
 	LumBol     3019940.410708304 // MBol = -11.46
 	Teff       42200

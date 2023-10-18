@@ -10,7 +10,7 @@ Star "Brey 79/LMC AB 12/UCAC3 42-32386/[P93] 691/BAT99 98/2MASS J05383914-690621
 	/*Characteristics*/
 	Class   "WN6"
 	/*Astrometry*/
-	Dist    49983.9376804438 // random
+	Dist    49992.583399677285342 // random
 	AbsMagn -8.11
 	/*Details*/
 	MassSol 226
@@ -29,7 +29,7 @@ Star "Brey 77/Cl* NGC 2070 SMB 10/TIC 404768889/[HSH95] 2/BAT99 105/CXOU J053842
 	/*Characteristics*/
 	Class   "O2If*"
 	/*Astrometry*/
-	Dist    49979.7470217674 // random
+	Dist    49985.327976231164939 // random
 	AbsMagn -7.4
 	/*Details*/
 	MassSol 189
@@ -48,7 +48,7 @@ Star "UCAC4 105-014417/Dor IRS 153/VFTS 682/Gaia DR2 4657685637907503744/AP J053
 	/*Characteristics*/
 	Class   "WN5h"
 	/*Astrometry*/
-	Dist    49953.3832828467 // random
+	Dist    49943.944397832099639 // random
 	AbsMagn -6.83
 	/*Details*/
 	MassSol 137.8
@@ -67,8 +67,8 @@ StarBarycenter "Cl* NGC 2070 MH 493/Cl* NGC 2070 SMB 28/IRSF J05384238-6906151/[
 	/*Characteristics*/
 	Class   "WN?"
 	/*Astrometry*/
-	Dist    49965.6672854347 // random
-	AbsMagn -5.053358458678952 // Calculated
+	Dist    49963.256503199190774 // random
+	AbsMagn -7.05 // Calculated (Extinction +2)
 	/*Details*/
 	Radius  22617752.588087532669305801391602 // Calculated
 	LumBol  3019940.410708304 // MBol = -11.46
@@ -84,7 +84,7 @@ StarBarycenter "Brey 84/Cl* NGC 2070 MH 880/Dor IRS 107/[CCE2018] 1766/[TBF2006]
 	/*Characteristics*/
 	Class   "WN5h:a"
 	/*Astrometry*/
-	Dist    49952.8569837188 // random
+	Dist    49941.636269840651948 // random
 	AbsMagn -7.42
 }
 
@@ -97,8 +97,8 @@ Star "HD 269926/GSC 09163-00928/SSTISAGEMC J053847.50-690025.3/[BE74] 418/AL 380
 	/*Characteristics*/
 	Class   "WN5ha" // + OB?
 	/*Astrometry*/
-	Dist    49957.1036975441 // random
-	AbsMagn -5.376986259335531 // Calculated
+	Dist    49918.560491912350699 // random
+	AbsMagn -7.37 // Calculated (Extinction +2)
 	/*Details*/
 	Radius  13033135.195871 // Calculated
 	LumBol  2511877.0245160875 // MBol = -11.26
@@ -114,8 +114,8 @@ Star "Cl* NGC 2070 MH 57/CXOU J053840.2-690559/[CCE2018] 2003/[PPL2002] CX8/Cl* 
 	/*Characteristics*/
 	Class   "O3If*/WN6-A"
 	/*Astrometry*/
-	Dist    49980.9753516282 // random
-	AbsMagn -5.494023634472061 // Calculated
+	Dist    49989.135937433427898 // random
+	AbsMagn -7.49 // Calculated (Extinction +2)
 	/*Details*/
 	Radius  20656995.2179654 // Calculated
 	LumBol  2511877.0245160875 // MBol = -11.26
@@ -131,7 +131,7 @@ StarBarycenter "HD 269928/GEN# +1.00269928/TYC 9163-960-1/[H2013] LMCe 1416/AL 3
 	/*Characteristics*/
 	Class   "WN6/7"
 	/*Astrometry*/
-	Dist    49959.0467006026 // random
+	Dist    49953.849093117045413 // random
 }
 
 Star "Cl* NGC 2070 SMB 25/IRSF J05384208-6906144/VFTS 1021/[CCE2018] 1349"
@@ -143,10 +143,27 @@ Star "Cl* NGC 2070 SMB 25/IRSF J05384208-6906144/VFTS 1021/[CCE2018] 1349"
 	/*Characteristics*/
 	Class   ""
 	/*Astrometry*/
-	Dist    49977.4097230808 // random
-	AbsMagn -5.183868716722822 // Calculated
+	Dist    49982.280022126607946 // random
+	AbsMagn -7.18 // Calculated (Extinction +2)
 	/*Details*/
 	Radius  21642538.9036748 // Calculated
 	LumBol  2187753.430800727 // MBol = -11.11
 	Teff    50030.6829262628
+}
+
+Star "BAT99 114/CXOU J053843.1-690614/VFTS 545/[HSH95] 12/Cl* NGC 2070 MH 742/IRSF J05384320-6906145/[CCE2018] 1474/[P93] 1029/Cl* NGC 2070 MEL 35/2MASS J05384320-6906146/[CHH92] 6006/[TBF2006] 114Cl* NGC 2070 SMB 23/TIC 404768936/[H2013] LMCe 1404"
+{
+	/*Observation data*/
+	RA      05 38 43.20
+	Dec     -69 06 14.6
+	AppMagn 13.40
+	/*Characteristics*/
+	Class   "O2If*/WN5"
+	/*Astrometry*/
+	Dist    49958.644182217874913 // random
+	AbsMagn -7.09 // Calculated (Extinction +2)
+	/*Details*/
+	Radius  14633629.982943976298 // Calculated
+	LumBol  1995254.8427283422 // MBol = -11.01
+	Teff    47300
 }

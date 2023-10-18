@@ -436,3 +436,12 @@ Star "IRAS 18576+0341/2MASS J19001089+0345471/TIC 228204295/WISE J190010.88+0345
 
 // 66.LBV 1806-20 (in G10.0–0.3 of Galactic Center)
 // https://en.wikipedia.org/wiki/LBV_1806-20
+
+// 67.Mercer 81-2 (WR 76–7 in Mercer 81 of G338.4+0.2)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=DDN2012+2
+
+// 68.VFTS 545 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=VFTS+545
+
+// 69.WR 147S (in Cygnus OB2)
+// https://en.wikipedia.org/wiki/WR_147
