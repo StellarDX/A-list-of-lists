@@ -10,12 +10,12 @@ Star	"BAT99 53 A"
 	Teff       158000
 
 	Orbit
-  {
+	{
 		PeriodDays      3.234671
 		Inclination     90
 		ArgOfPericenter 0
 		MeanAnomaly     0
-  }
+	}
 }
 
 Star	"BAT99 53 B"

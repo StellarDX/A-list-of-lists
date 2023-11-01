@@ -344,23 +344,6 @@ Star "HD 56925/GEN# +1.00056925/MFJ SH 2-298 0/WR 7/ALS 299/HIC 35378/MR 7/Gaia 
 
 // 21.WR 144
 // https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=WR+144&submit=SIMBAD+search
-Star "MR 110/WR 144/[HM60] 1/Gaia DR3 2067824545964503168/CSI+41-20303/RLP 600/[KW97] 47-31/HBHA 4203-49/TIC 17034174/[PJ95] 125/2MASS J20320302+4115205/UCAC2 46178741/Gaia DR2 2067824545964503168"
-{
-	/*Observation data*/
-	RA      20 32 03.0201049320
-	Dec     +41 15 20.499732216
-	AppMagn 13.97
-	/*Characteristics*/
-	Class   "WC5"
-	/*Astrometry*/
-	Dist    1899.3352326685660018993352326686 // Plx. 0.5265 mas
-	//AbsMagn 2.5769918776075276 // Calculated from AppMagn and Parallax
-	/*Details*/
-	MassSol 9.9
-	Radius  736779.75007175561040639877319336 // Calculated by Stefan-Boltzmann law
-	Luminosity 159000
-	Teff    112000
-}
 
 // 22.WR 52
 // https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=WR+52&submit=SIMBAD+search
