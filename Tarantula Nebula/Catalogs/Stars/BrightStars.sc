@@ -10,7 +10,7 @@ Star "Brey 79/LMC AB 12/UCAC3 42-32386/[P93] 691/BAT99 98/2MASS J05383914-690621
 	/*Characteristics*/
 	Class   "WN6"
 	/*Astrometry*/
-	Dist    49992.583399677285342 // random
+	Dist    49999.21296256086 // random
 	AbsMagn -8.11
 	/*Details*/
 	MassSol 226
@@ -29,7 +29,7 @@ Star "Brey 77/Cl* NGC 2070 SMB 10/TIC 404768889/[HSH95] 2/BAT99 105/CXOU J053842
 	/*Characteristics*/
 	Class   "O2If*"
 	/*Astrometry*/
-	Dist    49985.327976231164939 // random
+	Dist    49992.23725318113 // random
 	AbsMagn -7.4
 	/*Details*/
 	MassSol 189
@@ -48,7 +48,7 @@ Star "UCAC4 105-014417/Dor IRS 153/VFTS 682/Gaia DR2 4657685637907503744/AP J053
 	/*Characteristics*/
 	Class   "WN5h"
 	/*Astrometry*/
-	Dist    49943.944397832099639 // random
+	Dist    49934.83574000403 // random
 	AbsMagn -6.83
 	/*Details*/
 	MassSol 137.8
@@ -67,7 +67,7 @@ StarBarycenter "Cl* NGC 2070 MH 493/Cl* NGC 2070 SMB 28/IRSF J05384238-6906151/[
 	/*Characteristics*/
 	Class   "WN?"
 	/*Astrometry*/
-	Dist    49963.256503199190774 // random
+	Dist    49959.88875709195 // random
 	AbsMagn -7.05 // Calculated (Extinction +2)
 	/*Details*/
 	Radius  22617752.588087532669305801391602 // Calculated
@@ -84,7 +84,7 @@ StarBarycenter "Brey 84/Cl* NGC 2070 MH 880/Dor IRS 107/[CCE2018] 1766/[TBF2006]
 	/*Characteristics*/
 	Class   "WN5h:a"
 	/*Astrometry*/
-	Dist    49941.636269840651948 // random
+	Dist    49930.1815269479 // random
 	AbsMagn -7.42
 }
 
@@ -97,7 +97,7 @@ Star "HD 269926/GSC 09163-00928/SSTISAGEMC J053847.50-690025.3/[BE74] 418/AL 380
 	/*Characteristics*/
 	Class   "WN5ha" // + OB?
 	/*Astrometry*/
-	Dist    49918.560491912350699 // random
+	Dist    49901.13574507847 // random
 	AbsMagn -7.37 // Calculated (Extinction +2)
 	/*Details*/
 	Radius  13033135.195871 // Calculated
@@ -114,7 +114,7 @@ Star "Cl* NGC 2070 MH 57/CXOU J053840.2-690559/[CCE2018] 2003/[PPL2002] CX8/Cl* 
 	/*Characteristics*/
 	Class   "O3If*/WN6-A"
 	/*Astrometry*/
-	Dist    49989.135937433427898 // random
+	Dist    49995.0213048317 // random
 	AbsMagn -7.49 // Calculated (Extinction +2)
 	/*Details*/
 	Radius  20656995.2179654 // Calculated
@@ -131,7 +131,7 @@ StarBarycenter "HD 269928/GEN# +1.00269928/TYC 9163-960-1/[H2013] LMCe 1416/AL 3
 	/*Characteristics*/
 	Class   "WN6/7"
 	/*Astrometry*/
-	Dist    49953.849093117045413 // random
+	Dist    49945.01455648487 // random
 }
 
 Star "Cl* NGC 2070 SMB 25/IRSF J05384208-6906144/VFTS 1021/[CCE2018] 1349"
@@ -143,7 +143,7 @@ Star "Cl* NGC 2070 SMB 25/IRSF J05384208-6906144/VFTS 1021/[CCE2018] 1349"
 	/*Characteristics*/
 	Class   ""
 	/*Astrometry*/
-	Dist    49982.280022126607946 // random
+	Dist    49987.22263115631 // random
 	AbsMagn -7.18 // Calculated (Extinction +2)
 	/*Details*/
 	Radius  21642538.9036748 // Calculated
@@ -160,10 +160,40 @@ Star "BAT99 114/CXOU J053843.1-690614/VFTS 545/[HSH95] 12/Cl* NGC 2070 MH 742/IR
 	/*Characteristics*/
 	Class   "O2If*/WN5"
 	/*Astrometry*/
-	Dist    49958.644182217874913 // random
+	Dist    49950.85782458229 // random
 	AbsMagn -7.09 // Calculated (Extinction +2)
 	/*Details*/
 	Radius  14633629.982943976298 // Calculated
 	LumBol  1995254.8427283422 // MBol = -11.01
 	Teff    47300
+}
+
+StarBarycenter "HD 38282/GEN# +1.00038282/TIC 404768475/[H2013] LMCe 1413/AL 375/GSC 09163-00992/TYC 9163-992-1/[P93] 9037/AP J05385338-6902007/LHA 120-S 133/UBV 5887/[PPL2002] CX17/BAT99 118/2MASS J05385338-6902007/UBV M 11460/[TBF2006] 154/Brey 89/PPM 354888/UCAC2 1803472/Gaia DR2 4657686222022977920/CPD-69 462/RMC 144/UCAC4 105-014407/Gaia DR3 4657686222022977920/CXOU J053853.3-690200/SK -69 246/WS 46/Gaia DR1 4657686217688662272/FD 70/SSTISAGEMC J053853.37-690200.7/[BE74] 420"
+{
+	/*Observation data*/
+	RA      05 38 53.3783458680
+	Dec     -69 02 00.895545204
+	AppMagn 11.11
+	/*Characteristics*/
+	Class   "WN5/6h+WN6/7h"
+	/*Astrometry*/
+	Dist    49893.22623923752 // random
+	AbsMagn -9.38 // Calculated (Extinction +2)
+}
+
+Star "Cl* NGC 2070 MH 608/[HSH95] 36"
+{
+	/*Observation data*/
+	RA      05 38 42.68
+	Dec     -69 06 02.1
+	AppMagn 14.39
+	/*Characteristics*/
+	Class   ""
+	/*Astrometry*/
+	Dist    50010.38559439518 // random
+	AbsMagn -6.1 // Calculated (Extinction +2)
+	/*Details*/
+	Radius  12908148.50290687 // Calculated
+	LumBol  1862080.163162252 // MBol = -10.935
+	Teff    49500
 }

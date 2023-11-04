@@ -1,3 +1,33 @@
+Star	"DMS NGC 604 2a/[BMS2003] 867A/[DMS93] NGC 604 84/[LJ2009] Shell-1 1"
+{
+	RA             01 33 33.76
+	Dec            +30 41 34.0
+	AbsMagn        -8.38
+	ParentBody     "DMS NGC 604 2"
+	Class          "O4Iab"
+	Radius         28730463.85913499 // Calculated
+	LumBol         4965904.617162825 // MBol = -12
+	Teff           42400
+
+	BinaryOrbit
+	{
+		Separation      447173 // Maybe no physically bond?
+		PositionAngle   90
+	}
+}
+
+Star	"DMS NGC 604 2b/[BMS2003] 867B/[DMS93] NGC 604 81/[LJ2009] Shell-1 2"
+{
+	RA             01 33 33.72
+	Dec            +30 41 34.0
+	ParentBody     "DMS NGC 604 2"
+	Class          "O4Ia"
+	Radius         27060925.01219472 // Calculated
+	LumBol         4405532.136323064 // MBol = -11.87
+	Teff           42400
+}
+
+
 Remove "R136a1"{ParentBody "R136a1 system"}
 
 // M33-013406.63, also called LGGS J013406.63+304147.8,
@@ -176,6 +206,57 @@ Star	"V1429 Aql B"
 	}
 }
 
+// [BMS2003] 578 C, triple system
+// the three stars are sharing a single position
+// but no orbit soluution just now.
+Barycenter	"[BMS2003] 578AB"
+{
+	ParentBody     "DMS NGC 604 4"
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          1.12357477
+		Eccentricity    0.157848738
+		Inclination     -1.88309956
+		AscendingNode   0
+		ArgOfPericenter 46.3182239
+		MeanAnomaly     -148.591712
+	}
+}
+
+Star	"DMS NGC 604 4a/[BMS2003] 578A/[DMS93] NGC 604 202"
+{
+	ParentBody     "[BMS2003] 578AB"
+	Class          "O9II"
+
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          0.00374786801
+		Eccentricity    0
+		Inclination     0.171998978
+		AscendingNode   0
+		ArgOfPericenter -13.0252499
+		MeanAnomaly     53.8568192
+	}
+}
+
+Star	"[BMS2003] 578B/[DMS93] NGC 604 200"
+{
+	ParentBody     "[BMS2003] 578AB"
+	Class          "O9Ia"
+}
+
+Star	"DMS NGC 604 4b/[BMS2003] 578C/[DMS93] NGC 604 196"
+{
+	ParentBody     "DMS NGC 604 4"
+	Class          "O9II"
+	AbsMagn        -8.7 // Calculated
+	Radius         32071296.50311733 // Calculated
+	LumBol         2558576.3050230816 // MBol = -11.28
+	Teff           34000
+}
+
 // BAT99 80
 Star	"BAT99 80 A"
 {
@@ -214,4 +295,17 @@ Star	"BAT99 80 B"
 		ArgOfPericenter 165.856334
 		MeanAnomaly     99.9347206
 	}
+}
+
+// Hen 3-519
+Star	"Hen 3-519 A"
+{
+	ParentBody     "Hen 3-519"
+	Class          "WN11h"
+	AbsMagn        -6.71
+	MassSol        17
+	RadSol         29.8
+	LumBol         1819694.0438456186 // MBol = -10.91
+	Teff           30200 // 27500
+	Oblateness     0
 }

@@ -95,3 +95,34 @@ Star	"RMC 145 B"
 		MeanAnomaly     0
 	}
 }
+
+// HD 38282
+Star	"HD 38282 A"
+{
+	ParentBody     "HD 38282"
+	Class          "WN5/6h"
+    AbsMagn        -9.38
+	MassSol        80 // 170
+	Radius         21324489.10777233 // Calculated
+    LumBol         4130459.5513075157 // MBol = -11.8
+	Teff           47000
+	Age            0.002
+
+	BinaryOrbit // Generated, no orbit solutions is found
+	{
+		RefPlane        "Equator"
+		Period          0.11641982
+		Eccentricity    0
+		Inclination     2.06236768
+		AscendingNode   0
+		ArgOfPericenter 164.451197
+		MeanAnomaly     77.2439221
+	}
+}
+
+Star	"HD 38282 B"
+{
+	ParentBody     "HD 38282"
+	Class          "WN6/7h"
+	MassSol        90 // 205
+}

@@ -1,6 +1,9 @@
 // 1.Godzilla (in Sunburst galaxy)
 // https://en.wikipedia.org/wiki/Godzilla_Star
 
+// 1.3 V4650 Sagittarii (in Quintuplet cluster)
+// https://en.wikipedia.org/wiki/V4650_Sagittarii
+
 // 1.5 NGC 2363-V1 (in NGC 2366)
 // https://en.wikipedia.org/wiki/NGC_2363-V1
 Star "[DRR96] NGC 2363 V1"
@@ -29,6 +32,21 @@ Star "[DRR96] NGC 2363 V1"
 // 3.G0.238-0.071 (in Galactic Center)
 // https://simbad.u-strasbg.fr/simbad/sim-id?Ident=MCD2010+G0.238-0.071
 
+// 3.5 [BMS2003] 867 A (in NGC 604 of Triangulum Galaxy)
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%5BBMS2003%5D+867A&NbIdent=1&Radius=2&Radius.unit=arcmin&submit=submit+id
+StarBarycenter "DMS NGC 604 2/[FBB2012] 1168/[WM95] NGC 604 3"
+{
+	/*Observation data*/
+	RA      01 34 32.50
+	Dec     +30 47 00.3
+	AppMagn 16.29
+	/*Characteristics*/
+	Class   "WN"
+	/*Astrometry*/
+	Dist    860625 // Match Disc Plane
+	AbsMagn -8.382366004151784 // Calculated
+}
+
 // 4.R136a1 (in Tarantula Nebula of LMC)
 // https://en.wikipedia.org/wiki/R136a1
 
@@ -47,7 +65,30 @@ StarBarycenter "[HS80] B416/LGGS J013406.63+304147.8/[S92b] S145/Gaia DR2 303380
 	AbsMagn -9.1 // Combined
 }
 
-// 6.Eta Car
+// 5.2 HD 38282 (in Tarantula Nebula of LMC)
+// https://en.wikipedia.org/wiki/HD_38282
+
+// 5.5 [BMS2003] 867 B (in NGC 604 of Triangulum Galaxy)
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%5BBMS2003%5D+867B&NbIdent=1&Radius=2&Radius.unit=arcmin&submit=submit+id
+
+// 6.Westerhout 49-2 (in Westerhout 49)
+// https://en.wikipedia.org/wiki/Westerhout_49-2
+
+// 7.Sk -69° 249 A (in NGC 2074 of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Sk+-69+249
+StarBarycenter "HD 269927/CCDM J05390-6929A/CPD-69 468/LMC AB 13/UCAC4 103-017179/** I 742AB/GSC 09167-00759/2MASS J05385885-6929228/uvby98 100269927/** TDS 3273/SK -69 249/WDS J05390-6929AB"
+{
+	/*Observation data*/
+	RA      05 38 58.856976
+	Dec     -69 29 22.47504
+	AppMagn 10.68 // Combined
+	/*Characteristics*/
+	Class   "B0I"
+	/*Astrometry*/
+	Dist    49950
+}
+
+// 8.Eta Car
 // https://en.wikipedia.org/wiki/Eta_Carinae
 Remove "ETA Car"
 StarBarycenter	"海山二/ETA Car/2E 1043.1-5925/H 1044-59/4U 1053-58/EM* MWC 214/HR 4210/4U 1037-60/1ES 1043-59.4/IRAS 10431-5925/UCAC4 152-053215/1A 1044-59/0FGL J1045.6-5937/JCMTSE J104503.7-594102/V* Eta Car/3A 1042-595/1FGL J1045.2-5942/JCMTSF J104503.7-594102/WDS J10451-5941/1AGL J1043-5936/2FGL J1045.0-5941/JP11 1994/WEB 9578/1AGL J1044-5937/3FGL J1045.1-5941/LLNS 2725/WRAY 15-640/1AGLR J1044-5944/4FGL J1045.1-5940/LS 1868/2XMM J104503.4-594103/ALS 1868/1FHL J1045.0-5943/2MASS J10450360-5941040/XMMU J104503.8-594105/CD-59 3306/2FHL J1045.2-5942/MOST 1042-594/[AMM2003] 50/CEL 3689/3FHL J1045.1-5941/NOVA Car 1843/[ARV2008] 173/Cl Trumpler 16 183/GC 14799/PBC J1044.8-5942/[KRL2007b] 93/CPC 20 3145/GCRV 6693/PPM 339408/[S87b] IRS 23/CPD-59 2620/GCRV 6692/RAFGL 4114/AAVSO 1041-59/CSI-59 2620 41/GPS 1043-595/SAO 238429/Gaia DR3 5350358584482202880/CSI-59-10431/1H 1045-597/SKY# 20584/Gaia DR2 5350358580171706624/CXOCyg J104503.58-594103.7/HD 93308/SWIFT J1044.8-5941/1E 104306-5925.2/TIC 458859916/2E 2318/Hen 3-481/TYC 8626-2809-1"
@@ -69,23 +110,6 @@ StarBarycenter	"海山二/ETA Car/2E 1043.1-5925/H 1044-59/4U 1053-58/EM* MWC 21
 	Dist     2285 // 2300
 	AbsMagn  -8.6 //(2012)
 	//ForceSystemLum true // use provided AppMagn despite on actual components luminosity
-}
-
-// 7.Westerhout 49-2 (in Westerhout 49)
-// https://en.wikipedia.org/wiki/Westerhout_49-2
-
-// 8.Sk -69° 249 A (in NGC 2074 of LMC)
-// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Sk+-69+249
-StarBarycenter "HD 269927/CCDM J05390-6929A/CPD-69 468/LMC AB 13/UCAC4 103-017179/** I 742AB/GSC 09167-00759/2MASS J05385885-6929228/uvby98 100269927/** TDS 3273/SK -69 249/WDS J05390-6929AB"
-{
-	/*Observation data*/
-	RA      05 38 58.856976
-	Dec     -69 29 22.47504
-	AppMagn 10.68 // Combined
-	/*Characteristics*/
-	Class   "B0I"
-	/*Astrometry*/
-	Dist    49950
 }
 
 // 9.V4998 Sagittarii (near Quintuplet Cluster)
@@ -202,6 +226,20 @@ Star "HD 269445/JP11 3742/SSTISAGEMC J052259.76-680146.6/[BE74] 261/AL 158/LHA 1
 // 30.WR 102hb (in Quintuplet Cluster)
 // https://simbad.u-strasbg.fr/simbad/sim-id?Ident=WR+102hb
 
+// 30.5 [BMS2003] 578 C (in NGC 604 of Triangulum Galaxy)
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%5BBMS2003%5D+578C&NbIdent=1&Radius=2&Radius.unit=arcmin&submit=submit+id
+StarBarycenter "DMS NGC 604 4/[FBB2012] 3795/[LJ2009] Shell-2 1/[WM95] NGC 604 1"
+{
+	/*Observation data*/
+	RA      01 34 32.65
+	Dec     +30 47 07.1
+	AppMagn 15.97
+	/*Characteristics*/
+	Class   ""
+	/*Astrometry*/
+	Dist    860600 // Match Disc Plane
+}
+
 // 31.BAT99-80 A (in NGC 2044 of LMC)
 // https://simbad.u-strasbg.fr/simbad/sim-id?Ident=BAT99+80
 StarBarycenter "BAT99 80/Brey 65c/2MASS J05355991-6911507/[H2013] LMCe 1290/[M2002] LMC 164167/TIC 277025288/[HGM93] 9Ab/[ST92] 2-43/HD 269828E/TSWR 2/[HGM93] 9/[TSL93] bet 13"
@@ -218,7 +256,6 @@ StarBarycenter "BAT99 80/Brey 65c/2MASS J05355991-6911507/[H2013] LMCe 1290/[M20
 
 // 32.R146 (in Tarantula Nebula of LMC)
 // https://simbad.u-strasbg.fr/simbad/sim-id?Ident=RMC146
-
 
 // 33.VFTS 482 (in Tarantula Nebula of LMC)
 // https://simbad.u-strasbg.fr/simbad/sim-id?Ident=VFTS+482
@@ -429,3 +466,62 @@ Star "IRAS 18576+0341/2MASS J19001089+0345471/TIC 228204295/WISE J190010.88+0345
 
 // 69.WR 147S (in Cygnus OB2)
 // https://en.wikipedia.org/wiki/WR_147
+
+// 70.10584-9-1 (in Messier 81)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=%5BHSG2019%5D%2010584-9.1
+Star "[HSG2019] 10584-9.1/Gaia DR3 1070474766932993664"
+{
+	/*Observation data*/
+	RA      09 55 18.8147842440
+	Dec     +69 08 27.176788356
+	AppMagnG 19.735256
+	/*Characteristics*/
+	Class   "BI" // sgB[e]
+	/*Astrometry*/
+	Dist    3683500
+	/*Details*/
+	Radius  100584101.5010831
+	LumBol  1976962.2363772385 // MBol = -11
+	Teff    18000
+}
+
+// 71.DBSB 179-15 (WR 84–6 in DBSB 179 of G347.6+0.2)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=BIH2008+obj15
+
+// 72.G0.114+0.021 (WR 102–12 in Galactic Center)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=MCD2010+G0.114%2B0.021
+
+// 73.AB6 A (in NGC 371 of SMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=SMC+AB+6
+
+// 74.R136a4 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=RMC136a4
+
+// 75.Westerhout 49-1 (in Westerhout 49)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=WBB2016+1
+
+// 76.WR 22 A (in Bochum 10 of Carina Nebula)
+// https://en.wikipedia.org/wiki/WR_22
+
+// 77.HSH95-36 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=HSH95+36
+
+// 78.Hen 3-519 (WR 31a in Blue Bubble Nebula)
+// https://en.wikipedia.org/wiki/WR_31a
+StarBarycenter "WRAY 15-682/WR 31a/IRAS 10520-6010/PN Hf 39/[H53] 39/ALS 2015/LLNS 3256/SS73 25/AAVSO 1050-59/CSI-60-10520/LS 2015/TIC 465539899/Gaia DR3 5338229115839425664/ESO 128-18/2MASS J10535958-6026444/TYC 8958-1166-1/Gaia DR1 5338229111491506304/GSC2 S1113013697/MSX5C G288.9347-00.8046/UCAC2 5308747/Gaia DR2 5338229115839425664/GSC 08958-01166/PK 288-00 1/UCAC4 148-066854/Hen 3-519/PN G288.9-00.8"
+{
+	/*Observation data*/
+	RA      10 53 59.5777329720
+	Dec     -60 26 44.361095316
+	AppMagn 10.85
+	/*Characteristics*/
+	Class   "WN11h"
+	/*Astrometry*/
+	Dist    8700
+	AbsMagn -6.71
+	/*Details*/
+	MassSol 17
+	RadSol  29.8
+	LumBol  1819694.0438456186 // MBol = -10.91
+	Teff    30200 // 27500
+}

@@ -954,3 +954,47 @@ Star	"HD 93028 B"
 		MeanAnomaly     -25.3221589
 	}
 }
+
+// WR 22
+Remove "WR 22 A" {ParentBody "WR 22"}
+Remove "WR 22 B" {ParentBody "WR 22"}
+Star	"HD 92740 A"
+{
+	ParentBody     "HD 92740"
+	Class          "WN7h"
+	MassSol        49 // 75
+	RadSol         22.65
+	AbsMagn        -6.73
+	LumBol         1905453.5820289347 // MBol = -10.96
+	Teff           44700
+
+	Orbit
+	{
+		PeriodDays      80.336
+		Eccentricity    0.598
+		Inclination     83.5
+		ArgOfPericenter 88.2
+		MeanAnomaly     0
+	}
+}
+
+Star	"HD 92740 B"
+{
+	ParentBody     "HD 92740"
+	Class          "O9III-V"
+	MassSol        25.7
+	RadSol         11
+	AbsMagn        -4.44
+	LumBol         130000
+	Teff           33000
+	Age            0.0022
+
+	Orbit
+	{
+		PeriodDays      80.336
+		Eccentricity    0.598
+		Inclination     83.5
+		ArgOfPericenter 268.2
+		MeanAnomaly     0
+	}
+}
