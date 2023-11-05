@@ -1,0 +1,67 @@
+Star "2MASS J19221439+1403089/SSTOERC G048.9162-00.2845/[KBP2009] 98/Gaia DR2 4319805577219881472/SSTGLMC G048.9161-00.2846/TIC 338615496/[RMB2008] G048.9161-00.2846/Gaia DR3 4319805577219881472"
+{
+	/*Observation data*/
+	RA      19 22 14.3937899208
+	Dec     +14 03 09.061430796
+    //AppMagnK 9.901
+	/*Characteristics*/
+	Class   "O3-5V"
+	/*Astrometry*/
+	Dist    5405.117091862789 // Random
+	/*Details*/
+	MassSol 54 // 50 - 58
+    Radius  8223849.694567332 // Calculated
+    LumBol  416869.3834703354017710921288892 // log(L) = 5.62 - 5.74
+    Teff    42657.951880159265800452389660098 // log(T) = 4.63
+}
+
+Star "2MASS J19221472+1404431/TIC 338615786/Gaia DR2 4319805779070980096/Gaia DR3 4319805779070980096"
+{
+	/*Observation data*/
+	RA      19 22 14.7354184488
+	Dec     +14 04 43.188959280
+    //AppMagnK 13.341
+	/*Characteristics*/
+	Class   "B8-A3V"
+	/*Astrometry*/
+	Dist    5408.268415716146 // Random
+	/*Details*/
+	MassSol 3.8 // 3.5 - 4
+    Radius  3199448.796834117 // Calculated
+    LumBol  229.08676527677730457240849198746 // log(L) = 2.36 - 2.43
+    Teff    10471.285480508995334645020315281 // log(T) = 4.02
+}
+
+Star "2MASS J19221801+1405099/TIC 339198593/Gaia DR2 4319806157036502784/Gaia DR3 4319806157036502784"
+{
+	/*Observation data*/
+	RA      19 22 18.0120385080
+	Dec     +14 05 10.121100864
+    //AppMagnK 13.476
+	/*Characteristics*/
+	Class   "B3-9V"
+	/*Astrometry*/
+	Dist    5411.210745032623 // Random
+	/*Details*/
+	MassSol 4.8 // 4.5 - 5
+    Radius  3236496.667833946 // Calculated
+    LumBol  707.94578438413791080221494218931 // log(L) = 2.85 - 2.97
+    Teff    13803.84264602884837842712489908 // log(T) = 4.14
+}
+
+Star "2MASS J19221745+1404561/TIC 339198636/Gaia DR2 4319805783378324608/Gaia DR3 4319805783378324608"
+{
+	/*Observation data*/
+	RA      19 22 17.4499390848
+	Dec     +14 04 56.245583280
+    //AppMagnK 13.892
+	/*Characteristics*/
+	Class   "B3-7V"
+	/*Astrometry*/
+	Dist    5407.81051242259 // Random
+	/*Details*/
+	MassSol 4.7 // 4.5 - 4.8
+    Radius  2163092.862177907 // Calculated
+    LumBol  501.18723362727228500155418688495 // log(L) = 2.70 - 2.75
+    Teff    15488.166189124813446716178411231 // log(T) = 4.19
+}
