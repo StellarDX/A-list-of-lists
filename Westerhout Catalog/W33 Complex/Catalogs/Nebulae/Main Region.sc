@@ -10,7 +10,6 @@ Nebula "SNR G012.8-00.2/GAL 012.809-00.200/LMH 18/[GS70] 012.8-00.2/GRS G013.00 
 	Dec	      -17 55 50
 	Dist      4691 // 15300 Ly
 	Galaxy    "Milky Way"
-	AbsMagn   -10 // a huge structure of star forming region
 	Radius    68.2272
 	Type      "SNR"
 }

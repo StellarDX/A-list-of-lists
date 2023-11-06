@@ -16,7 +16,6 @@ Nebula "RAFGL 2078/F3R 331/IRAS 18064-2020/SNR G010.2-00.3/[KC97c] G010.2-00.3/G
 	Dec	      -20 19 25 // Simbad pos
 	Dist      3300 // 4500
 	Galaxy    "Milky Way"
-	AbsMagn   -8 // ?
 	Radius    2.20784 // Dim. 4.6'
 	Type      "Diffuse" // SNR?
 }
@@ -27,7 +26,6 @@ Nebula "W 31c/GAL 010.6-00.4/GPSR 010.598-0.384/[ABG85] 21/[WAM82] 010.62-0.38/G
 	Dec	      -19 56 05 // Simbad pos
 	Dist      3300 // 4500
 	Galaxy    "Milky Way"
-	AbsMagn   -8 // ?
 	Radius    2.20784 // Dim. 4.6'
 	Type      "Diffuse" // SNR?
 }
@@ -38,7 +36,6 @@ Nebula "1806-20 Dust Cloud"
 	Dec	      -20 24 39 // Match cluster
 	Dist      8700
 	Galaxy    "Milky Way"
-	AbsMagn   -8 // ?
 	Radius    2
 	Type      "SNR" // Diffuse
 }

@@ -525,3 +525,66 @@ StarBarycenter "WRAY 15-682/WR 31a/IRAS 10520-6010/PN Hf 39/[H53] 39/ALS 2015/LL
 	LumBol  1819694.0438456186 // MBol = -10.91
 	Teff    30200 // 27500
 }
+
+// 79.LGGS J004051.59+403303.0 (in Andromeda Galaxy)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=LGGS+J004051.59%2B403303.0
+Star "LAMOST J004051.59+403303.0/LGGS J004051.59+403303.0/Gaia DR3 369118835268460544"
+{
+	/*Observation data*/
+	RA      00 40 51.5742503712
+	Dec     +40 33 02.849588100
+	AppMagn 16.989
+	/*Characteristics*/
+	Class   "BI" // LBV
+	/*Astrometry*/
+	Dist    795000
+	AbsMagn -7.48930036100969 // Calculated
+	/*Details*/
+	Radius  96057071.20516194 // Calculated
+	LumBol  1803010.9885733414 // MBol = -10.9
+	Teff    18000 // 24000
+}
+
+// 80.MSX5C G358.5391+00.1305 (in Wray 17-96)
+// https://en.wikipedia.org/wiki/Wray_17-96
+Star "[B61] 2/UCAC2 19224418/MSX5C G358.5391+00.1305/USNO-A2.0 0525-28939154/[CWP2007] CS 14/DENIS J174135.4-300638/MSX6C G358.5394+00.1305/WISEA J174135.45-300638.3/[SPK2012] MWP1G358541+001299/Hen 3-1453/TIC 192821454/WISE J174135.44-300639.2/EQ J1741-3006/2MASS J17413543-3006389/UCAC3 120-292053/WRAY 17-96/Gaia DR3 4056941758956836224/MGE G358.5405+00.1299/UCAC4 300-137664/Gaia DR2 4056941758956836224"
+{
+	/*Observation data*/
+	RA      17 41 35.4358256400
+	Dec     -30 06 38.782127520
+	AppMagn 15
+	/*Characteristics*/
+	Class   "BI" // LBV_B[e]:
+	/*Astrometry*/
+	Dist    7000
+	AbsMagn -5.2254902000712846 // Calculated (-6)
+	/*Details*/
+	RadSol  260
+	LumBol  1799692.776717852 // MBol = -10.898
+	Teff    13000
+}
+
+// 81.HD 5980 B (in NGC 346 of SMC)
+// https://en.wikipedia.org/wiki/HD_5980
+
+// 82.WR 130 (in Cygnus OB3)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=WR+130
+Star "EM* AS 374/WR 130/GSC 02670-01448/MHA 376-29/[KW97] 41-30/CSI+31-19571/HBHA 3203-12/TIC 328366341/Gaia DR2 2030934212864924032/EM* VES 96/Hen 3-1810/UBV M 44533/Gaia DR3 2030934212864924032/JP11 5255/UCAC4 608-100816/GEN# +6.20055096/LSWR 16/V* V2180 Cyg/GEN# +6.20059050/2MASS J19591258+3127090/[IC56] 50"
+{
+	/*Observation data*/
+	RA      19 59 12.5931809928
+	Dec     +31 27 09.025581132
+	AppMagn 12.13
+	/*Characteristics*/
+	Class   "WN8(h)"
+	/*Astrometry*/
+	Dist    6653.250245146447 // 21700
+	AbsMagn -6.98516929319773 // Calculated (-5)
+	/*Details*/
+	Radius  15468895.4696352
+	LumBol  1778272.7503975346 // MBol = -10.885
+	Teff    44700
+}
+
+// 83.WR 21a A (Runaway star from Westerlund 2)
+// https://en.wikipedia.org/wiki/WR_21a
