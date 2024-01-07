@@ -52,3 +52,14 @@ Star	"CXOGC J174656.3-283232 A"
 	Teff       30000
 	Oblateness 0
 }
+
+// CXOGC J174536.1-285638
+Star	"CXOGC J174536.1-285638 A"
+{
+	ParentBody "CXOGC J174536.1-285638"
+	Class      "WN8-9h"
+	Radius     33949379.54454909 // Calculated
+	LumBol     1737794.3206999332 // MBol = -10.86
+	Teff       30000
+	Oblateness 0
+}

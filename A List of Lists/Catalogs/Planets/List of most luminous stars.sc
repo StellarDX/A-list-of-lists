@@ -309,3 +309,4 @@ Star	"Hen 3-519 A"
 	Teff           30200 // 27500
 	Oblateness     0
 }
+

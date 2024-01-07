@@ -11,7 +11,7 @@ StarBarycenter "CXOGC J174528.6-285605/CXOU J174528.6-285605/[DWC2011] 35"
 	/*Characteristics*/
 	Class   "WN8h" // WN8-9h
 	/*Astrometry*/
-	Dist    8472.58112765677 // random
+	Dist    8523.901373531142 // random
 	/*Details*/
 	Radius  43735272.9785254 // Calculated
 	LumBol  2884020.7024529576 // MBol = -11.41
@@ -26,7 +26,7 @@ StarBarycenter "CXOGC J174516.1-284909"
 	/*Characteristics*/
 	Class   "Ofpe/WN9"
 	/*Astrometry*/
-	Dist    8473.34333559171 // random
+	Dist    8725.652224448186 // random
 	/*Details*/
 	Radius  89745846.7918608 // Calculated
 	LumBol  2398823.9354104507 // MBol = -11.21
@@ -42,7 +42,7 @@ StarBarycenter "2MASS J17471147-2830069/CXOGCS J174711.4-283006/TIC 126155297/CX
 	/*Characteristics*/
 	Class   "WN8-9h"
 	/*Astrometry*/
-	Dist    8626.39500844899 // random
+	Dist    8482.998049170979 // random
 	/*Details*/
 	Radius  39887043.0186048 // Calculated
 	LumBol  2398823.9354104507 // MBol = -11.21
@@ -58,7 +58,7 @@ StarBarycenter "2MASS J17471225-2831215/CXOGCS J174712.2-283121/TIC 126154878/CX
 	/*Characteristics*/
 	Class   "WN7-8h"
 	/*Astrometry*/
-	Dist    8671.76159829409 // random
+	Dist    8599.396843152806 // random
 	/*Details*/
 	Radius  27985834.5510017 // Calculated
 	LumBol  2187753.430800727 // MBol = -11.11
@@ -74,9 +74,25 @@ StarBarycenter "2MASS J17465629-2832325/CXOGC J174656.3-283232/CXOGCS J174656.3-
 	/*Characteristics*/
 	Class   "WN8-9h"
 	/*Astrometry*/
-	Dist    8541.74110122353 // random
+	Dist    8589.278024911202 // random
 	/*Details*/
 	Radius  36377415.582823 // Calculated
 	LumBol  1995254.8427283422 // MBol = -11.01
+	Teff    30000
+}
+
+StarBarycenter "Edd-1/CXOU J174536.1-285638/SSTGLMC G359.9912-00.0007/2XMM J174536.0-285638/CXOGC J174536.1-285638/2MASS J17453612-2856386/TIC 321992034/[DWC2011] 111"
+{
+	/*Observation data*/
+	RA      17 45 36.12
+	Dec     -28 56 38.7
+	//AppMagnK 10.42
+	/*Characteristics*/
+	Class   "WN8-9h"
+	/*Astrometry*/
+	Dist    8490.122533669835 // random
+	/*Details*/
+	Radius  33949379.54454909 // Calculated
+	LumBol  1737794.3206999332 // MBol = -10.86
 	Teff    30000
 }

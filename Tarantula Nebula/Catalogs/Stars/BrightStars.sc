@@ -197,3 +197,97 @@ Star "Cl* NGC 2070 MH 608/[HSH95] 36"
 	LumBol  1862080.163162252 // MBol = -10.935
 	Teff    49500
 }
+
+StarBarycenter "Cl* NGC 2070 MEL 25/IRSF J05384155-6905194/VFTS 506/Gaia DR2 4657685534828092032/Cl* NGC 2070 SMB 19/2MASS J05384154-6905193/[CCE2018] 2395/Dor IRS 89/TIC 404768781/[P93] 871"
+{
+	/*Observation data*/
+	RA      05 38 41.5495267078
+	Dec     -69 05 19.506347564
+	AppMagn 13.31
+	/*Characteristics*/
+	Class   "N2V((n))((f*))"
+	/*Astrometry*/
+	Dist    49965.22974223665 // random
+	AbsMagn -6.5
+}
+
+Star "HD 38344/GEN# +1.00038344/RMC 147/WS 48/AL 383/GSC 09163-01005/SK -69 251/[BE74] 423/AP J05391131-6902014/HTR 21/SSTISAGEMC J053911.33-690201.3/[H2013] LMCe 1426/BAT99 122/IRSF J05391132-6902015/TIC 404768476/[M2002] LMC 172745/Brey 92/2MASS J05391131-6902014/UCAC2 1803520/Gaia DR2 4657685977170493568/CSI-69-05395/MH 21/UCAC4 105-014461/Gaia DR3 4657685977170493568/FD 72/OGLE BRIGHT-LMC-MISC-304/VFTS 758"
+{
+	/*Observation data*/
+	RA      05 39 11.3190030600
+	Dec     -69 02 01.571056044
+	AppMagn 12.993
+	/*Characteristics*/
+	Class   "WN5h"
+	/*Astrometry*/
+	Dist    50057.15600789028 // random
+	AbsMagn -7.5 // Calculated (Extinction +2)
+	/*Details*/
+	Radius  12081875.11576091 // Calculated
+	LumBol  1698237.2925535946 // MBol = -10.835
+	Teff    50000
+}
+
+Star "30 Dor 016/2MASS J05370888-6907203/[GC2009] J053708.79-690720.3/IRSF J05370888-6907203/TIC 277109100/Gaia DR2 4657690620070706432/MCPS 084.28742-69.12233/VFTS 16/Gaia DR3 4657690620070706432"
+{
+	/*Observation data*/
+	RA      05 37 08.8778548584
+	Dec     -69 07 20.375080464
+	AppMagn 13.546
+	/*Characteristics*/
+	Class   "O2IIIf*"
+	/*Astrometry*/
+	Dist    49963.90665461098 // random
+	AbsMagn -6.95 // Calculated (Extinction +2)
+	/*Details*/
+	Radius  10712363.69192984 // Calculated
+	LumBol  1698237.2925535946 // MBol = -10.835
+	Teff    53100
+}
+
+Star "Cl* NGC 2070 SMB 88/Cl* NGC 2070 MH 283/VFTS 1017/[CHH92] 6005/Cl* NGC 2070 MEL 37W/IRSF J05384185-6906144/[CCE2018] 1374"
+{
+	/*Observation data*/
+	RA      05 38 41.88
+	Dec     -69 06 14.4
+	AppMagn 14.50
+	/*Characteristics*/
+	Class   ""
+	/*Astrometry*/
+	Dist    49911.81556623132 // random
+	AbsMagn -5.99 // Calculated (Extinction +2)
+	/*Details*/
+	Radius  11759771.93523268 // Calculated
+	LumBol  1621804.0236937976 // MBol = -10.785
+	Teff    50100
+}
+
+Star "Cl* NGC 2070 MH 859/CXOU J053844.1-690556/[CHH92] 6013/[PPL2002] CX7/Cl* NGC 2070 MH 870/Dor IRS 109/[HSH95] 18/[RBW98] IRSW-247/Cl* NGC 2070 MEL 33S/[CCE2018] 2177/[P93] 1111/[TBF2006] 131/Cl* NGC 2070 SMB 44/[CHH92] 6009/[P93] 1120"
+{
+	/*Observation data*/
+	RA      05 38 44.2218
+	Dec     -69 05 56.973
+	AppMagn 13.94
+	/*Characteristics*/
+	Class   "O3III(f+)"
+	/*Astrometry*/
+	Dist    50042.16398031853 // random
+	AbsMagn -6.56 // Calculated (Extinction +2)
+	/*Details*/
+	Radius  13209264.4583816 // Calculated
+	LumBol  1584887.2570494793 // MBol = -10.76
+	Teff    47000
+}
+
+StarBarycenter "RMC 140a/BAT99 102/VFTS 507/[PPL2002] CX10/Cl* NGC 2070 SMB 6/[CCE2018] 3191/Gaia DR3 4657685569167442432/IRSF J05384160-6905134/[H2013] LMCe 1391"
+{
+	/*Observation data*/
+	RA      05 38 41.5967462055
+	Dec     -69 05 13.457120148
+	AppMagn 12.12
+	/*Characteristics*/
+	Class   "WN4+WC5"
+	/*Astrometry*/
+	Dist    49829.39017482425 // random
+	AbsMagn -8.37 // Calculated (Extinction +2)
+}
