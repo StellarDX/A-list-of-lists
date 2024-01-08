@@ -262,9 +262,9 @@ Star	"BAT99 80 A"
 {
 	ParentBody     "BAT99 80"
 	Class          "O4If"
-    AbsMagn         -5.492677462810008 // Calculateed
+	AbsMagn         -5.492677462810008 // Calculateed
 	Radius          18140502.9349952 // Calculated
-    LumBol          2511877.0245160875 // MBol = -11.26
+	LumBol          2511877.0245160875 // MBol = -11.26
 	Teff            45000
 
 	Orbit // Generated
@@ -283,7 +283,7 @@ Star	"BAT99 80 B"
 {
 	ParentBody     "BAT99 80"
 	Class          "OB"
-    AbsMagn        -5 // ?
+	AbsMagn        -5 // ?
 
 	Orbit // Generated
 	{
@@ -310,3 +310,87 @@ Star	"Hen 3-519 A"
 	Oblateness     0
 }
 
+// WR 140
+Remove "V1687 Cyg A" {ParentBody "V1687 Cyg"}
+Remove "V1687 Cyg B" {ParentBody "V1687 Cyg"}
+Star	"WR 140 A"
+{
+	ParentBody      "WR 140"
+	Class           "WC7pd"
+	AbsMagn         -6.6
+	MassSol         8.4
+	Radius          3466300.637614196 // Calculated
+	LumBol          537000
+	Teff            70000
+
+	Orbit
+	{
+		Period          7.9241
+		Eccentricity    0.9012
+		Inclination     119.4
+		AscendingNode   349.1
+		Epoch           2449054.494707910344005 // 1993.1825
+		ArgOfPericenter 42.31
+		MeanAnomaly     0
+	}
+}
+
+Star	"WR 140 B"
+{
+	ParentBody      "WR 140"
+	Class           "O5.5fc"
+	AbsMagn         -6.11
+	MassSol         20.5
+	RadSol          35
+	LumBol          1584887.2570494793 // MBol = -10.76
+	Teff            35000
+
+	Orbit
+	{
+		Period          7.9241
+		Eccentricity    0.9012
+		Inclination     119.4
+		AscendingNode   349.1
+		Epoch           2449054.494707910344005 // 1993.1825
+		ArgOfPericenter 222.31
+		MeanAnomaly     0
+	}
+}
+
+// WR 148
+Star	"WR 148 A"
+{
+	ParentBody      "WR 148"
+	Class           "WN8h"
+	AbsMagn         -7.22
+	MassSol         44
+	RadSol          26.5
+	LumBol          1584887.2570494793 // MBol = -10.76
+	Teff            39800
+	Oblateness      0
+
+	Orbit
+	{
+		PeriodDays      4.317336
+		Eccentricity    0
+		Inclination     18
+		ArgOfPericenter 0
+		MeanAnomaly     0
+	}
+}
+
+Star	"WR 148 B"
+{
+	ParentBody      "WR 148"
+	Class           "O5?" // BlackHole?
+	MassSol         37
+
+	Orbit
+	{
+		PeriodDays      4.317336
+		Eccentricity    0
+		Inclination     18
+		ArgOfPericenter 180
+		MeanAnomaly     0
+	}
+}

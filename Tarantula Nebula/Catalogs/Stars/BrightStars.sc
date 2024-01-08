@@ -291,3 +291,20 @@ StarBarycenter "RMC 140a/BAT99 102/VFTS 507/[PPL2002] CX10/Cl* NGC 2070 SMB 6/[C
 	Dist    49829.39017482425 // random
 	AbsMagn -8.37 // Calculated (Extinction +2)
 }
+
+Star "BAT99 97/IRSF J05383884-6906495/[H2013] LMCe 1386/Gaia DR2 4657679624951968640/Cl* NGC 2070 MEL 51/UCAC4 105-014270/[M2002] LMC 171412/Cl* NGC 2070 SMB 50/VFTS 457/[P93] 666/Dor IRS 73/[CCE2018] 603/Gaia DR3 4657679624951968640"
+{
+	/*Observation data*/
+	RA      05 38 38.8401788208
+	Dec     -69 06 49.549699584
+	AppMagn 13.74
+	/*Characteristics*/
+	Class   "O3.5If*/WN7"
+	/*Astrometry*/
+	Dist    49953.87524974879 // random
+	AbsMagn -6.75 // Calculated (Extinction +2)
+	/*Details*/
+	Radius  18420788.10419241 // Calculated
+	LumBol  1584887.2570494793 // MBol = -10.76
+	Teff    39800
+}
