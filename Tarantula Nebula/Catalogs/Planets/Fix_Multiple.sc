@@ -314,3 +314,17 @@ Star	"Melnick 33Na B"
 		MeanAnomaly     0
 	}
 }
+
+// VFTS 427
+Star	"VFTS 427 A"
+{
+	ParentBody "VFTS 427"
+	Class      "WN8(h)"
+	AbsMagn    -7.0
+	MassSol    48
+	Radius     16994524.59280568 // Calculated
+	LumBol     1348962.8825916536092479477181649 // log(L) = 6.13
+	Teff       39800
+	Temperature 41600
+	Oblateness 0
+}

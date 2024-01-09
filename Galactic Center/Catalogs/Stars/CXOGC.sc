@@ -127,3 +127,18 @@ Star "CXOGC J174725.3-282709"
 	LumBol  1548810.8186073082 // MBol = -10.735
 	Teff    30000
 }
+
+Star "CXOGC J174502.8-290859/2MASS J17450286-2908595/TIC 204255655/[DWC2011] 50"
+{
+	/*Observation data*/
+	RA      17 45 02.86968
+	Dec     -29 08 59.5536
+	/*Characteristics*/
+	Class   "O9I-B0I"
+	/*Astrometry*/
+	Dist    8643.697260901985 // random
+	/*Details*/
+	Radius  24436920.23545619 // Calculated
+	LumBol  1318251.801696043 // MBol = -10.56
+	Teff    33000
+}

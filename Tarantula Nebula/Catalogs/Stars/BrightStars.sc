@@ -7,6 +7,12 @@
 // N. Morrell, M. S. Munoz, C. Neiner, J. Puls, M. K. Szymanski and J. S. Vink
 // "A search for strong magnetic fields in massive and very massive stars in the Magellanic Clouds"
 // https://www.aanda.org/articles/aa/full_html/2020/03/aa37098-19/aa37098-19.html
+// 2. Sarah A. Brands, Alex de Koter, Joachim M. Bestenlehner, Joachim Puls, Saida M. Caballero-Nieves,
+// Paul A. Crowther, Jon O. Sundqvist, Michael Abdul-Masih, Florian A. Driessen, Miriam Garcia,
+// Sam Geen, Gotz Grafener, Calum Hawcroft, Lex Kaper, Zsolt Keszthelyi, Norbert Langer, Hugues Sana,
+// Fabian R. N. Schneider, Tomer Shenar and Jorick S. Vink
+// "The R136 star cluster dissected with Hubble Space Telescope/STIS III. The most massive stars and their clumped winds"
+// https://www.aanda.org/articles/aa/full_html/2022/07/aa42742-21/aa42742-21.html
 
 Star "Brey 79/LMC AB 12/UCAC3 42-32386/[P93] 691/BAT99 98/2MASS J05383914-6906211/UCAC4 105-014273/Gaia DR2 4657679654981424640/Cl* NGC 2070 MEL 49/SSTISAGEMC J053839.14-690621.2/[H2013] LMCe 1387/Gaia DR3 4657679654981424640/Cl* NGC 2070 MEL J/TIC 404768953/[M2002] LMC 171429"
 {
@@ -17,7 +23,7 @@ Star "Brey 79/LMC AB 12/UCAC3 42-32386/[P93] 691/BAT99 98/2MASS J05383914-690621
 	/*Characteristics*/
 	Class   "WN6"
 	/*Astrometry*/
-	Dist    49999.21296256086 // random
+	Dist    49974.42843833568 // random
 	AbsMagn -8.11
 	/*Details*/
 	MassSol 226
@@ -36,7 +42,7 @@ Star "Brey 77/Cl* NGC 2070 SMB 10/TIC 404768889/[HSH95] 2/BAT99 105/CXOU J053842
 	/*Characteristics*/
 	Class   "O2If*"
 	/*Astrometry*/
-	Dist    49992.23725318113 // random
+	Dist    49973.40006156982 // random
 	AbsMagn -7.4
 	/*Details*/
 	MassSol 189
@@ -74,7 +80,7 @@ StarBarycenter "Cl* NGC 2070 MH 493/Cl* NGC 2070 SMB 28/IRSF J05384238-6906151/[
 	/*Characteristics*/
 	Class   "WN?"
 	/*Astrometry*/
-	Dist    49959.88875709195 // random
+	Dist    49964.34572940389 // random
 	AbsMagn -7.05 // Calculated (Extinction +2)
 	/*Details*/
 	Radius  22617752.588087532669305801391602 // Calculated
@@ -91,7 +97,7 @@ StarBarycenter "Brey 84/Cl* NGC 2070 MH 880/Dor IRS 107/[CCE2018] 1766/[TBF2006]
 	/*Characteristics*/
 	Class   "WN5h:a"
 	/*Astrometry*/
-	Dist    49930.1815269479 // random
+	Dist    49968.44724667344 // random
 	AbsMagn -7.42
 }
 
@@ -123,7 +129,7 @@ Star "Cl* NGC 2070 MH 57/CXOU J053840.2-690559/[CCE2018] 2003/[PPL2002] CX8/Cl* 
 	/*Characteristics*/
 	Class   "O2.5If*/WN6"
 	/*Astrometry*/
-	Dist    49995.0213048317 // random
+	Dist    49964.05568828036 // random
 	AbsMagn -7.3
 	/*Details*/
 	MassSol 145
@@ -155,7 +161,7 @@ Star "Cl* NGC 2070 SMB 25/IRSF J05384208-6906144/VFTS 1021/[CCE2018] 1349"
 	/*Characteristics*/
 	Class   ""
 	/*Astrometry*/
-	Dist    49987.22263115631 // random
+	Dist    49959.3187887147 // random
 	AbsMagn -7.18 // Calculated (Extinction +2)
 	/*Details*/
 	Radius  21642538.9036748 // Calculated
@@ -172,7 +178,7 @@ Star "BAT99 114/CXOU J053843.1-690614/VFTS 545/[HSH95] 12/Cl* NGC 2070 MH 742/IR
 	/*Characteristics*/
 	Class   "O2If*/WN5"
 	/*Astrometry*/
-	Dist    49950.85782458229 // random
+	Dist    49973.93669811496 // random
 	AbsMagn -6.7
 	/*Details*/
 	MassSol 133
@@ -204,12 +210,19 @@ Star "Cl* NGC 2070 MH 608/[HSH95] 36"
 	/*Characteristics*/
 	Class   ""
 	/*Astrometry*/
-	Dist    50010.38559439518 // random
+	Dist    49966.18279686188 // random
 	AbsMagn -6.1 // Calculated (Extinction +2)
 	/*Details*/
-	Radius  12908148.50290687 // Calculated
-	LumBol  1862080.163162252 // MBol = -10.935
+	MassSol 162 // Spec, 115 -> 110 from evolution model
+	Age     0.0009
+	// Model of the optical+UV fits
+	RadSol  18.6
+	LumBol  1862087.1366628674486717789978037 // log(L) = 6.27
 	Teff    49500
+	// Model of the optical-only fits
+	// RadSol  20.0
+	// LumBol  1096478.1961431850131437136061411 // log(L) =  6.04
+	// Teff    42000
 }
 
 StarBarycenter "Cl* NGC 2070 MEL 25/IRSF J05384155-6905194/VFTS 506/Gaia DR2 4657685534828092032/Cl* NGC 2070 SMB 19/2MASS J05384154-6905193/[CCE2018] 2395/Dor IRS 89/TIC 404768781/[P93] 871"
@@ -221,7 +234,7 @@ StarBarycenter "Cl* NGC 2070 MEL 25/IRSF J05384155-6905194/VFTS 506/Gaia DR2 465
 	/*Characteristics*/
 	Class   "N2V((n))((f*))"
 	/*Astrometry*/
-	Dist    49965.22974223665 // random
+	Dist    49972.51135232129 // random
 	AbsMagn -6.5
 }
 
@@ -271,7 +284,7 @@ Star "Cl* NGC 2070 SMB 88/Cl* NGC 2070 MH 283/VFTS 1017/[CHH92] 6005/Cl* NGC 207
 	/*Characteristics*/
 	Class   ""
 	/*Astrometry*/
-	Dist    49911.81556623132 // random
+	Dist    49967.27611684197 // random
 	AbsMagn -5.99 // Calculated (Extinction +2)
 	/*Details*/
 	Radius  11759771.93523268 // Calculated
@@ -288,7 +301,7 @@ Star "Cl* NGC 2070 MH 859/CXOU J053844.1-690556/[CHH92] 6013/[PPL2002] CX7/Cl* N
 	/*Characteristics*/
 	Class   "O3III(f+)"
 	/*Astrometry*/
-	Dist    50042.16398031853 // random
+	Dist    49957.86659221122 // random
 	AbsMagn -6.56 // Calculated (Extinction +2)
 	/*Details*/
 	Radius  13209264.4583816 // Calculated
@@ -305,7 +318,7 @@ StarBarycenter "RMC 140a/BAT99 102/VFTS 507/[PPL2002] CX10/Cl* NGC 2070 SMB 6/[C
 	/*Characteristics*/
 	Class   "WN4+WC5"
 	/*Astrometry*/
-	Dist    49829.39017482425 // random
+	Dist    49976.37549081614 // random
 	AbsMagn -8.37 // Calculated (Extinction +2)
 }
 
@@ -318,7 +331,7 @@ Star "BAT99 97/IRSF J05383884-6906495/[H2013] LMCe 1386/Gaia DR2 465767962495196
 	/*Characteristics*/
 	Class   "O3.5If*/WN7"
 	/*Astrometry*/
-	Dist    49953.87524974879 // random
+	Dist    49969.61536145781 // random
 	AbsMagn -7.0
 	/*Details*/
 	MassSol 100
@@ -354,7 +367,7 @@ StarBarycenter "BAT99 113/CXOU J053843.1-690547/TIC 404768861/[H2013] LMCe 1403/
 	/*Characteristics*/
 	Class   "O2If*/WN5"
 	/*Astrometry*/
-	Dist    50030.0645400003 // random
+	Dist    49983.28934613113 // random
 	AbsMagn -6.5
 	/*Details*/
 	MassSol 87
@@ -373,7 +386,7 @@ StarBarycenter "Cl* NGC 2070 MH 887/[CCE2018] 1943/[PPL2002] CX9/Gaia DR3 465768
 	/*Characteristics*/
 	Class   "OC2.5If*+O4V"
 	/*Astrometry*/
-	Dist    49919.1773779417 // random
+	Dist    49969.16681030455 // random
 	AbsMagn -6.701337099801698 // Calculated (Extinction +2)
 }
 
@@ -386,8 +399,8 @@ Star "Brey 75/CPD-69 456H/CXOU J053840.5-690556/TIC 404768895/[H2013] LMCe 1389/
 	/*Characteristics*/
 	Class   "WN6h"
 	/*Astrometry*/
-	Dist    49952.32734848555 // random
-	AbsMagn -7.7427786370900975 // (Extinction +2)
+	Dist    49960.88127086182 // random
+	AbsMagn -7.7427786370900975 // Calculated (Extinction +2)
 	/*Details*/
 	Radius  12470349.77967224 // Calculated
 	LumBol  1412532.254681568 // MBol = -10.635
@@ -403,7 +416,7 @@ Star "Walborn 2/Dor IRS 131/RRG 30 Dor N IRS 4/[P93] 1429/IRSF J05384808-6904422
 	/*Characteristics*/
 	Class   "O2V((f*))z" // Multiple?
 	/*Astrometry*/
-	Dist    49960.23173272447 // random
+	Dist    49980.51732468263 // random
 	AbsMagn -6.1
 	/*Details*/
 	MassSol 80
@@ -411,4 +424,47 @@ Star "Walborn 2/Dor IRS 131/RRG 30 Dor N IRS 4/[P93] 1429/IRSF J05384808-6904422
 	LumBol  1380384.264602884837842712489908 // log(L) = 6.14
 	Teff    50100
 	Temperature 50700
+}
+
+StarBarycenter "Brey 81/Cl* NGC 2070 SMB 51/SSTISAGEMC J053836.36-690657.3/[CCE2018] 389/AP J05383641-6906573/IRSF J05383641-6906575/TIC 404769035/[H2013] LMCe 1385/BAT99 96/LMC AB 11/UCAC4 105-014249/Gaia DR3 4657680380866211200/Cl* NGC 2070 MEL 53/2MASS J05383641-6906573/VFTS 427/Gaia DR2 4657680380866211200"
+{
+	/*Observation data*/
+	RA      05 38 36.4071127800
+	Dec     -69 06 57.534295248
+	AppMagn 13.76
+	/*Characteristics*/
+	Class   "WN8(h)"
+	/*Astrometry*/
+	Dist    49925.31112981095 // random
+	AbsMagn -7.0
+	/*Details*/
+	MassSol 48
+	Radius  16994524.59280568 // Calculated
+	LumBol  1348962.8825916536092479477181649 // log(L) = 6.13
+	Teff    39800
+	Temperature 41600
+}
+
+Star "[HSH95] 49"
+{
+	/*Observation data*/
+	RA      05 38 42.403 // Position is unknown in Simbad database, related from R136a7 and R136a8.
+	Dec     -69 06 0.80
+	AppMagn 14.74
+	/*Characteristics*/
+	Class   "O3V"
+	/*Astrometry*/
+	Dist    49950.42748353699 // random
+	AbsMagn -5.748733548479562 // Calculated (Extinction +2)
+	/*Details*/
+	MassSol 48 // Spec, 57 -> 55 from evolution model
+	Age     0.00184
+	// Model of the optical+UV fits
+	// RadSol  13.1
+	// LumBol  575439.93733715693006203799395572 // log(L) = 5.76
+	// Teff    44000
+	// Model of the optical-only fits
+	RadSol  11.5
+	LumBol  1318256.7385564071020473747423042 // log(L) = 6.12
+	Teff    58000
 }
