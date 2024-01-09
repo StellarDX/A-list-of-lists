@@ -212,3 +212,105 @@ Star	"RMC 140a2"
 	ParentBody     "RMC 140a"
 	Class          "WC5"
 }
+
+// VFTS 542
+// Reference: 
+// Joachim M Bestenlehner, Paul A Crowther, Patrick S Broos, Andrew M T Pollock, Leisa K Townsley
+// "Melnick 33Na: a very massive colliding-wind binary system in 30 Doradus"
+// https://academic.oup.com/mnras/article/510/4/6133/6448998
+Star	"Melnick 30 A"
+{
+	ParentBody      "VFTS 542"
+	Class           "O2If*/WN5"
+	AbsMagn         -6.5
+	MassSol         53 // evol
+	Radius          13946335.80054605 // Calculated
+	LumBol          1445439.7707459275119314815458354 // log(L) = 6.16
+	Teff            44700
+	Oblateness      0
+
+	Orbit
+	{
+		PeriodDays      4.6965
+		Eccentricity    0
+		Inclination     52
+		ArgOfPericenter 0
+		MeanAnomaly     0
+	}
+}
+
+Star	"Melnick 30 B"
+{
+	ParentBody      "VFTS 542"
+	Class           "B0V"
+
+	Orbit
+	{
+		PeriodDays      4.6965
+		Eccentricity    0
+		Inclination     52
+		ArgOfPericenter 180
+		MeanAnomaly     0
+	}
+}
+
+// Melnick 33Na
+// Reference: 
+// Joachim M Bestenlehner, Paul A Crowther, Patrick S Broos, Andrew M T Pollock, Leisa K Townsley
+// "Melnick 33Na: a very massive colliding-wind binary system in 30 Doradus"
+// https://academic.oup.com/mnras/article/510/4/6133/6448998
+Star	"Melnick 33Na A"
+{
+	ParentBody      "Cl* NGC 2070 SMB 33"
+	Class           "C2.5If*" // OC2.5If*
+	AbsMagn         -7.701337099801698 // Calculated (Extinction +3)
+	// Spectroscopic analysis
+	MassSol         90 // sp, Mbom = 106
+	RadSol          15.8
+	LumBol          1412537.5446227543021556078639302 // log(L) = 6.15
+	Teff            50000
+	// Recovered stellar parameters by BONNSAI
+	// MassSol         83 // evo, Mini = 84
+	// RadSol          13.9
+	// LumBol          1202264.4346174129058326127151935 // log(L) = 6.08
+	// Teff            50700
+	Age             0.0009
+	Oblateness      0
+
+	Orbit
+	{
+		PeriodDays      18.319
+		Epoch           2459146.03
+		Eccentricity    0.334
+		Inclination     52
+		ArgOfPericenter 131.19
+		MeanAnomaly     0
+	}
+}
+
+Star	"Melnick 33Na B"
+{
+	ParentBody      "Cl* NGC 2070 SMB 33"
+	Class           "O4V"
+	// Spectroscopic analysis
+	MassSol         66
+	RadSol          12.8
+	LumBol          602559.58607435774697130296573509 // log(L) = 5.78
+	Teff            45000
+	// Recovered stellar parameters by BONNSAI
+	// MassSol         48 // evo, Mini = 47
+	// RadSol          10.1
+	// LumBol          457088.18961487502900031406443953 // log(L) = 5.66
+	// Teff            45800
+	Age             1.6
+
+	Orbit
+	{
+		PeriodDays      18.319
+		Epoch           2459146.03
+		Eccentricity    0.334
+		Inclination     52
+		ArgOfPericenter 311.19
+		MeanAnomaly     0
+	}
+}
