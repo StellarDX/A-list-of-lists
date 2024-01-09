@@ -4,9 +4,10 @@ Star	"BAT99 53 A"
 {
 	ParentBody "BAT99 53"
 	Class      "WC4"
+	AbsMagn    -5.5
 	MassSol    13
-	Radius     439425.24089379416545853018760681 // Calculated by Stefan-Boltzmann law
-	Luminosity 224000
+	Radius     439425.24089379416545853018760681 // Calculated
+	LumBol     224000
 	Teff       158000
 
 	Orbit
@@ -39,9 +40,10 @@ Star	"WR 2 A"
 {
 	ParentBody     "WR 2"
 	Class          "WN2"
+	AbsMagn         -2.43
 	MassSol         16
 	RadSol          0.89
-	Luminosity      282000
+	LumBol          282000
 	Teff            141000
 	Age             0.0041
 
@@ -63,56 +65,16 @@ Star	"WR 2 B"
 	Class          "B?"
 }
 
-// AB8
-// A Wolf-Rayet star and a main sequence companion of spectral type O orbit in a period of 16.638 days.
-Star	"AB8 A"
-{
-	ParentBody     "SMC AB 8"
-	Class          "WO4"
-	MassSol         19
-	RadSol          2
-	Luminosity      1400000
-	Teff            141000
-
-	Orbit
-	{
-		PeriodDays      16.638
-		Eccentricity    0.10
-		Inclination     40
-		ArgOfPericenter 0
-		MeanAnomaly     0
-	}
-}
-
-Star	"AB8 B"
-{
-	ParentBody     "SMC AB 8"
-	Class          "O4V"
-	MassSol         61
-	RadSol          14
-	Luminosity      708000
-	Teff            45000
-	Age             0.003
-
-	Orbit
-	{
-		PeriodDays      16.638
-		Eccentricity    0.10
-		Inclination     40
-		ArgOfPericenter 180
-		MeanAnomaly     0
-	}
-}
-
 // WR 9
 // Spectroscopic Binary
 Star	"WR 9 A"
 {
 	ParentBody     "WR 9"
 	Class          "WC4"
+	AbsMagn         -3.34
 	MassSol         9
 	RadSol          5
-	Luminosity      500000
+	LumBol          500000
 	Teff            139700
 
 	Orbit
@@ -129,6 +91,7 @@ Star	"WR 9 B"
 {
 	ParentBody     "WR 9"
 	Class          "O7"
+	AbsMagn         -4.01
 	MassSol         32
 
 	Orbit
@@ -147,9 +110,10 @@ Star	"WR 30a A"
 {
 	ParentBody     "WR 30a"
 	Class          "WO4"
+	AbsMagn         -2.8
 	MassSol         7.5 // 9.7
 	RadSol          0.88
-	Luminosity      195000
+	LumBol          195000
 	Teff            129500
 
 	Orbit
@@ -166,6 +130,7 @@ Star	"WR 30a B"
 {
 	ParentBody     "WR 30a"
 	Class          "O5III/V((f))"
+	AbsMagn         -5.38
 	MassSol         40 // 60
 
 	Orbit
@@ -184,9 +149,10 @@ Star	"** WLC 1A/WDS J11058-6114A/Gaia DR2 5337277763391646336/Gaia DR3 533727776
 {
 	ParentBody     "WR 38"
 	Class          "WC4"
+	AbsMagn         -3.1508762470582905
 	MassSol         10.4
 	Radius          587613.25161121622659265995025635 // Calculated by Stefan-Boltzmann law
-	Luminosity      162000
+	LumBol          162000
 	Teff            126000
 
 	/* BinaryOrbit
@@ -201,59 +167,15 @@ Star	"** WLC 1A/WDS J11058-6114A/Gaia DR2 5337277763391646336/Gaia DR3 533727776
 	Class          "?"
 } */
 
-// AB7
-// binary star in SMC, complete data
-Remove "AB7 A"{ParentBody "AB7"}
-Remove "AB7 B"{ParentBody "AB7"}
-Star	"AB7 A"
-{
-	ParentBody     "SMC AB 7"
-	Class          "WN4"
-	MassSol         23
-	RadSol          3.4
-	Luminosity      1259000
-	Teff            105000
-
-	Orbit
-	{
-		PeriodDays      19.560
-		Eccentricity    0.07
-		Inclination     68
-		Epoch           2451549.2
-		ArgOfPericenter 101
-		MeanAnomaly     0
-	}
-}
-
-Star	"AB7 B"
-{
-	ParentBody     "SMC AB 7"
-	Class          "O6I(f)"
-	MassSol         44
-	RadSol          14
-	Luminosity      316000
-	Teff            36000
-	Age             0.0034
-
-	Orbit
-	{
-		PeriodDays      19.560
-		Eccentricity    0.07
-		Inclination     68
-		Epoch           2451549.2
-		ArgOfPericenter 281
-		MeanAnomaly     0
-	}
-}
-
 // WR 143
 Star	"WR 143 A"
 {
 	ParentBody     "WR 143"
 	Class          "WC4"
+	AbsMagn        -3.92806452911437987
 	MassSol        8
 	Radius         691853.29914601473137736320495605 // Calculated by Stefan-Boltzmann law
-	Luminosity     89100
+	LumBol         89100
 	Teff           100000
 
 	BinaryOrbit // Generated
@@ -279,6 +201,7 @@ Star	"EZ CMa A"
 {
 	ParentBody     "V* EZ CMa"
 	Class          "WN4b"
+	AbsMagn        -5.33
 	MassSol        23
 	RadSol         3.25
 	LumBol         620000
@@ -382,9 +305,10 @@ Star	"WR 19 A"
 {
 	ParentBody     "WR 19"
 	Class          "WC5"
+	AbsMagn        -4.4787367883288454
 	MassSol        11
 	Radius         2325220.5633415766060352325439453
-	Luminosity     400000
+	LumBol         400000
 	Teff           79400
 
 	Orbit
@@ -419,8 +343,9 @@ Star	"WR 86 A"
 {
 	ParentBody     "WR 86"
 	Class          "WC7"
+	AbsMagn        -4.3
 	RadSol         10
-	Luminosity     200000
+	LumBol         200000
 	Teff           56000
 
 	BinaryOrbit
@@ -433,9 +358,10 @@ Star	"WR 86 B"
 {
 	ParentBody     "WR 86"
 	Class          "B0III"
+	AbsMagn        -4.3
 	MassSol        19
 	RadSol         8.5
-	Luminosity     63000
+	LumBol         63000
 	Teff           31405
 	Age            0.004
 }
@@ -445,9 +371,10 @@ Star	"WR 134 A"
 {
 	ParentBody "WR 134"
 	Class      "WN6-s"
+	AbsMagn    -5.09
 	MassSol    18
 	RadSol     5.25
-	Luminosity 407000
+	LumBol     407000
 	Teff       63100
 
 	Orbit

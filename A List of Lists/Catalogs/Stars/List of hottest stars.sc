@@ -14,12 +14,12 @@ Star "V* V3893 Sgr/WR 102/GAL 002.40+01.40/UCAC4 320-122902/[S71d] 4/ALS 4368/LS
 	Class   "WO2"
 	/*Astrometry*/
 	Dist    2923.121894182987430575855013154 // based on parallax 0.3421 mas, measured by Gaia
-	//AbsMagn -1.46
+	AbsMagn -1.46
 	/*Details*/
 	MassSol 16.1
 	RadSol  0.52
-	Luminosity 380000
-	Teff    210000
+	LumBol  380000
+	Teff    200000
 	FeH     0
 }
 
@@ -41,9 +41,10 @@ Star "Brey 93/SK -68 145/UCAC4 107-011736/Gaia DR2 4657790950485013120/BAT99 123
 	Class   "WO3"
 	/*Astrometry*/
 	Dist    50000
-	//AbsMagn -3.29 // Calculated from AppMagn and Dist
+	AbsMagn -3.29 // Calculated
 	/*Details*/
-	Luminosity 158000
+	Radius  369053.6745277294 // Calculated
+	LumBol  158000
 	Teff    170000
 }
 
@@ -63,11 +64,11 @@ Star "WR 93b/SSTGLMC G353.2744-00.8460/Gaia DR2 5975043607541238016/2MASS J17320
 	AppMagnK 10.17
 	/*Astrometry*/
 	Dist    2326.6635644485807352256863657515 // Plx. 0.4298 mas
-	//AbsMagn 3.3663320557771232 // Calculated from AppMagn and Parallax
+	AbsMagn 3.3663320557771232 // Calculated
 	/*Details*/
 	MassSol 8.1
 	RadSol  0.44
-	Luminosity 110000
+	LumBol  110000
 	Teff    160000
 }
 
@@ -114,33 +115,16 @@ Star "[AM85] IC 1613 6/DR 1 in IC 1613/IC 1613 WR/[BUG2007] B 17/Gaia DR3 253905
 	Class   "WO3"
 	/*Astrometry*/
 	Dist    752000
-	//AbsMagn -3.681 // Calculated from AppMagn and Dist
+	AbsMagn -3.681 // Calculated
 	/*Details*/
 	MassSol 20
-	Radius  713696 // Calculated by Stefan-Boltzmann law
-	Luminosity 480000
+	Radius  713696.0034403226 // Calculated
+	LumBol  480000
 	Teff    150000
 }
 
 // 9.LH 41-1042
 // https://en.wikipedia.org/wiki/LH_41-1042
-Star "[H2013] LMCe 584/[L72] LH 41-1042"
-{
-	/*Observation data*/
-	RA      05 18 11.01
-	Dec     -69 13 11.3
-	AppMagn 13.95
-	/*Characteristics*/
-	Class   "WO4"
-	/*Astrometry*/
-	Dist    50000
-	//AbsMagn -4.545 // Calculated from AppMagn and Dist
-	/*Details*/
-	MassSol 8.4
-	RadSol  0.62
-	Luminosity 182000
-	Teff    150000
-}
 
 // 10.BAT99-2
 // https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=BAT99+2&submit=SIMBAD+search
@@ -154,11 +138,11 @@ Star "Brey 2/2MASS J04493617-6920544/[H2013] LMCe 41/Gaia DR3 465537394904722214
 	Class   "WN2b(h)"
 	/*Astrometry*/
 	Dist    50010
-	//AbsMagn -1.9 // Calculated from AppMagn and Dist
+	AbsMagn -1.9 // Calculated from AppMagn and Dist
 	/*Details*/
 	MassSol 13
 	Radius  563955.54042096028570085763931274 // Calculated by Stefan-Boltzmann law
-	Luminosity 234000
+	LumBol  234000
 	Teff    141000
 }
 
@@ -180,18 +164,6 @@ StarBarycenter "HD 6327/GSC 04017-01829/LS I +60 137/WR 2/ALS 6453/HBHA 6209-24/
 
 // 12.AB8
 // https://en.wikipedia.org/wiki/AB8_(star)
-StarBarycenter "LIN 547/2MASS J01310412-7325038/SK 188/WEB 1525/Gaia DR2 4686266480552667776/GEN# +6.20027188/SMC AB 8/[M2002] SMC 83750/Gaia DR3 4686266480552667776/SSTISAGE1C J013104.14-732503.8/[S71d] 1/SBC9 83/TIC 303910982/[W64] NGC 602c 17"
-{
-	/*Observation data*/
-	RA      01 31 04.1367366432
-	Dec     -73 25 03.784411524
-	AppMagn 12.90
-	/*Characteristics*/
-	Class   "WO4"
-	/*Astrometry*/
-	Dist    64700
-	AbsMagn -6.3
-}
 
 // 13.BA 1-458
 // https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=BA+1-458&submit=SIMBAD+search
@@ -205,11 +177,11 @@ Star "BA 1-458/MLA 197/[MS87] IT2-12/Gaia DR2 381158732405479296/LGGS J004019.47
 	Class   "WC4"
 	/*Astrometry*/
 	Dist    782500
-	//AbsMagn
+	AbsMagn -3.9134217310924306 // Calculated
 	/*Details*/
 	MassSol 28.1
-	Radius  1041717.484362582792527973651886 // Calculated by Stefan-Boltzmann law
-	Luminosity 776000
+	Radius  1041717.484362582792527973651886 // Calculated
+	LumBol  776000
 	Teff    140000
 }
 
@@ -256,7 +228,7 @@ StarBarycenter "[MS70] 8/WR 38/TIC 466662221/** WLC 1AB/UCAC4 144-068741/[STP200
 	Class   "WC4"
 	/*Astrometry*/
 	Dist    9165.902841429880843263061411549 // Plx. 0.1091 mas
-	AbsMagn -0.1508762470582905 // Calculated from AppMagn and Parallax
+	AbsMagn -3.1508762470582905 // Calculated from AppMagn and Parallax (+3)
 }
 
 // 17.WR 1
@@ -292,11 +264,11 @@ Star "HD 89358/HIC 50368/TYC 8608-1016-1/AAVSO 1013-57/ALS 1481/HIP 50368/UBV M 
 	Class   "WN4-s"
 	/*Astrometry*/
 	Dist    3288.3919763235777704702400526143 // Plx. 0.3041 mas
-	//AbsMagn -1.7549178992793397 // Calculated from AppMagn and Parallax
+	AbsMagn -1.7549178992793397 // Calculated from AppMagn and Parallax
 	/*Details*/
 	MassSol 38
 	Radius  2089524.0872565126046538352966309 // Calculated by Stefan-Boltzmann law
-	Luminosity 	1288000
+	LumBol 	1288000
 	Teff    112200
 }
 
@@ -313,11 +285,11 @@ Star "HD 104994/Hen 3-749/SBC9 2392/V* DI Cru/ALS 2584/HIC 58954/SSTGLMC G297.55
 	Class   "WN3p-w"
 	/*Astrometry*/
 	Dist    2361.275088547815820543093270366 // Plx. 0.4235 mas
-	//AbsMagn -2.56
+	AbsMagn -2.56
 	/*Details*/
 	MassSol 14
 	RadSol  1.36
-	Luminosity 263000
+	LumBol  263000
 	Teff    112200
 }
 
@@ -334,11 +306,11 @@ Star "HD 56925/GEN# +1.00056925/MFJ SH 2-298 0/WR 7/ALS 299/HIC 35378/MR 7/Gaia 
 	Class   "WN4b"
 	/*Astrometry*/
 	Dist    3667 // Match nebula NGC 2359
-	//AbsMagn -3.8
+	AbsMagn -3.8
 	/*Details*/
 	MassSol 13
 	RadSol  1.26
-	Luminosity 229000
+	LumBol  229000
 	Teff    112200
 }
 
@@ -358,29 +330,16 @@ Star "HD 115473/Hen 3-889/PPM 770723/WRAY 15-1088/ALS 3020/HIC 64929/TD1 16746/W
 	Class   "WC5"
 	/*Astrometry*/
 	Dist    1994.4156362185879537295572397288 // Plx. 0.5014 mas
-	//AbsMagn -2.499078351889011 // Calculated from AppMagn and Parallax
+	AbsMagn -2.499078351889011 // Calculated from AppMagn and Parallax
 	/*Details*/
 	MassSol 8.5
 	Radius  632021.78736800828482955694198608 // Calculated by Stefan-Boltzmann law
-	Luminosity 117000
+	LumBol  117000
 	Teff    112000
 }
 
 // 23.AB7
 // https://en.wikipedia.org/wiki/AB7
-Remove "AB7"
-StarBarycenter "SMC AB 7/OGLE SMC-SC9 37124/SBC9 2395/XMMU J010335.9-720323/Gaia DR3 4690512760120403840/AzV 336a/[M2002] SMC 56815/OGLE SMC-SC10 37124/SSTISAGE1C J010335.88-720322.1/Gaia DR2 4690512760120403840"
-{
-	/*Observation data*/
-	RA      01 03 35.9241336168
-	Dec     -72 03 22.118601312
-	AppMagn 13.016
-	/*Characteristics*/
-	Class   "WN4"
-	/*Astrometry*/
-	Dist    64417
-	AbsMagn -6.1
-}
 
 // 24.WR 143
 // https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=WR+143&submit=SIMBAD+search
@@ -394,7 +353,7 @@ StarBarycenter "HD 195177/Hen 3-1901/NSVS 5737242/[KW97] 47-1/ALS 11371/JP11 324
 	Class   "WC4"
 	/*Astrometry*/
 	Dist    1895.0161076369149137767671025204 // Plx. 0.5277 mas
-	AbsMagn 0.07193547088562013 // Calculated from AppMagn and Parallax
+	AbsMagn -3.92806452911437987 // Calculated from AppMagn and Parallax (-4)
 }
 
 // 25.EZ CMa
@@ -425,11 +384,11 @@ Star "WR 36/GSC 08627-01968/LSWR 6/Gaia DR2 5338564015865196800/ALS 2112/LLNS 37
 	Class   "WN5-s"
 	/*Astrometry*/
 	Dist    7082.1529745042492917847025495751 // Plx. 0.1412 mas
-	//AbsMagn -1.3108265164210753 // Calculated from AppMagn and Parallax
+	AbsMagn -4.3108265164210753 // Calculated from AppMagn and Parallax (+3)
 	/*Details*/
 	MassSol 12
 	Radius  1305673.9937625229358673095703125 // Calculated by Stefan-Boltzmann law
-	Luminosity 200000
+	LumBol  200000
 	Teff    89100
 }
 
@@ -446,17 +405,17 @@ Star "HD 165763/HIP 88856/SSTGLMC G009.2390-00.6134/WR 111/ALS 4685/JP11 2933/TD
 	Class   "WC6"
 	/*Astrometry*/
 	Dist    1381.2154696132596685082872928177 // Plx. 0.724 mas
-	//AbsMagn -4.26
+	AbsMagn -4.26
 	/*Details*/
 	// Semi-empirical model
 	MassSol 13.0
 	RadSol  1.99
-	Luminosity 245000
+	LumBol  245000
 	Teff    89000
 	// Hydrodynamical model
 	/* MassSol 13.63
 	RadSol  0.905
-	Luminosity 282000
+	LumBol  282000
 	Teff    140000 */
 	Age     0.0042
 }
@@ -472,11 +431,11 @@ Star "WR 150/2MASS J21500557+5042247/[S66] 5/GSC 03616-01163/TIC 384095917/Gaia 
 	Class   "WC5"
 	/*Astrometry*/
 	Dist    8038.5852090032154340836012861736 // Plx. 0.1244 mas
-	//AbsMagn -5.26
+	AbsMagn -5.26
 	/*Details*/
 	MassSol 24.8
 	RadSol  3.59
-	Luminosity 724000
+	LumBol  724000
 	Teff    89000
 }
 
@@ -513,7 +472,7 @@ StarBarycenter "WR 19/LSWR 3/SSTGLMC G283.8896-01.1896/Gaia DR2 5258557987863082
 	Class   "WC5"
 	/*Astrometry*/
 	Dist    4631.7739694302918017600741083835 // Plx. 0.2159 mas
-	AbsMagn 0.5212632116711546 // Calculated from AppMagn and Parallax
+	AbsMagn -4.4787367883288454 // Calculated from AppMagn and Parallax (+5)
 }
 
 // 32.WR 44
@@ -528,11 +487,11 @@ Star "MR 39/WR 44/Hen 3-631/[M51] 65/ALS 2289/LLNS 4691/TIC 450709091/Gaia DR2 5
 	Class   "WN4-w"
 	/*Astrometry*/
 	Dist    11655.011655011655011655011655012 // plx. 0.0858 mas
-	//AbsMagn -2.5425635607564736 // Calculated from AppMagn and Parallax
+	AbsMagn -5.5425635607564736 // Calculated from AppMagn and Parallax (+3)
 	/*Details*/
 	MassSol 18
 	Radius  2374117.3773814230225980281829834 // Calculated by Stefan-Boltzmann law
-	Luminosity 417000
+	LumBol  417000
 	Teff    79400
 }
 
@@ -548,15 +507,15 @@ Star "MR 51/WR 58/Hen 3-931/TIC 380962974/[W74] 74/ALS 3162/LS 3162/UCAC4 122-10
 	Class   "WN5"
 	/*Astrometry*/
 	Dist    8156.6068515497553017944535073409 // Plx. 0.1226 mas
-	//AbsMagn -1.8475476490880176 // Calculated from AppMagn and Parallax
+	AbsMagn -5.8475476490880176 // Calculated from AppMagn and Parallax (+4)
 	/*Details*/
 	MassSol 8.4
 	Radius  1108561.6073482050560414791107178 // Calculated by Stefan-Boltzmann law
-	Luminosity 89100
+	LumBol  89100
 	Teff    79000
 }
 
-// 34. BAT99-37
+// 34.BAT99-37
 // https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=BAT99+37&submit=SIMBAD+search
 Star "Brey 30/MACHO 62.7239.29/TIC 373597411/Gaia DR2 4660528597002499456/BAT99 37/2MASS J05245434-6614111/UCAC4 119-007023/Gaia DR3 4660528597002499456/LMC AB 17/SSTISAGEMC J052454.33-661411.2/[H2013] LMCe 777"
 {
@@ -568,11 +527,11 @@ Star "Brey 30/MACHO 62.7239.29/TIC 373597411/Gaia DR2 4660528597002499456/BAT99 
 	Class   "WN3o"
 	/*Astrometry*/
 	Dist    50000
-	//AbsMagn -2.16685 // Calculated from AppMagn and Dist
+	AbsMagn -5.16685 // Calculated from AppMagn and Dist (+3)
 	/*Details*/
 	MassSol 19
 	Radius  2482988.7006179867312312126159668 // Calculated by Stefan-Boltzmann law
-	Luminosity 447000
+	LumBol  447000
 	Teff    79000
 }
 
@@ -588,11 +547,11 @@ Star "[W65] c18/WR 45/LLNS 5745/UCAC2 4317777/ALS 2423/LS 2423/UCAC4 139-064973/
 	Class   "WC6"
 	/*Astrometry*/
 	Dist    4492.3629829290206648697214734951 // Plx. 0.2226 mas
-	//AbsMagn 0.6586257999934464 // Calculated from AppMagn and Parallax
+	AbsMagn -4.3413742000065536 // Calculated from AppMagn and Parallax (+5)
 	/*Details*/
 	MassSol 14.1
 	Radius  1972175.3931409358046948909759521 // Calculated by Stefan-Boltzmann law
-	Luminosity 282000
+	LumBol  282000
 	Teff    79000
 }
 
@@ -628,11 +587,11 @@ Star "HD 192163/GSC 03151-01765/PPM 84423/V* V1770 Cyg/AG+38 1977/HBHA 3703-58/R
 	Class   "WN6(h)-s"
 	/*Astrometry*/
 	Dist    1533
-	//AbsMagn -5.63
+	AbsMagn -5.63
 	/*Details*/
 	MassSol 21
 	RadSol  5.10
-	Luminosity 600000
+	LumBol  600000
 	Teff    70800
 	RotationPeriod 888
 	Age     0.0047
@@ -650,11 +609,11 @@ Star "HD 147419/Hen 3-1186/TYC 8324-3694-1/Gaia DR2 5934037012236694272/ALS 3595
 	Class   "WN6-s"
 	/*Astrometry*/
 	Dist    3847.6337052712581762216237014236 // Plx. 0.2599 mas
-	//AbsMagn -2.4259686024949367 // Calculated from AppMagn and Parallax
+	AbsMagn -5.4259686024949367 // Calculated from AppMagn and Parallax (+3)
 	/*Details*/
 	MassSol 18
 	Radius  3630707.3667293721809983253479004 // Calculated by Stefan-Boltzmann law
-	Luminosity 389000
+	LumBol  389000
 	Teff    63100
 }
 
@@ -685,11 +644,11 @@ Star "HD 121194/LS 3173/UCAC2 4868897/Gaia DR2 5867123139651286528/ALS 3173/2MAS
 	Class   "WC8"
 	/*Astrometry*/
 	Dist    3575.2592062924562030747229174115 // Plx. 0.2797 mas
-	//AbsMagn -0.5665376681423648 // Calculated from AppMagn and Parallax
+	AbsMagn -5.5665376681423648 // Calculated from AppMagn and Parallax (+5)
 	/*Details*/
 	MassSol 23
 	Radius  4624141.6087076263502240180969238 // Calculated by Stefan-Boltzmann law
-	Luminosity 631000
+	LumBol  631000
 	Teff    63100
 }
 
@@ -705,28 +664,14 @@ Star "WR 149/HBHA 4703-52/[KW97] 55-46/Gaia DR3 2165537770680635904/EM* CGHA 39/
 	Class   "WN5-s"
 	/*Astrometry*/
 	Dist    6540.2223675604970568999345977763 // Plx. 0.1529 mas
-	//AbsMagn 0.6220374270616009 // Calculated from AppMagn and Parallax
+	AbsMagn -4.3779625729383991 // Calculated from AppMagn and Parallax (+5)
 	/*Details*/
 	MassSol 14
 	Radius  3019204.8866389980539679527282715 // Calculated by Stefan-Boltzmann law
-	Luminosity 269000
+	LumBol  269000
 	Teff    63100
 }
 
 // 42.WR 102f(in Quintuplet Cluster)
 // https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=WR+102f&submit=SIMBAD+search
-Star "WR 102f/qF 235N/[FMG99] 2/LHO 47/[DWC2011] 13"
-{
-	/*Observation data*/
-	RA      17 46 15.16
-	Dec     -28 49 39.4
-	AppMagnK 11.74
-	/*Characteristics*/
-	Class   "WC8"
-	/*Astrometry*/
-	Dist    7999.4500151644233483239077031612 // random
-	/*Details*/
-	Radius  2879304.932894959580153226852417 // Calculated by Stefan-Boltzmann law
-	Luminosity 200000
-	Teff    60000
-}
+

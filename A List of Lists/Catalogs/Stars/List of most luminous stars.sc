@@ -635,7 +635,7 @@ Star "LAMOST J004051.59+403303.0/LGGS J004051.59+403303.0/Gaia DR3 3691188352684
 	Class   "BI" // LBV
 	/*Astrometry*/
 	Dist    795000
-	AbsMagn -7.48930036100969 // Calculated
+	AbsMagn -7.512835643282351 // Calculated
 	/*Details*/
 	Radius  96057071.20516194 // Calculated
 	LumBol  1803010.9885733414 // MBol = -10.9
@@ -891,3 +891,139 @@ StarBarycenter "HD 197406/HIC 102088/NSV 13240/WR 148/ALS 11490/Hilt 1005/SBC9 1
 	Dist    8280
 	AbsMagn -7.22
 }
+
+// 111.CXOGC J174617.0-285131 (in Galactic Center)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=CXOGC+J174617.0-285131
+
+// 112.CXOGC J174725.3-282709 (in Galactic Center)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=CXOGC+J174725.3-282709
+
+// 113.Sk -68° 137 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Sk+-68+137
+
+// 114.WR 102i (in Quintuplet cluster)	
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=WR+102i
+
+// 115.HD 97950 A1b (WR 43a B in HD 97950 of NGC 3603)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Cl*+NGC+3603+BLW+A1
+
+// 116.Westerhout 49-3 (in Westerhout 49)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=WBB2016+3
+
+// 117.Brey 21 A (in NGC 1910 of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Brey+21
+
+// 118.HD 97950 A2 (in HD 97950 of NGC 3603)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Cl*+NGC+3603+BLW+A2
+
+// 119.HM 1-6 (in HM 1)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Cl+HM+1+6
+
+// 120.LGGS J013245.41+303858.3 (in Triangulum Galaxy)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=LGGS+J013245.41%2B303858.3
+Star "[HS80] B7/LGGS J013245.41+303858.3/[MBH96] 8/[NM2011] J013245.41+303858.3/Gaia DR3 303289051184125696/[MJ98] WR 5/Gaia DR2 303289051184125696"
+{
+	/*Observation data*/
+	RA      01 32 45.3729299808
+	Dec     +30 38 58.247750688
+	AppMagn 17.612
+	/*Characteristics*/
+	Class   "O I" // Ofpe
+	/*Astrometry*/
+	Dist    867900
+	AbsMagn -7.080348441838229 // Calculated
+	/*Details*/
+	Radius  24553675.78203149 // Calculated
+	LumBol  1499679.219195317 // MBol = -10.7
+	Teff    34000
+}
+
+// 121.NGC 346-W1 (in NGC 346 of SMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Cl*+NGC+346+W+1
+
+// 122.Sk -65° 47 (in NGC 1923 of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Sk+-65+47
+Star "SK -65 47/TYC 8886-1643-1/UCAC2 3033495/Gaia DR3 4660631710575777664/GEN# +8.58650047/SSTISAGEMC J052054.72-652717.8/[L72] LH 43-18/GSC 08886-01643/TIC 309760401/[WHE2010] J052054.7-652718/2MASS J05205472-6527178/UBV M 51139/Gaia DR2 4660631710575777664"
+{
+	/*Observation data*/
+	RA      05 20 54.7193542416
+	Dec     -65 27 17.880205176
+	AppMagn 12.466
+	/*Characteristics*/
+	Class   "O4If"
+	/*Astrometry*/
+	Dist    50100
+	AbsMagn -6.027112148510492 // Calculated
+	/*Details*/
+	Radius  12422773.23752578 // Calculated
+	LumBol  1499679.219195317 // MBol = -10.7
+	Teff    47800
+}
+
+// 123.Sk 80 (in NGC 346 of SMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Sk+80
+
+// 124.10584-4-1 (in Messier 81)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=%5BHSG2019%5D%2010584-4.1
+Star "[HSG2019] 10584-4.1/Gaia DR3 1070521942854229504"
+{
+	/*Observation data*/
+	RA      09 54 53.9913628056
+	Dec     +69 10 22.897661520
+	//AppMagnG 19.946220
+	/*Characteristics*/
+	Class   "B I" // sgB[e]
+	/*Astrometry*/
+	Dist    3682241.84
+	/*Details*/
+	Radius  73353607.01130155 // Calculated
+	LumBol  1499679.219195317 // MBol = -10.7
+	Teff    19671
+}
+
+// 125.HD 93129 Aa (in Trumpler 14 of Carina Nebula)
+// https://en.wikipedia.org/wiki/HD_93129
+
+// 126.R136a8 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=RMC136a8
+
+// 127.SK -67 150 (in LMC)
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=sk+-67+150
+Star "SK -67 150/TYC 8891-3247-1/2MASS J05303171-6700532/TIC 391745653/uvby98 858670150/GEN# +8.58670150/UBV M 51254/Gaia DR2 4660207986305238272/GSC 08891-03247/SSTISAGEMC J053031.69-670053.3/UCAC2 2365806/Gaia DR3 4660207986305238272"
+{
+	/*Observation data*/
+	RA      05 30 31.7098838016
+	Dec     -67 00 53.369450748
+	AppMagn 12.24
+	/*Characteristics*/
+	Class   "OB"
+	/*Astrometry*/
+	Dist    49970
+	AbsMagn -6.253546747212935 // Calculated
+	/*Details*/
+	Radius  16173434.01638946 // Calculated
+	LumBol  1472306.988634819 // MBol = -10.68
+	Teff    41700
+}
+
+// 128.[HCD2002] 107 (in LMC)
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%5Bhcd2002%5D+107
+Star "[HCD2002] 107/[FBM2009] 48"
+{
+	/*Observation data*/
+	RA      05 39 46.14
+	Dec     -69 38 52.9
+	AppMagn 13.8
+	/*Characteristics*/
+	Class   "O4-6Vz"
+	/*Astrometry*/
+	Dist    49972
+	AbsMagn -6.693633656516724 // Calculated (+2)
+	/*Details*/
+	Radius  16822306.15375457 // Calculated
+	LumBol  1445434.357586181 // MBol = -10.66
+	Teff    40700
+}
+
+// 129.VFTS 542 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=VFTS+542

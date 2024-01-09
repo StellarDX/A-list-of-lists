@@ -24,8 +24,9 @@ Star	"AB6 A"
 {
 	ParentBody     "AB6 AB"
 	Class          "WN3:h"
+	AbsMagn        -5.15
 	Teff           80000
-	Luminosity     741310.24130091751491339041492424 // LogL = 5.87
+	LumBol         741310.24130091751491339041492424 // LogL = 5.87
 	MassSol        18.061007703336442028767820885703 // Calculated from M*(Sin(i))^3 = 9.2
 	Radius         3118136.9826996130868792533874512 // Manually calculated, Value is 4.7 RSun in paper.
 	RotationPeriod 43.463147560581375889206729176512 // v*sin(i) < 100, Calculated assuming i is aligned with the rotation axis.
@@ -46,8 +47,9 @@ Star	"AB6 B"
 {
 	ParentBody     "AB6 AB"
 	Class          "O5.5V"
+	AbsMagn        -6.65
 	Teff           41500
-	Luminosity     446683.59215096311855625052431938 // LogL = 5.65
+	LumBol         446683.59215096311855625052431938 // LogL = 5.65
 	MassKg         121213842298709879481911071473664 // Calculated from log(g) = 4 cm/s^2, Value 41 Adopted to orbit(M*(Sin(i))^3 = 20.4)
 	Radius         8994540.2753797229379415512084961 // Manually calculated.
 	RotationPeriod 59.701557356574077232035052039268 // v*sin(i) = 210, Calculated assuming i is aligned with the rotation axis.
@@ -71,7 +73,7 @@ Star	"AB6 C"
 	ParentBody     "SMC AB 6"
 	Class          "O5.5I(f)"
 	Teff           37000
-	Luminosity     562341.32519034908039495103977648 // LogL = 5.75
+	LumBol         562341.32519034908039495103977648 // LogL = 5.75
 	MassKg         96147436284407844672691670876160  // Calculated from log(g) = 3.6 cm/s^2
 	Radius         12696140.390600446611642837524414 // Manually calculated, Value is 47 RSun in paper.
 
@@ -100,7 +102,7 @@ Star	"AB6 Da"
 	ParentBody     "AB6 D"
 	Class          "O7.5V"
 	Teff           33000
-	Luminosity     75857.757502918376875376674666203 // LogL = 4.88
+	LumBol         75857.757502918376875376674666203 // LogL = 4.88
 	MassKg         51485963595360730978992236003328  // Calculated from log(g) = 4 cm/s^2
 	Radius         5862019.8466442953795194625854492 // Manually calculated
 
@@ -121,6 +123,53 @@ Star	"AB6 Db"
 	{
 		PeriodDays      5 // guess
 		ArgOfPericenter 180
+		MeanAnomaly     0
+	}
+}
+
+// AB7
+// binary star in SMC, complete data
+Remove "AB7 A"{ParentBody "AB7"}
+Remove "AB7 B"{ParentBody "AB7"}
+Star	"AB7 A"
+{
+	ParentBody     "SMC AB 7"
+	Class          "WN4"
+	AbsMagn        -4.4
+	MassSol        23
+	RadSol         3.4
+	LumBol         1259000
+	Teff           105000
+
+	Orbit
+	{
+		PeriodDays      19.560
+		Eccentricity    0.07
+		Inclination     68
+		Epoch           2451549.2
+		ArgOfPericenter 101
+		MeanAnomaly     0
+	}
+}
+
+Star	"AB7 B"
+{
+	ParentBody     "SMC AB 7"
+	Class          "O6I(f)"
+	AbsMagn        -5.7
+	MassSol        44
+	RadSol         14
+	LumBol         316000
+	Teff           36000
+	Age            0.0034
+
+	Orbit
+	{
+		PeriodDays      19.560
+		Eccentricity    0.07
+		Inclination     68
+		Epoch           2451549.2
+		ArgOfPericenter 281
 		MeanAnomaly     0
 	}
 }

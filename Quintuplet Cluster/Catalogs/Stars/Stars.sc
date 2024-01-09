@@ -147,12 +147,13 @@ Star "WR 102f/qF 235N/[FMG99] 2/LHO 47/[DWC2011] 13"
 	/*Observation data*/
 	RA      17 46 15.16
 	Dec     -28 49 39.4
+	//AppMagnK 11.74
 	/*Characteristics*/
 	Class   "WC8"
 	/*Astrometry*/
-	Dist    8000.5601367945046149543486535549
+	Dist    7999.4500151644233483239077031612 // random
 	/*Details*/
-	Radius  2879304.932894959580153226852417 // Calculated
+	Radius  2879304.932894959580153226852417 // Calculated by Stefan-Boltzmann law
 	LumBol  200000
 	Teff    60000
 }
@@ -300,3 +301,4 @@ StarBarycenter "[NHS93] 22/2MASS J17460562-2851319/V* V4998 Sgr/[MKN2009] 1066/S
 	LumBol  3981056.796455018 // MBol = -11.76
 	Teff    12000
 }
+

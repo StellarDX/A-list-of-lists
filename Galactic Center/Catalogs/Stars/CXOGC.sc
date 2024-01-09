@@ -96,3 +96,34 @@ StarBarycenter "Edd-1/CXOU J174536.1-285638/SSTGLMC G359.9912-00.0007/2XMM J1745
 	LumBol  1737794.3206999332 // MBol = -10.86
 	Teff    30000
 }
+
+Star "[WDL2006] 221/2MASS J17461709-2851315/CXOGCS J174617.07-285131.5/SSTGLMC G000.1418-00.0839/[DWC2011] 75/CXOGC J174617.0-285131/CXOGCS J174617.1-285131/TIC 322752788"
+{
+	/*Observation data*/
+	RA      17 46 17.10
+	Dec     -28 51 31.5
+	//AppMagnK 10.13
+	/*Characteristics*/
+	Class   "O6Ia+" // O6If+
+	/*Astrometry*/
+	Dist    8605.412087938721 // random
+	/*Details*/
+	Radius  18028283.0637321 // Calculated
+	LumBol  1548810.8186073082 // MBol = -10.735
+	Teff    40000
+}
+
+Star "CXOGC J174725.3-282709"
+{
+	/*Observation data*/
+	RA      17 47 25.3
+	Dec     -28 27 09
+	/*Characteristics*/
+	Class   "O4I" // O4-6I
+	/*Astrometry*/
+	Dist    8573.222709413887 // random
+	/*Details*/
+	Radius  32050281.00219039 // Calculated
+	LumBol  1548810.8186073082 // MBol = -10.735
+	Teff    30000
+}

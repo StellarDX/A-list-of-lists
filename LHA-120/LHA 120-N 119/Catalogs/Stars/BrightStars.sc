@@ -21,11 +21,11 @@ Star "V* S Dor/HD 35343/IRAS 05182-6918/TIC 179305185/[BE74] 244/** FGS 3/JP11 1
 	Class   "A5Iaeq" // B8/9eq – F0/5:Iae
 	/*Astrometry*/
 	Dist    50000
-	//AbsMagn -10 // –7.6(1965)
+	AbsMagn -10 // –7.6(1965)
 	/*Details*/
 	MassSol 24
 	RadSol  380
-	Luminosity 910000
+	LumBol  910000
 	Teff    7529 // (6007-7750?, since 2020) / 7750(2013)
 }
 
@@ -46,10 +46,10 @@ Star "HD 269321/JP11 3740/TIC 179208877/[H2013] LMCe 575/** FGS 2/2MASS J0517560
 	AppMagnK 9.822
 	/*Astrometry*/
 	Dist    50000
-	//AbsMagn -8.2 // -8.5
+	AbsMagn -8.2 // -8.5
 	/*Details*/
 	RadSol  135
-	Luminosity 350000
+	LumBol  350000
 	Teff    13500
 }
 
@@ -89,9 +89,27 @@ Star "[MNM2014] LMC195-1/IRSF J05181033-6913025"
 	Class   "WO2"
 	/*Astrometry*/
 	Dist    49950
-	//AbsMagn -4.1
+	AbsMagn -4.1
 	/*Details*/
 	RadSol  1.4
-	Luminosity 257000
+	LumBol  257000
 	Teff    200000 // 111000
+}
+
+Star "[H2013] LMCe 584/[L72] LH 41-1042"
+{
+	/*Observation data*/
+	RA      05 18 11.01
+	Dec     -69 13 11.3
+	AppMagn 13.95
+	/*Characteristics*/
+	Class   "WO4"
+	/*Astrometry*/
+	Dist    50000
+	AbsMagn -4.545 // Calculated
+	/*Details*/
+	MassSol 8.4
+	RadSol  0.62
+	LumBol  182000
+	Teff    150000
 }
