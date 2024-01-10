@@ -394,3 +394,54 @@ Star	"WR 148 B"
 		MeanAnomaly     0
 	}
 }
+
+// SK -69 194
+Star	"SK -69 194 A"
+{
+	ParentBody     "SK -69 194"
+	Class          "B0I"
+	AbsMagn        -6.36211214851049 // Calculated
+	Radius         12783486.68586932 // Calculated
+	LumBol         1247378.842802206 // Mbol = -10.51
+	Teff           45000
+
+	BinaryOrbit
+	{
+		RefPlane        "Equator"
+		Period          0.0138699138
+		Eccentricity    0
+		Inclination     2.24180108
+		AscendingNode   0
+		ArgOfPericenter -77.4391325
+		MeanAnomaly     -145.962603
+	}
+}
+
+Star	"SK -69 194 B"
+{
+	ParentBody     "SK -69 194"
+	Class          "WN"
+}
+
+// HD 269215 (B is possibly a optical companion)
+Star	"HD 269215 A"
+{
+	ParentBody     "HD 269215"
+	Class          "BI:"
+	AbsMagn        -6.655546747212936 // Calculated
+	Radius         19645410.17909021 // Calculated
+	LumBol         1247378.842802206 // Mbol = -10.5
+	Teff           36300
+
+	BinaryOrbit
+	{
+		Separation      53467.9 // 1.07 asec
+		PositionAngle   240
+	}
+}
+
+Star	"HD 269215 B"
+{
+	ParentBody     "HD 269215"
+	Class          "B?"
+}

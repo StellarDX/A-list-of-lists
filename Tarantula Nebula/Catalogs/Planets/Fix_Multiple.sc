@@ -1,3 +1,9 @@
+// Multiple star systems for 30 Dor
+// Reference: 
+// Joachim M Bestenlehner, Paul A Crowther, Patrick S Broos, Andrew M T Pollock, Leisa K Townsley
+// "Melnick 33Na: a very massive colliding-wind binary system in 30 Doradus"
+// https://academic.oup.com/mnras/article/510/4/6133/6448998
+
 // VFTS 1022
 Star	"VFTS 1022 A"
 {
@@ -214,10 +220,6 @@ Star	"RMC 140a2"
 }
 
 // VFTS 542
-// Reference: 
-// Joachim M Bestenlehner, Paul A Crowther, Patrick S Broos, Andrew M T Pollock, Leisa K Townsley
-// "Melnick 33Na: a very massive colliding-wind binary system in 30 Doradus"
-// https://academic.oup.com/mnras/article/510/4/6133/6448998
 Star	"Melnick 30 A"
 {
 	ParentBody      "VFTS 542"
@@ -255,10 +257,6 @@ Star	"Melnick 30 B"
 }
 
 // Melnick 33Na
-// Reference: 
-// Joachim M Bestenlehner, Paul A Crowther, Patrick S Broos, Andrew M T Pollock, Leisa K Townsley
-// "Melnick 33Na: a very massive colliding-wind binary system in 30 Doradus"
-// https://academic.oup.com/mnras/article/510/4/6133/6448998
 Star	"Melnick 33Na A"
 {
 	ParentBody      "Cl* NGC 2070 SMB 33"
@@ -327,4 +325,40 @@ Star	"VFTS 427 A"
 	Teff       39800
 	Temperature 41600
 	Oblateness 0
+}
+
+// RMC 139
+Star	"RMC 139 A"
+{
+	ParentBody      "RMC 139"
+	Class           "O6.5Iafc"
+	AbsMagn         -6.553952206746429 // Calculated
+	MassSol         89.7 // Spec, Mevol = 81.6
+	Radius          22496580.85930955 // Calculated
+	LumBol          1258920.6971291197 // MBol = -10.51
+	Teff            34000
+
+	Orbit
+	{
+		PeriodDays      153.94
+		Eccentricity    0.38
+		Inclination     71
+		ArgOfPericenter 0
+		MeanAnomaly     0
+	}
+}
+
+Star	"RMC 139 B"
+{
+	ParentBody      "RMC 139"
+	Class           "O6Iaf"
+
+	Orbit
+	{
+		PeriodDays      153.94
+		Eccentricity    0.38
+		Inclination     71
+		ArgOfPericenter 180
+		MeanAnomaly     0
+	}
 }
