@@ -723,7 +723,7 @@ Star "2MASS J04564681-6624467/CXOU J045646.7-662446/IRSF J04564681-6624467/SSTIS
 	/*Characteristics*/
 	Class   "O5.5V((f*))"
 	/*Astrometry*/
-	Dist    49970
+	Dist    50100
 	AbsMagn -6.027546747212936 // Calculated
 	/*Details*/
 	Radius  18763256.12410012
@@ -1357,4 +1357,94 @@ StarBarycenter "HD 269215/2MASS J05133787-6918012/TYC 9162-106-1/WISEA J051337.9
 	/*Astrometry*/
 	Dist    49970
 	AbsMagn -6.655546747212936 // Calculated
+}
+
+// 171.Trumpler 27-27 (in Trumpler 27)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Cl+Trumpler+27+27
+
+// 172.VFTS 1028 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=VFTS+1028
+
+// 173.LH 10-3601 (in NGC 1763 of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=L72+LH+10-3061
+Star "[L72] LH 10-3061/2MASS J04564246-6625180/DCMC J045642.50-662518.4/SSTISAGEMC J045642.43-662517.9/[HKN2006] OB 278/BRRG 56/IRSF J04564251-6625181/TIC 30275857/CXOU J045642.5-662518/PGMW 3061/[ELS2006] N11 031/Gaia DR3 4662155839859944064"
+{
+	/*Observation data*/
+	RA      04 56 42.5074945536
+	Dec     -66 25 18.217550208
+	AppMagn 13.491
+	/*Characteristics*/
+	Class   "N2III(f*)" // ON2III(f*)
+	/*Astrometry*/
+	Dist    50105
+	AbsMagn -7.00840533233621 // Calculated (+2)
+	/*Details*/
+	Radius  8401347.954020832 // Calculated
+	LumBol  1202259.9321472482 // MBol = -10.46
+	Teff    55000
+}
+
+// 174.AB1 (in DEM S10 of SMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=SMC+AB+1
+StarBarycenter "SMC AB 1/GSC 09141-05631/2MASS J00434231-7328552/SSTISAGE1C J004342.27-732855.2/[MA93] 57/AzV 2a/OGLE SMC-SC3 63387/TIC 180212727/Gaia DR2 4685840248028024960/MACHO 213.15560.24/[M2002] SMC 3304/Gaia DR3 4685840248028024960"
+{
+	/*Observation data*/
+	RA      00 43 42.3082596960
+	Dec     -73 28 55.259220360
+	AppMagn 15.24
+	/*Characteristics*/
+	Class   "WN3+O4:"
+	/*Astrometry*/
+	Dist    64350
+	AbsMagn -6.8027427562020275 // Calculated (+3)
+}
+
+// 175.BI 253 (Runaway star from Tarantula Nebula of LMC)
+// https://en.wikipedia.org/wiki/BI_253
+
+// 176.LGGS J013248.26+303950.4 (in Triangulum Galaxy)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=LGGS+J013248.26%2B303950.4
+Star "LGGS J013248.26+303950.4"
+{
+	/*Observation data*/
+	RA      01 32 48.26
+	Dec     +30 39 50.4
+	AppMagn 17.25
+	/*Characteristics*/
+	Class   "B I" // LBV:
+	/*Astrometry*/
+	Dist    867600
+	AbsMagn -7.441597716710781 // Calculated
+	/*Details*/
+	Radius  47491805.33212107 // Calculated
+	LumBol  1174893.1549580991 // MBol = -10.435
+	Teff    23000
+}
+
+// 177.Mercer 30-8 (WR 46–6 in Mercer 30 of Dragonfish Nebula)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=DNB2016+Mc30-8
+
+// 178.NGC 346-W3 (in NGC 346 of SMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=Cl*+NGC+346+W+3
+
+// 179.WR 102d (in Quintuplet cluster)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=WR+102d
+
+// 180.WR 126 (in Vulpecula OB2)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=WR+126
+Star "WR 126/2MASS J19395620+2634424/[S66] 2/GSC 02146-02748/TIC 215367717/Gaia DR2 2022054350800575488/HBHA 2702-05/[KW97] 38-41/Gaia DR3 2022054350800575488"
+{
+	/*Observation data*/
+	RA      19 39 56.1963949728
+	Dec     +26 34 42.481553196
+	AppMagn 13.29
+	/*Characteristics*/
+	Class   "WC5"
+	/*Astrometry*/
+	Dist    18552.875695732838589981447124304 // Plx = 0.0539 mas
+	AbsMagn -6.052056174066305 // Calculated (+3)
+	/*Details*/
+	Radius  6329847.573870507 // Calculated
+	LumBol  1174893.1549580991 // MBol = -10.435
+	Teff    63000
 }

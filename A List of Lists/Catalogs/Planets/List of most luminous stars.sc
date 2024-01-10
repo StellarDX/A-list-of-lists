@@ -445,3 +445,31 @@ Star	"HD 269215 B"
 	ParentBody     "HD 269215"
 	Class          "B?"
 }
+
+// AB1
+Star	"AB1 A"
+{
+	ParentBody     "SMC AB 1"
+	Class          "WN3"
+	AbsMagn        -6.8027427562020275 // Calculated (+3)
+	Radius         4025503.12781478 // Calculated
+	LumBol         1174893.1549580991 // MBol = -10.435
+	Teff           79000
+
+	BinaryOrbit
+	{
+		RefPlane        "Equator"
+		Period          0.00790460697
+		Eccentricity    0
+		Inclination     -1.76480961
+		AscendingNode   0
+		ArgOfPericenter -173.769325
+		MeanAnomaly     51.2159693
+	}
+}
+
+Star	"AB1 B"
+{
+	ParentBody     "SMC AB 1"
+	Class          "O4:"
+}

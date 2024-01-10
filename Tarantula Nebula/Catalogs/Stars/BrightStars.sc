@@ -558,3 +558,39 @@ Star "Cl* NGC 2070 MH 980/Cl* NGC 2070 SMB 136/[CHH92] 7029/Cl* NGC 2070 MH 983/
 	LumBol  1258920.6971291197 // Mbol = -10.51
 	Teff    42700
 }
+
+Star "Cl* NGC 2070 MH 749/Dor IRS 104/[CCE2018] 1423/[P93] 1036/Cl* NGC 2070 MEL 35S/IRSF J05384327-6906166/[CHH92] 6010/Cl* NGC 2070 SMB 37/VFTS 1028/[HSH95] 23"
+{
+	/*Observation data*/
+	RA      05 38 43.2715
+	Dec     -69 06 16.529
+	AppMagn 13.82
+	/*Characteristics*/
+	Class   "O3.5-4.5"
+	/*Astrometry*/
+	Dist    49968.35603349464 // random
+	AbsMagn -6.673475306615934 // Calculated (+2)
+	/*Details*/
+	Radius  11490847.72630599 // Calculated
+	LumBol  1230264.1634662135 // Mbol = -10.485
+	Teff    47300
+}
+
+Star "BI 253/UCAC2 1803215/IRSF J05373446-6901102/TIC 277300368/[M2002] LMC 168644/2MASS J05373446-6901102/UBV M 44134/Gaia DR2 4657698454092124416/GEN# +6.20052253/MCPS 084.39354-69.01944/VFTS 72/Gaia DR3 4657698454092124416"
+{
+	/*Observation data*/
+	RA      05 37 34.4595697440 // Runaway star
+	Dec     -69 01 10.178659452
+	AppMagn 13.669
+	/*Characteristics*/
+	Class   "O2V-III(n)((f*))"
+	/*Astrometry*/
+	Dist    49976.46174322298 // random
+	AbsMagn -5.7
+	/*Details*/
+	MassSol 97.6
+	RadSol  13.9
+	LumBol  1174893.1549580991 // Mbol = -10.435
+	Teff    54000
+	Age     0.0004
+}
