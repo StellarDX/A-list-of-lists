@@ -142,3 +142,34 @@ Star "CXOGC J174502.8-290859/2MASS J17450286-2908595/TIC 204255655/[DWC2011] 50"
 	LumBol  1318251.801696043 // MBol = -10.56
 	Teff    33000
 }
+
+Star "CXOGC J174516.7-285824/[DWC2011] 134/[FPF2021] 13 10 1"
+{
+	/*Observation data*/
+	RA      17 45 16.74
+	Dec     -28 58 25.1
+	//AppMagnK 11.09
+	/*Characteristics*/
+	Class   "WN7-8h"
+	/*Astrometry*/
+	Dist    8662.193823723926 // random
+	/*Details*/
+	Radius  20273944.92145476 // Calculated
+	LumBol  1148149.321671258 // MBol = -10.41
+	Teff    35000
+}
+
+Star "CXOGC J174532.7-285126"
+{
+	/*Observation data*/
+	RA      17 45 32.7
+	Dec     -28 51 26
+	/*Characteristics*/
+	Class   "O4I" // O4-6I
+	/*Astrometry*/
+	Dist    8573.093451497383 // random
+	/*Details*/
+	Radius  14823623.24031899 // Calculated
+	LumBol  1047124.6265633223 // MBol = -10.31
+	Teff    40000
+}

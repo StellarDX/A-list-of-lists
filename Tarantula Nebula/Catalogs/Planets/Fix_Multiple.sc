@@ -362,3 +362,121 @@ Star	"RMC 139 B"
 		MeanAnomaly     0
 	}
 }
+
+// VFTS 512
+Star	"VFTS 512 A"
+{
+	ParentBody     "VFTS 512"
+	Class          "O2V-III((f*))"
+	AbsMagn        -6.1
+	MassSol        93
+	Radius         10848080.08676776 // Calculated
+	LumBol         1096478.1961431850131437136061411 // log(L) = 6.04
+	Teff           47300
+	Temperature    47700
+
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          0.0122987598
+		Eccentricity    0.238310984
+		Inclination     -1.28989196
+		AscendingNode   0
+		ArgOfPericenter 43.9499944
+		MeanAnomaly     9.30987457
+	}
+}
+
+Star	"VFTS 512 B"
+{
+	ParentBody     "VFTS 512"
+	Class          "O?"
+}
+
+// VFTS 151
+Star	"VFTS 151 A"
+{
+	ParentBody     "VFTS 151"
+	Class          "O6.5II(f)p"
+	AbsMagn        -6.36719869077446 // Calculated (+2)
+	Radius         13472538.98842904 // Calculated
+	LumBol         1071515.2924068486 // MBol = -10.335
+	Teff           42200
+
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          0.0570735815
+		Eccentricity    0.173487167
+		Inclination     2.45230789
+		AscendingNode   0
+		ArgOfPericenter 81.0715221
+		MeanAnomaly     60.3056344
+	}
+}
+
+Star	"VFTS 151 B"
+{
+	ParentBody     "VFTS 151"
+	Class          "O?"
+}
+
+// VFTS 603
+Star	"VFTS 603 A"
+{
+	ParentBody     "VFTS 603"
+	Class          "O4III(fc)"
+	AbsMagn        -6.3
+	MassSol        85
+	Radius         12718920.77936039 // Calculated
+	LumBol         954992.58602143594972395937950148 // log(L) = 5.98
+	Teff           42200
+	Temperature    42300
+
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          0.0260535654
+		Eccentricity    0.0410109713
+		Inclination     1.29925132
+		AscendingNode   0
+		ArgOfPericenter 75.8481017
+		MeanAnomaly     37.3148561
+	}
+}
+
+Star	"VFTS 603 B"
+{
+	ParentBody     "VFTS 603"
+	Class          "O?"
+}
+
+// RMC 133
+Star	"RMC 133 A"
+{
+	ParentBody     "RMC 133"
+	Class          "O8II-III((f))"
+	AbsMagn        -6.8
+	MassSol        90
+	Radius         16776427.11359092 // Calculated
+	LumBol         1047128.5480508995334645020315281 // log(L) = 6.02
+	Teff           37600
+	Temperature    37700
+
+	BinaryOrbit
+	{
+		RefPlane        "Equator"
+		Period          10.2971215
+		Eccentricity    0.32301902
+		Inclination     -0.308959961
+		AscendingNode   0
+		ArgOfPericenter -51.8173256
+		MeanAnomaly     135.850998
+	}
+}
+
+Star	"RMC 133 B"
+{
+	ParentBody     "RMC 133"
+	Class          "O?"
+}

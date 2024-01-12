@@ -310,6 +310,19 @@ Star	"Hen 3-519 A"
 	Oblateness     0
 }
 
+// WR 130
+Star	"WR 130 A"
+{
+	ParentBody     "WR 130"
+	Class          "WN8(h)"
+	AbsMagn        -7.22
+	MassSol        47
+	RadSol         22.1
+	LumBol         1778272.7503975346 // MBol = -10.885
+	Teff           44700
+	Oblateness     0
+}
+
 // WR 140
 Remove "V1687 Cyg A" {ParentBody "V1687 Cyg"}
 Remove "V1687 Cyg B" {ParentBody "V1687 Cyg"}
@@ -472,4 +485,91 @@ Star	"AB1 B"
 {
 	ParentBody     "SMC AB 1"
 	Class          "O4:"
+}
+
+// WR 158
+// Reference:
+// W.-R. Hamann, G. Grafener, A. Liermann, R. Hainich, A. A. C. Sander, T. Shenar,
+// V. Ramachandran, H. Todt, and L. M. Oskinova
+// "The Galactic WN stars revisited Impact of Gaia distances on fundamental stellar parameters"
+// https://www.aanda.org/articles/aa/full_html/2019/05/aa34850-18/aa34850-18.html
+Star	"WR 158 A"
+{
+	ParentBody     "WR 158"
+	Class          "WN7"
+	AbsMagn        -6.49
+	MassSol        35
+	RadSol         17.85
+	LumBol         1148153.6214968827515462246116628 // log(L) = 6.06
+	Teff           44700
+
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          0.0243051207
+		Eccentricity    0
+		Inclination     2.02790421
+		AscendingNode   0
+		ArgOfPericenter 51.1559529
+		MeanAnomaly     51.5534979
+	}
+}
+
+Star	"WR 158 B"
+{
+	ParentBody     "WR 158"
+	Class          "B I" // Be?
+	MassSol        35
+}
+
+// M33C-15235
+Star	"LGGS J013351.45+304057.0 A"
+{
+	ParentBody     "LGGS J013351.45+304057.0"
+	Class          "WN/Of"
+	AbsMagn        -6.9495506821525375 // Calculated
+	Radius         28994034.28437629 // Calculated
+	LumBol         1137623.0254188431 // MBol = -10.4
+	Teff           29200
+	Oblateness     0
+}
+
+// BAT99-64
+Star	"BAT99 64 A"
+{
+	ParentBody     "BAT99 64"
+	Class          "WN4o"
+	AbsMagn        -6.420199075209709 // Calculated (+2)
+	Radius         4870321.754896907 // Calculated
+	LumBol         1122014.2523523173 // MBol = -10.385
+	Teff           71000
+
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          0.0173610955
+		Eccentricity    0
+		Inclination     1.71597391
+		AscendingNode   0
+		ArgOfPericenter -57.7679212
+		MeanAnomaly     120.030482
+	}
+}
+
+Star	"BAT99 64 B"
+{
+	ParentBody     "BAT99 64"
+	Class          "O9:"
+}
+
+// M33C-10788
+Star	"[HS80] B517 A"
+{
+	ParentBody     "[HS80] B517"
+	Class          "WN9"
+	AbsMagn        -6.7262764089202385 // Calculated
+	Radius         23055491.99717424 // Calculated
+	LumBol         1037524.5302828484 // MBol = -10.3
+	Teff           32000
+	Oblateness     0
 }

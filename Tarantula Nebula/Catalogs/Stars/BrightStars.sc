@@ -594,3 +594,127 @@ Star "BI 253/UCAC2 1803215/IRSF J05373446-6901102/TIC 277300368/[M2002] LMC 1686
 	Teff    54000
 	Age     0.0004
 }
+
+Star "Brey 76/SSTISAGEMC J053841.78-690614.0/[HSH95] 44/BAT99 104/[CHH92] 6018/[P93] 897/Cl* NGC 2070 MEL A/[H2013] LMCe 1394/[RBW98] IRSW-190"
+{
+	/*Observation data*/
+	RA      05 38 41.8800 
+	Dec     -69 06 13.680
+	AppMagn 12.5
+	/*Characteristics*/
+	Class   "O2If*/WN5"
+	/*Astrometry*/
+	Dist    49962.86024234846 // Random
+	AbsMagn -6.052056174066305 // Calculated (+2)
+	/*Details*/
+	Radius  6257390.407856408 // Calculated
+	LumBol  1148149.321671258 // MBol = -10.41
+	Teff    63000
+}
+
+Star "CXOU J053842.7-690601/Cl* NGC 2070 MH 602/[HSH95] 47/[TBF2006] 96"
+{
+	/*Observation data*/
+	RA      05 38 42.720
+	Dec     -69 06 01.99
+	AppMagn 14.63
+	/*Characteristics*/
+	Class   "O2V((f*))"
+	/*Astrometry*/
+	Dist    49953.79088483562 // Random
+	AbsMagn -5.8628422573940586 // Calculated (+2)
+	/*Details*/
+	MassSol 68 // Spec, 72 -> 68 from evolution model (308 from spectral model)
+	Age     0.00174
+	// Model of the optical+UV fits
+	// RadSol  17.3
+	// LumBol  954992.58602143594972395937950148 // log(L) = 5.98
+	// Teff    43500
+	// Model of the optical-only fits
+	RadSol  16.7
+	LumBol  1148153.6214968827515462246116628 // log(L) = 6.06
+	Teff    46500
+}
+
+Star "Cl* NGC 2070 MEL 26/Dor IRS 111/VFTS 562/[CHH92] 7006/Cl* NGC 2070 SMB 32/IRSF J05384441-6905362/[CCE2018] 2819/[P93] 1150"
+{
+	/*Observation data*/
+	RA      05 38 44.4177
+	Dec     -69 05 36.154
+	AppMagn 13.66
+	/*Characteristics*/
+	Class   "O4III(f)"
+	/*Astrometry*/
+	Dist    49991.59148784263 // Random
+	AbsMagn -6.834484813927599 // Calculated (+2)
+	/*Details*/
+	Radius  13786354.73508867 // Calculated
+	LumBol  1122014.2523523173 // MBol = -10.385
+	Teff    42200
+}
+
+StarBarycenter "Cl* NGC 2070 SMB 68/IRSF J05384174-6906250/[CCE2018] 1199/[TBF2006] 53/CXOU J053841.6-690624/VFTS 512/[P93] 885"
+{
+	/*Observation data*/
+	RA      05 38 41.750
+	Dec     -69 06 24.94
+	AppMagn 14.28
+	/*Characteristics*/
+	Class   "O2V-III((f*))"
+	/*Astrometry*/
+	Dist    49974.70503088618 // random
+	AbsMagn -6.1
+}
+
+Star "HD 38029B/** HEI 45A/IRSF J05365519-6911376/SK -69 224/WDS J05370-6912A/Brey 67b/WS 40 B/SSTISAGEMC J053655.17-691137.4/Gaia DR3 4657667216778066560/BAT99 85b/VFTS 3"
+{
+	/*Observation data*/
+	RA      05 36 55.1865323232
+	Dec     -69 11 37.582606608
+	//AppMagnG 11.842647
+	/*Characteristics*/
+	Class   "B1Ia+"
+	/*Astrometry*/
+	Dist    49968.51248379998 // Random
+	/*Details*/
+	Radius  54404617.53322896 // Calculated
+	LumBol  1071515.2924068486 // MBol = -10.335
+	Teff    21000
+}
+
+StarBarycenter "VFTS 151"
+{
+	/*Observation data*/
+	RA      05 37 46.520
+	Dec     -69 09 08.79
+	/*Characteristics*/
+	Class   "O6.5II(f)p"
+	/*Astrometry*/
+	Dist    50054.10936157484 // random
+}
+
+StarBarycenter "Cl* NGC 2070 MEL 10/2MASS J05384654-6904279/[P93] 1341/Dor IRS 121/TIC 404768643/Gaia DR2 4657685672267222144/IRSF J05384653-6904280/VFTS 603/Gaia DR3 4657685672267222144"
+{
+	/*Observation data*/
+	RA      05 38 46.5347000352
+	Dec     -69 04 28.044565608
+	AppMagn 13.99
+	/*Characteristics*/
+	Class   "O4III(fc)"
+	/*Astrometry*/
+	Dist    49983.0277799522 // random
+	AbsMagn -6.3
+}
+
+StarBarycenter "RMC 133/2MASS J05382371-6905036/TIC 277300147/Gaia DR2 4657680479615199616/Dor IRS 21/SHV 0538441-690639/VFTS 333/Gaia DR3 4657680479615199616/IRSF J05382371-6905036/SSTISAGEMC J053823.70-690503.4/[P93] 42"
+{
+	/*Observation data*/
+	RA      05 38 23.7090122184
+	Dec     -69 05 03.562237032
+	AppMagn 12.49
+	/*Characteristics*/
+	Class   "O8II-III((f))"
+	/*Astrometry*/
+	Dist    49986.10330330587 // random
+	AbsMagn -6.8
+}
