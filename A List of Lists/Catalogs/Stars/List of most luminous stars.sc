@@ -1448,3 +1448,12 @@ Star "WR 126/2MASS J19395620+2634424/[S66] 2/GSC 02146-02748/TIC 215367717/Gaia 
 	LumBol  1174893.1549580991 // MBol = -10.435
 	Teff    63000
 }
+
+// 181.WR 20a A (in Westerlund 2)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=WR+20a
+
+// 182.WR 20a B (in Westerlund 2)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=WR+20a
+
+// 183.GCIRS 16SW A (WR 101k A in Galactic Center)
+// https://en.wikipedia.org/wiki/GCIRS_16SW
