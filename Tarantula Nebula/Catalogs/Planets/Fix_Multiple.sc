@@ -463,7 +463,7 @@ Star	"RMC 133 A"
 	Teff           37600
 	Temperature    37700
 
-	BinaryOrbit
+	BinaryOrbit // Generated
 	{
 		RefPlane        "Equator"
 		Period          10.2971215
@@ -478,5 +478,124 @@ Star	"RMC 133 A"
 Star	"RMC 133 B"
 {
 	ParentBody     "RMC 133"
+	Class          "O?"
+}
+
+// VFTS 267
+Star	"VFTS 267 A"
+{
+	ParentBody     "VFTS 267"
+	Class          "O3III-I(n)f*"
+	AbsMagn        -6.2
+	MassSol        89
+	Radius         11734379.1863319 // Calculated
+	LumBol         1023292.9922807541309662751748199 // log(L) = 6.01
+	Teff           44700
+	Temperature    44900
+
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          0.124392896
+		Eccentricity    0.738863677
+		Inclination     0.210999489
+		AscendingNode   0
+		ArgOfPericenter 141.843688
+		MeanAnomaly     -122.391855
+	}
+}
+
+Star	"VFTS 267 B"
+{
+	ParentBody     "VFTS 267"
+	Class          "O?"
+}
+
+// VFTS 599
+Star	"VFTS 599 A"
+{
+	ParentBody     "VFTS 599"
+	Class          "O3III(f*)"
+	AbsMagn        -6.2
+	MassSol        87
+	Radius         11467272.10569269 // Calculated
+	LumBol         977237.22095581068269707600696156 // log(L) = 5.99
+	Teff           44700
+	Temperature    44900
+	Oblateness     0
+
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          0.00669506232
+		Eccentricity    0
+		Inclination     0.292358875
+		AscendingNode   0
+		ArgOfPericenter -118.778609
+		MeanAnomaly     73.8395375
+	}
+}
+
+Star	"VFTS 599 B"
+{
+	ParentBody     "VFTS 599"
+	Class          "O?"
+}
+
+// RMC 135
+Star	"RMC 135 A"
+{
+	ParentBody     "RMC 135"
+	Class          "WN7h"
+	AbsMagn        -5.013591665859398
+	Radius         9271165.683113789 // Calculated
+	LumBol         999996.2550084365 // MBol = -10.26
+	Teff           50000
+
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          0.0138034707
+		Eccentricity    0
+		Inclination     -0.0696406364
+		AscendingNode   0
+		ArgOfPericenter 349.660113
+		MeanAnomaly     -66.7815955
+	}
+}
+
+Star	"RMC 135 B"
+{
+	ParentBody     "RMC 135"
+	Class          "OB"
+}
+
+// VFTS 64
+Star	"VFTS 64 A"
+{
+	ParentBody     "VFTS 64"
+	Class          "O7.5II(f)"
+	AbsMagn        -6.5
+	MassSol        88
+	Radius         14632179.49575324 // Calculated
+	LumBol         1000000 // log(L) = 6.0
+	Teff           39800
+	Temperature    39900
+
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          10.1044392
+		Eccentricity    0.803644728
+		Inclination     1.0111146
+		AscendingNode   0
+		ArgOfPericenter -56.3078229
+		MeanAnomaly     108.517793
+	}
+}
+
+Star	"VFTS 64 B"
+{
+	ParentBody     "VFTS 64"
 	Class          "O?"
 }

@@ -1806,3 +1806,147 @@ Star "HD 38489/IRAS 05406-6924/SSTISAGEMC J054013.35-692246.4/[H2013] LMCe 1462/
 	LumBol  1037524.5302828484 // MBol = -10.3
 	Teff    30000
 }
+
+// 221.WR 77k (in Westerlund 1)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=WR+77k
+
+// 222.10182-pr-6 (in NGC 2403)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=%5BHSG2019%5D%2010182-pr-6
+Star "[HSG2019] 10182-pr-6"
+{
+	/*Observation data*/
+	RA      07 36 59.120
+	Dec     +65 35 09.95
+	AppMagn 18.79
+	/*Characteristics*/
+	Class   "A8Ie" // A8-F0Ie
+	/*Astrometry*/
+	Dist    3250200
+	AbsMagn -8.769550429854235 // Calculated
+	/*Details*/
+	Radius  368887871.9547879 // Calculated
+	LumBol  1037524.5302828484 // MBol = -10.3
+	Teff    8000
+}
+
+// 223.[RP2006] 542 (in LMC)
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=%5Brp2006%5D+542
+Star "[RP2006] 542/2MASS J05265335-7122085/[GC2009] J052653.40-712209.2/[L63] 235/TIC 373985885/[H2013] LMCe 844"
+{
+	/*Observation data*/
+	RA      05 26 53.358
+	Dec     -71 22 08.55
+	AppMagn 16.75
+	/*Characteristics*/
+	Class   "B0IV[e]"
+	/*Astrometry*/
+	Dist    49945
+	AbsMagn -4.7424600873246128 // Calculated
+	/*Details*/
+	Radius  27004138.02114405 // Calculated
+	LumBol  1028012.4482141087 // MBol = -10.29
+	Teff    29500
+}
+
+// 224.HD 93250 A (in Trumpler 16 of Carina Nebula)
+// https://en.wikipedia.org/wiki/HD_93250
+
+// 225.VFTS 267 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=VFTS+267
+
+// 226.VFTS 599 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=VFTS+599
+
+// 227.VVV CL074-9 (WR 75–29 in VVV CL074)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=CBB2013+VVV+CL074+9
+
+// 228.WR 156 (in Cepheus OB1)
+// https://en.wikipedia.org/wiki/WR_156
+StarBarycenter "MR 119/HIP 113569/EM* GGR 124/WR 156/AC +60 38562-0/GCRV 73711/SSTSMOGA G109.8240+00.9194/[B53] 35/ALS 12730/GSC 04278-00506/TIC 434333256/[KW97] 66-51/AP J23001010+6055385/HBHA 6206-19/TYC 4278-506-1/[MO2001] 43/CSI+60-22581/HIC 113569/UCAC3 302-170388/Gaia DR2 2014674226896884864/EM* CDS 1431/LS III +60 30/UCAC4 755-076188/Gaia DR3 2014674226896884864/EM* CDS 5181/2MASS J23001010+6055385/WISE J230010.12+605538.4/Gaia DR1 2014674222596498176"
+{
+	/*Observation data*/
+	RA      23 00 10.1253892224
+	Dec     +60 55 38.410870260
+	AppMagn 10.844
+	/*Characteristics*/
+	Class   "WN8h"
+	/*Astrometry*/
+	Dist    3600
+	AbsMagn -7.00
+	/*Details*/
+	MassSol 32
+	RadSol  20.81
+	LumBol  1023289.1600571304 // MBol = -10.285
+	Teff    39800
+}
+
+// 229.HD 269050 (in LMC)
+// http://simbad.cds.unistra.fr/simbad/sim-id?Ident=hd+269050
+Star "HD 269050/JP11 3733/TYC 9161-749-1/[H2013] LMCe 385/ARDB 140/LB 3422/UBV 4989/AAVSO 0507-68/CPD-68 318/2MASS J05072041-6832085/UBV M 28616/Gaia DR3 4661289630893455488/GCRV 23877/RMC 78/UCAC2 1930654/Gaia DR1 4661289626521994368/GEN# +1.00269050/SK -68 52/UCAC4 108-007111/Gaia DR2 4661289630893455488/GSC 09161-00749/SSTISAGEMC J050720.40-683208.6/[BE74] 212/GV 209/TIC 31181554/[FD82] 373"
+{
+	/*Observation data*/
+	RA      05 07 20.4218668824
+	Dec     -68 32 08.569322196
+	AppMagn 11.54
+	/*Characteristics*/
+	Class   "B0Ia(e?)"
+	/*Astrometry*/
+	Dist    49957
+	AbsMagn -6.952981751936722 // Calculated
+	/*Details*/
+	Radius  29415493.1938085 // Calculated
+	LumBol  1018587.5734379619 // MBol = -10.28
+	Teff    28200
+}
+
+// 230.Arches-F2 (WR 102aa in Arches Cluster)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=FNG2002+2
+
+// 231.Arches-F14 (WR 102ba in Arches Cluster)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=FNG2002+14
+
+// 232.BAT99-68 (in BSDL 2505 of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=BAT99+68
+Star "Brey 58/LI-LMC 1383/[M2002] LMC 163386/BAT99 68/LMC AB 4/[ST92] 2-12/GEN# +6.20136058/[H2013] LMCe 1266/[TSL93] alf 4"
+{
+	/*Observation data*/
+	RA      05 35 42.2160
+	Dec     -69 11 54.240
+	AppMagn 14.13
+	/*Characteristics*/
+	Class   "O3If*/WN6"
+	/*Astrometry*/
+	Dist    49974
+	AbsMagn -4.363720562342261 // Calculated
+	/*Details*/
+	Radius  11445883.55939974 // Calculated
+	LumBol  999996.2550084365 // MBol = -10.26
+	Teff    45000
+}
+
+// 233.CXOGC J174628.2-283920 (in Galactic Center)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=CXOGC+J174628.2-283920
+
+// 234.CXOGC J174703.1-283119 (in Galactic Center)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=CXOGC+J174703.1-283119
+
+// 235.R135 A (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=RMC135
+
+// 236.R140a2 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=RMC140a2
+
+// 237.R142 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=RMC142
+
+// 238.VFTS 64 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=VFTS+64
+
+// 239.VFTS 591 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=VFTS+591
+
+// 240.VFTS 1034 (in Tarantula Nebula of LMC)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=VFTS+1034
+
+// 241.VVV CL074-3 (WR 75–28 in VVV CL074)
+// https://simbad.u-strasbg.fr/simbad/sim-id?Ident=CBB2013+VVV+CL074+3

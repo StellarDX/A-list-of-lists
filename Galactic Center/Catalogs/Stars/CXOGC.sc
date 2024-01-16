@@ -173,3 +173,33 @@ Star "CXOGC J174532.7-285126"
 	LumBol  1047124.6265633223 // MBol = -10.31
 	Teff    40000
 }
+
+Star "CXOGCS J174628.3-283920/2MASS J17462830-2839205/CXOGC J174628.2-283920/TIC 322747879"
+{
+	/*Observation data*/
+	RA      17 46 28.30776 
+	Dec     -28 39 20.5344
+	/*Characteristics*/
+	Class   "O4I" // O4-6I
+	/*Astrometry*/
+	Dist    8609.965771951893 // random
+	/*Details*/
+	Radius  14486196.3798653 // Calculated
+	LumBol  999996.2550084365 // MBol = -10.26
+	Teff    40000
+}
+
+Star "2MASS J17470314-2831200/CXOGC J174703.1-283119/CXOGCS J174703.1-283120"
+{
+	/*Observation data*/
+	RA      17 47 03.14424
+	Dec     -28 31 20.0280
+	/*Characteristics*/
+	Class   "O4I" // O4-6I
+	/*Astrometry*/
+	Dist    8672.844555810771 // random
+	/*Details*/
+	Radius  14486196.3798653 // Calculated
+	LumBol  999996.2550084365 // MBol = -10.26
+	Teff    40000
+}

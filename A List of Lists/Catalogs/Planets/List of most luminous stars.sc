@@ -573,3 +573,16 @@ Star	"[HS80] B517 A"
 	Teff           32000
 	Oblateness     0
 }
+
+// WR 156
+Star	"WR 156 A"
+{
+	ParentBody     "WR 156"
+	Class          "WN8h"
+	AbsMagn        -7.00
+	MassSol        32
+	RadSol         20.81
+	LumBol         1023289.1600571304 // MBol = -10.285
+	Teff           39800
+	Oblateness     0
+}
