@@ -1,18 +1,18 @@
 // Stars with orbital determination in EG97 star Catalog for the Sgr A* cluster.
 
 // Reference:
-// 1.Gillessen, S.; et al. (February 2017). "An Update on Monitoring Stellar 
+// 1.Gillessen, S.; et al. (February 2017). "An Update on Monitoring Stellar
 // Orbits in the Galactic Center". The Astrophysical Journal. 837 (1): 30.
 // https://iopscience.iop.org/article/10.3847/1538-4357/aa5c41 (S1-S112, S145-S146, S175, R34, R44)
-// 2. Abuter, R.; Amorim, A.; Bauböck, M.; Berger, J. P.; Bonnet, H.; Brandner, 
+// 2. Abuter, R.; Amorim, A.; Bauböck, M.; Berger, J. P.; Bonnet, H.; Brandner,
 // W.; Clénet, Y.; Coudé Du Foresto, V.; De Zeeuw, P. T.; Dexter, J.; Duvert, G.;
-// Eckart, A.; Eisenhauer, F.; Förster Schreiber, N. M.; Garcia, P.; Gao, F.; 
+// Eckart, A.; Eisenhauer, F.; Förster Schreiber, N. M.; Garcia, P.; Gao, F.;
 // Gendron, E.; Genzel, R.; Gerhard, O.; Gillessen, S.; Habibi, M.; Haubois, X.;
 // Henning, T.; Hippler, S.; Horrobin, M.; Jiménez-Rosales, A.; Jocou, L.;
-// Kervella, P.; Lacour, S.; et al. (April 2019). "A geometric distance measurement 
+// Kervella, P.; Lacour, S.; et al. (April 2019). "A geometric distance measurement
 // to the Galactic center black hole with 0.3% uncertainty". Astronomy & Astrophysics. 625: L10.
 // https://www.aanda.org/articles/aa/full_html/2019/05/aa35656-19/aa35656-19.html (S2)
-// 3.Peißker, Florian; Eckart, Andreas; Parsa, Marzieh (January 2020). "S62 on 
+// 3.Peißker, Florian; Eckart, Andreas; Parsa, Marzieh (January 2020). "S62 on
 // a 9.9 year orbit around SgrA*". The Astrophysical Journal. 889 (1): 61.
 // https://iopscience.iop.org/article/10.3847/1538-4357/ab5afd (S62, S4711-S4715)
 
@@ -728,7 +728,7 @@ Star "GCIRS 16SW A"
 	ParentBody "GCIRS 16SW"
 	Class      "WN9" // Ofpe/WN9
 	MassSol    50
-	DimensionsSol (109, 116.4, 125.4)
+	DimensionsSol (116.4, 109, 125.4)
 	LumBol     1149207.2934155033 // MBol = -10.411
 	Teff       24400
 
@@ -747,7 +747,7 @@ Star "GCIRS 16SW B"
 	ParentBody "GCIRS 16SW"
 	Class      "WN9" // Ofpe/WN9
 	MassSol    50
-	DimensionsSol (109, 116.4, 125.4)
+	DimensionsSol (116.4, 109, 125.4)
 	LumBol     1149207.2934155033 // MBol = -10.411
 	Teff       23500
 
