@@ -121,19 +121,19 @@ Star "V* ST Cep/HD 239978/IRAS 22282+5644/SAO 34529/AG+56 1586/IRC +60357/SV* HV
 {
 	RA      22 30 10.7379122880
 	Dec     +57 00 03.071154564
-	AppMagn 9.70
+	AppMagn 9.7
 	/*Characteristics*/
 	Class   "M2Ia-Iab"
 	/*Astrometry*/
-	Parallax 0.2162
-	AbsMagn -4.625721551913543 // Calculated (+1)
+	Parallax 0.21615991475493607
+	AbsMagn -4.966418359330728 // Calculated (+1.3402941613764043)
 	/*Details*/
 	// Gaia DR3 data
-	MassSol 33.90110205646798 // log(g) = -0.203 cm/s^2
-	RadSol  1218
-	LumBol  256503.75667860673 // Calculated
+	MassSol 33.902618693243021 // log(g) = -0.203 cm/s^2
+	RadSol  1218.0272445852804
+	LumBol  224353.81302480385 // MBol = -8.63733770363448
+	Teff    3605 // 3722
 	FeH     0.022
-	Teff    3722
 }
 
 // 12.S Persei
@@ -255,10 +255,12 @@ Star "[A72c] 16/IRAS 08267-4357/TIC 139944916/WISE J082826.26-440802.2/Gaia DR2 
 	/*Characteristics*/
 	Class   "M1.7Iab"
 	/*Astrometry*/
-	Parallax 0.1304
-	AbsMagn -5.433612043020492 // Calculated (+2)
+	Parallax 0.13035754435965075
+	AbsMagn -9.218187675212649 // Calculated (+5.783868528950423)
 	/*Details*/
-	RadSol  1157
+	RadSol  1157.0372523654978
+	LumBol  204703.96926448646 // MBol = -8.53781972565511
+	Teff    3615
 }
 
 // 21.WY Velorum A
@@ -271,10 +273,8 @@ StarBarycenter "V* WY Vel/HD 81137/IRAS 09203-5220/SS73 13/WISE J092158.85-52334
 	/*Characteristics*/
 	Class   "M2Ipe"
 	/*Astrometry*/
-	Parallax 0.5187
-	AbsMagn -5.6254187600320744 // Calculated (+2)
-	/*Details*/
-	RadSol  1157
+	Parallax 0.518675712196739
+	AbsMagn -4.390633494965295 // Calculated (+1.7651130547144545)
 }
 
 // 22.RSGC1-F08
@@ -354,10 +354,12 @@ Star "V* V582 Cas/DO 43188/IRCO 1372/TIC 279668184/Gaia DR2 2012303576751887488/
 	/*Characteristics*/
 	Class   "M5Ib"
 	/*Astrometry*/
-	Parallax 0.2906
-	AbsMagn -4.8735219501899856 // Calculated (+4)
+	Parallax 0.29058025966817896
+	AbsMagn -5.353983310823517 // Calculated (+4.480313848445333)
 	/*Details*/
-	RadSol  1111
+	RadSol  1111.0190968110817
+	LumBol  156573.33483632136 // MBol = -8.24679857022734
+	Teff    3450
 }
 
 // 28.RW Cygni
@@ -600,14 +602,14 @@ Star "V* CM Vel/HD 88028/GSC 08599-00361/PPM 338693/UCAC3 74-100175/AN 37.1909/H
 	/*Characteristics*/
 	Class   "M5II"
 	/*Astrometry*/
-	Parallax 0.5091
-	AbsMagn -4.175984514813311 // Calculated
+	Parallax 0.5090917628723376
+	AbsMagn -5.441706399466833 // Calculated (+1.2656867504163294)
 	/*Details*/
 	// Gaia DR3 data
-	MassSol 12.66606770510818 // log(g) = -0.5 cm/s^2
-	RadSol  1048 // 1416.24
-	LumBol  168798.5985074269 // Calculated
-	Teff    3614
+	MassSol 12.675296243251079 // log(g) = -0.5 cm/s^2
+	RadSol  1048.381718587305 // 1416.24
+	LumBol  176588.16497716177 // MBol = -8.37740805006569
+	Teff    3660 // 3614
 	FeH     -0.19
 }
 
@@ -621,10 +623,12 @@ Star "V* AG Cam/IRC +60136/IRAS 03572+5509/TIC 72786228/Gaia DR2 468485210066296
 	/*Characteristics*/
 	Class   "M4I"
 	/*Astrometry*/
-	Parallax 0.1857
-	AbsMagn -5.225940481301098 // Calculated (+3)
+	Parallax 0.185740782431607
+	AbsMagn -4.71922755513924 // Calculated (+2.4937639085292806)
 	/*Details*/
-	RadSol  1048
+	RadSol  1047.7894968416447
+	LumBol  153498.49705306033 // MBol = -8.22526438491717
+	Teff    3535
 }
 
 // 40.WX Piscium
@@ -654,7 +658,7 @@ Star "V* KU And/IRC +40004/2MASS J00065274+4305021/[WWV2004] J0006526+430459/CIT
 	Dec     +43 05 02.363566416
 	//AppMagnK 1.115
 	/*Characteristics*/
-	Class   "L0I" // M10?
+	Class   "L0I" // M10
 	/*Astrometry*/
 	Parallax 1.8649
 	/*Details*/
@@ -766,14 +770,14 @@ Star "V* V530 Cas/SV* P 5762/IRAS 23284+5958/POVR 13/AN 406.1934/IRC +60411/RAFG
 	/*Characteristics*/
 	Class   "M4Ib"
 	/*Astrometry*/
-	Parallax 0.3451
-	AbsMagn -4.340275203542566 // Calculated (+3)
+	Parallax 0.3450861308096763
+	AbsMagn -5.752406513591367 // Calculated (+4.412044039201737)
 	/*Details*/
 	// Gaia DR3 Data
 	//MassSol  // log(g) = 0.381 cm/s^2
-	RadSol  1017
-	LumBol  531937.2124034215 // Calculated
-	Teff    4888
+	RadSol  1017.2536049885432
+	LumBol  144682.00590788122 // MBol = -8.16104036932988
+	Teff    3535 // 4888
 	FeH     0.08
 }
 
@@ -862,10 +866,12 @@ Star "Ve 4-64/IRC -20418/2MASS J18022364-2328350/TIC 111191806/Gaia DR2 40691750
 	/*Characteristics*/
 	Class   "M2I" // M2/3e
 	/*Astrometry*/
-	Parallax 0.3263
-	AbsMagn -6.931914631060625 // Calculated (+8)
+	Parallax 0.3262588238559788
+	AbsMagn -3.8293205456941806 // Calculated (+4.897131876929912)
 	/*Details*/
-	RadSol  1007
+	RadSol  1007.0546547790062
+	LumBol  155073.52622982516 // MBol = -8.23634822222559
+	Teff    3615
 }
 
 // 54.RSGC1-F07
@@ -911,3 +917,6 @@ Star "IRAS 18111-2257/2MASS J18141475-2256195/WISEA J181414.74-225619.4/Gaia DR2
 	Teff    2000 // 3898
 	FeH     0.411
 }
+
+// 57.V674 Cephei
+// https://simbad.cds.unistra.fr/simbad/sim-basic?Ident=V674+Cephei&submit=SIMBAD+search

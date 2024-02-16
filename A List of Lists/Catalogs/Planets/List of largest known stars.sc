@@ -35,8 +35,10 @@ Star	"WY Vel A"
 {
 	ParentBody     "V* WY Vel"
 	Class          "M3Ibep:"
-	AbsMagn        -5.6254187600320744
-	RadSol         1157
+	AbsMagn        -4.390633494965295
+	RadSol         1156.6938326170307
+	LumBol         190260.49649615175 // MBol = -8.45837563040467
+	Teff           3550
 	Oblateness     0
 
 	BinaryOrbit // Generated
