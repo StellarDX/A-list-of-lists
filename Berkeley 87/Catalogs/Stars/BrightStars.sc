@@ -10,7 +10,7 @@ StarBarycenter "WR 142/HBHA 3703-43/USNO-B1.0 1273-00510128/[S71d] 5/Cl Berkeley
 	AppMagnH 8.889
 	AppMagnK 8.596
 	/*Astrometry*/
-	Dist    1677.5708773695688642845160208019 // Plx. 0.5961 mas
+	Dist    1705.269011678593 // Random
 	AbsMagn -3.13
 }
 
@@ -23,7 +23,7 @@ Star "HD 229059/GCRV 23509/2MASS J20211535+3724311/UBV M 27644/AG+37 1967/GEN# +
 	/*Characteristics*/
 	Class   "B2Iabe"
 	/*Astrometry*/
-	Dist    1755.6179775280898876404494382022 // Plx. 0.5696 mas
+	Dist    1711.823826234988 // Random
 	AbsMagn -7.7
 	/*Details*/
 	MassSol 69
@@ -41,7 +41,7 @@ Star "LS II +37 73/Cl Berkeley 87 4/GEN# +5.00870004/2MASS J20211924+3723247/Gai
 	/*Characteristics*/
 	Class   "B0.2III"
 	/*Astrometry*/
-	Dist    1745.5053237912375632745679874324 // Plx. 0.5729 mas
+	Dist    1708.899674011715 // Random
 	AbsMagn -5
 	/*Details*/
 	MassSol 23
@@ -59,7 +59,7 @@ Star "EM* MWC 1015/Cl Berkeley 87 15/GEN# +5.00870015/MHA 148-26/Gaia DR2 205796
 	/*Characteristics*/
 	Class   "B1.5Ve"
 	/*Astrometry*/
-	Dist    1720.2821262687080681231722002408 // Plx. 0.5813 mas
+	Dist    1710.042080663211 // Random
 	AbsMagn -5
 	/*Details*/
 	MassSol 34
@@ -77,7 +77,7 @@ Star "BD+36 4032/GEN# +8.02370076/TIC 13252516/Gaia DR1 2057966840105141632/ALS 
 	/*Characteristics*/
 	Class   "O8.5III"
 	/*Astrometry*/
-	Dist    1775.8835020422660273486059314509 // Plx. 0.5631 mas
+	Dist    1709.478261959754 // Random
 	AbsMagn -5.6
 	/*Details*/
 	MassSol 39
