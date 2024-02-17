@@ -1269,3 +1269,104 @@ Star "V* S Cas/HD 7769/IRAS 01159+7220/[LFO93] 0115+72/BD+71 66/IRC +70024/WEB 1
 	LumBol  5210
 	Teff    1800
 }
+
+// 75.NV Aurigae (IRC +50137)
+// https://simbad.cds.unistra.fr/simbad/sim-basic?Ident=NV+Aurigae&submit=SIMBAD+search
+Star "IRC +50137/RAFGL 700/[DLS93] 05073+5248/[TVH89] 10/AKARI-IRC-V1 J0511194+525233/TIC 328003589/[LFO93] 0507+52/Gaia DR2 265951045055816192/IRAS 05073+5248/V* NV Aur/[PCC93] 67/Gaia DR3 265951045055816192/2MASS J05111944+5252332/WISE J051119.49+525233.5/[TCH91] 05073+5248"
+{
+	/*Observation data*/
+	RA      05 11 19.4506093584
+	Dec     +52 52 33.235824324
+	//AppMagnK 3.861
+	/*Characteristics*/
+	Class   "L0I" // M10
+	/*Astrometry*/
+	Redshift 0.000007
+	Dist    1500
+	/*Details*/
+	RadSol  918
+	LumBol  9900
+	Teff    1900
+}
+
+// 76.Stephenson 2 DFK 5
+// https://simbad.cds.unistra.fr/simbad/sim-basic?Ident=Cl*+Stephenson+2+DFK+5&submit=SIMBAD+search
+
+// 77.UY Scuti
+// https://en.wikipedia.org/wiki/UY_Scuti
+Remove "UY Sct"
+Star "V* UY Sct/BD-12 5055/JP11 293/TIC 177198220/WISE J182736.57-122800.7/GEN# -0.01205055/2MASS J18273652-1227589/TYC 5698-5176-1/Gaia DR2 4152993273702130432/GSC 05698-05176/PPM 234561/UBV M 5387/Gaia DR3 4152993273702130432/IRAS 18248-1229/RAFGL 2162/UCAC3 156-208543/IRC -10422/SV* HV 3805"
+{
+	/*Observation data*/
+	RA      18 27 36.5281722864
+	Dec     -12 27 58.898573712
+	AppMagn 8.29 // 10.56
+	/*Characteristics*/
+	Class   "M2Ia" // M2-M4Ia-Iab
+	/*Astrometry*/
+	Dist    1800
+	AbsMagn -6.2
+	/*Details*/
+	RadSol  909
+	LumBol  124000
+	Teff    3550
+}
+
+// 78.NR Vulpeculae
+// https://en.wikipedia.org/wiki/NR_Vulpeculae
+Star "V* NR Vul/HD 339034/IRAS 19480+2447/SV* ZI 1806/BD+24 3902/IRC +20438/TIC 435670188/AAVSO 1946+24/CSV 101897/JP11 68/TYC 2144-1244-1/Gaia DR3 2020687421645374720/DO 18219/2MASS J19501193+2455240/UBV M 1395/Gaia DR1 2020687417329221248/GSC 02144-01244/RAFGL 2462/UCAC2 40577951/Gaia DR2 2020687421645374720"
+{
+	/*Observation data*/
+	RA      19 50 11.9276355408
+	Dec     +24 55 24.180686508
+	AppMagn 9.13 // 9.61
+	/*Characteristics*/
+	Class   "M1Ia"
+	/*Astrometry*/
+	Dist    1800
+	AbsMagn -6.1463625255165297 // Calculated (+4)
+	/*Details*/
+	MassSol 4.92
+	RadSol  553
+	LumBol  111000 // 223000
+	Teff    3986
+	FeH     0.09
+}
+
+// 79.V1111 Ophiuchi (IRC +10365)
+// https://simbad.cds.unistra.fr/simbad/sim-basic?Ident=V1111+Ophiuchi&submit=SIMBAD+search
+Star "IRC +10365/SV* SON 9911/TIC 321755798/[PCC93] 284/AKARI-IRC-V1 J1837192+102542/2MASS J18371926+1025422/V* V1111 Oph/[TVH89] 330/ATO J279.3303+10.4285/OH 040.6+07.8/WISE J183719.29+102542.5/Gaia DR2 4480669110511665536/IRAS 18349+1023/RAFGL 2206/[LFO93] 1834+10/Gaia DR3 4480669110511665536"
+{
+	/*Observation data*/
+	RA      18 37 19.2583829328
+	Dec     +10 25 42.492195300
+	//AppMagnK 1.114
+	/*Characteristics*/
+	Class   "M9I"
+	/*Astrometry*/
+	Parallax 1.9918
+	/*Details*/
+	RadSol  902
+	LumBol  7700
+	Teff    1800
+}
+
+// 80.RW Cephei
+// https://en.wikipedia.org/wiki/RW_Cephei
+Star "V* RW Cep/HD 212466/GEN# +1.00212466/2MASS J22230701+5557477/UBV M 26377/AG+55 1572/GSC 03986-00365/PPM 40586/UCAC3 292-186925/AGKR 20037/HIC 110504/RAFGL 2896/AN 128.1907/HIP 110504/SAO 34387/YZ 55 13111/BD+55 2737/IRAS 22212+5542/SKY# 42615/AAVSO 2219+55A/DO 41257/IRC +60353/SV* HV 2982/Gaia DR3 2005992002061917312/GC 31299/JP11 3481/TIC 422108142/Gaia DR1 2005991997748954112/GCRV 73164/LF 4 +55 299/TYC 3986-365-1/Gaia DR2 2005992002061917312"
+{
+	/*Observation data*/
+	RA      22 23 07.0152061200
+	Dec     +55 57 47.624368284
+	AppMagn 6.0 // 7.6
+	/*Characteristics*/
+	Class   "K2Ia+"
+	/*Astrometry*/
+	Dist    3400
+	AbsMagn -8.0 // -9.4
+	/*Details*/
+	RadSol  900 // 1760
+	LumBol  300000
+	Teff    4200 // 4400
+	FeH     0.17
+}
