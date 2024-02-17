@@ -78,10 +78,12 @@ Star	"M33-013406.63 B"
 // SpaceEngineer; wiki
 Remove "ETA Car A" {ParentBody "ETA Car"}
 Remove "ETA Car B" {ParentBody "ETA Car"}
-/* Star	"HD 93308 A"
+/*Star	"ETA Car A"
 {
+	DateUpdated "2019-08-24"
 	ParentBody "V* ETA Car"
 	Class      "Variable" // LBV
+	AbsMagn    -8.6 //(2012)
 	MassSol    100 // >90 // 100 - 120
 	RadSol     240 // 60 - 881 // 1400??? // 250
 	LumBol     4600429.4353008345 // MBol = -11.917
@@ -111,14 +113,15 @@ Remove "ETA Car B" {ParentBody "ETA Car"}
 	}
 }
 
-Star	"HD 93308 B"
+Star	"ETA Car B"
 {
+	DateUpdated "2019-08-24"
 	ParentBody "V* ETA Car"
 	Class      "O" // WR?
 	MassSol    30	// 30 - 80 // 30 - 60
 	RadSol     23.6	// 14.3 - 23.6
 	Teff       37200
-	Luminosity 1000000
+	LumBol     1000000
 	Age        0.003
 	Oblateness 0
 
@@ -142,7 +145,7 @@ Star	"HD 93308 B"
 		ArgOfPericenter 180	// unknown
 		MeanAnomaly     0	// unknown
 	}
-} */
+}*/
 
 // Sk -69° 249
 Star	"TYC 9167-759-1/HD 269927 A/[ST92] 5-65/Gaia DR2 4657650041187537152/** TDS 3273A/WDS J05390-6929A/Gaia DR3 4657650041187537152"

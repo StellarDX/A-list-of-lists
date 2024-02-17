@@ -291,3 +291,77 @@ Star	"U Lac B"
 	ParentBody     "V* U Lac"
 	Class          "B" // Guess
 }
+
+// V381 Cephei
+Barycenter	"HD 203338/DO 39440/JP11 3337/V* V381 Cep/** BAG 9/GC 29860/2MASS J21191567+5837246/WDS J21193+5837A/** STF 2790A/GCRV 13414/PLX 5140.00/WDS J21193+5837Aa,Ab/ADS 14864 A/HIC 105259/PPM 39339/WEB 19118/AG+58 1339/HIP 105259/RAFGL 2748/YZ 58 12073/BD+58 2249/HR 8164/SAO 33318/[KW97] 57-18/BD+58 2249p/IDS 21165+5812 A/SKY# 40598/Gaia DR2 2191213153886504704/CCDM J21193+5838A/IRAS 21178+5824/TIC 314919220/Gaia DR3 2191213153886504704/CSI+58 2249 1/IRC +60313/TYC 3965-453-1"
+{
+	ParentBody     "CCDM J21193+5838"
+	BinaryOrbit
+	{
+		Separation      2885.4 // 4.58"
+	}
+}
+
+Star	"HD 203338 A"
+{
+	ParentBody     "HD 203338"
+	Class          "M1Ibep"
+	AbsMagn        -5.2
+	MassSol        7.2 // 16
+	RadSol         977
+	LumBol         178000
+	Teff           3745
+	Oblateness     0
+
+	Orbit
+	{
+		Period          280
+		ArgOfPericenter 0
+		MeanAnomaly     0
+	}
+}
+
+Star	"HD 203338 B"
+{
+	ParentBody     "HD 203338"
+	Class          "B1-2Vep?"
+	MassSol        13
+
+	Orbit
+	{
+		Period          280
+		ArgOfPericenter 180
+		MeanAnomaly     0
+	}
+}
+
+Star	"HD 203339/CSI+58 2249 4/PMSC 21165+5814B/WDS J21193+5837B/** STF 2790B/GEN# +1.00203339/TD1 27980/Gaia DR2 2191213153886823552/ADS 14864 B/HGAM 990/TYC 3965-1805-1/Gaia DR3 2191213153886823552/CCDM J21193+5838B/IDS 21165+5812 B/UCAC4 744-068006/CEL 5296/PLX 5140/uvby98 100203339"
+{
+	ParentBody     "CCDM J21193+5838"
+	Class          "B2.5V"
+	MassSol        7.1
+	RadSol         3.4
+	LumBol         1487
+	Teff           19965
+	FeH            -0.3
+	Age            0.0491
+}
+
+// μ Cephei
+Star	"The Garnet Star"
+{
+	DateUpdated    "2020-03-16"
+	ParentBody     "MU Cep"
+	Class	       "M2Iae"
+	MassSol        19.2
+	RadSol         972 // 1259 // 1420
+	Luminosity     269000 // 135000 /// 340000
+	Teff           3551 // 3750 // 3700
+	Age            0.01
+	Oblateness     0
+
+	Orbit
+	{
+		RefPlane        "Static"
+	}
+}
