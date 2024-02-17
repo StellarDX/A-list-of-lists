@@ -1,3 +1,13 @@
+// List of most luminous stars
+// This is a list of stars arranged by their absolute magnitude – their intrinsic stellar luminosity. This cannot 
+// be observed directly, so instead must be calculated from the apparent magnitude (the brightness as 
+// seen from Earth), the distance to each star, and a correction for interstellar extinction. The entries in the 
+// list below are further corrected to provide the bolometric magnitude, i.e. integrated over all wavelengths; 
+// this relies upon measurements in multiple photometric filters and extrapolation of the stellar spectrum 
+// based on the stellar spectral type and/or effective temperature.
+// Stars with bolometric luminosity higher than 1,000,000 LSun are included.
+// Reference: https://en.wikipedia.org/wiki/List_of_most_luminous_stars
+
 // #.Godzilla (in Sunburst galaxy)
 // https://en.wikipedia.org/wiki/Godzilla_Star
 

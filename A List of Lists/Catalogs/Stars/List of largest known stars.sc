@@ -1,5 +1,18 @@
-// 1.WOH G64
-// https://en.wikipedia.org/wiki/List_of_largest_known_stars
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                //
+//                                  List of largest known stars                                   //
+//                                                                                                //
+//    This list includes 7 sub-lists, classified based on host galaxy includes the Milky Way,     //
+//    Magellanic Clouds, Andromeda, Triangulum, and other galaxies.                               //                                          
+//    This is a dynamic list and may never be able to satisfy particular standards for            //
+//    completeness. You can help by adding missing items with reliable sources.                   //
+//    Stars larger than 700 RSun are included.                                                    //
+//    Original list: https://en.wikipedia.org/wiki/List_of_largest_known_stars                    //
+//                                                                                                //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 1.WOH G64 (For comparison, the largest known star)
+// https://en.wikipedia.org/wiki/WOH_G64
 Remove "WOH G64"
 StarBarycenter "WOH G 64/MACHO 47.2368.9/OGLE LMC-LPV-6819/Gaia DR2 4661527262798576768/DCMC J045510.49-682030.2/2MASS J04551048-6820298/TIC 30186593/Gaia DR3 4661527262798576768/IRAS 04553-6825/2MASSI J0455105-682029/WISE J045510.51-682030.2/LI-LMC 181/MSX LMC 1182/[VOG2010] 6"
 {
@@ -31,6 +44,35 @@ StarBarycenter "WOH G 64/MACHO 47.2368.9/OGLE LMC-LPV-6819/Gaia DR2 466152726279
 // current evolutionary theory, and it is believed that stars 
 // above this radius would be too unstable and simply do 
 // not form.
+
+// ------------------------------------------Milky Way------------------------------------------- //
+
+// Reference:
+// Ramstedt, S.; Olofsson, H. (25 May 2014). "The
+// 12CO/13CO ratio in AGB stars of different chemical
+// type. Connection to the 12C/13C ratio and the 
+// evolution along the AGB". Astronomy and 
+// Astrophysics. 566: A145. 
+// https://arxiv.org/abs/1405.6404
+// Healy, Sarah; Horiuchu, Shunsaku; Colomer Moller, 
+// Marta; Milisavljevic, Dan; Tseng, Jeff; Bergin, Faith; 
+// Weil, Kathryn; Tanaka, Masaomi (17 July 2023). "Red 
+// Supergiant Candidates for Multimessenger Monitoring 
+// of the Next Galactic Supernova".
+// https://github.com/SNEWS2/candidate_list
+// De Beck, E.; Decin, L.; De Koter, A.; Justtanont, K.; 
+// Verhoelst, T.; Kemper, F.; Menten, K. M. (2010). 
+// "Probing the mass-loss history of AGB and red 
+// supergiant stars from CO rotational line profiles. II. CO 
+// line survey of evolved stars: Derivation of mass-loss 
+// rate formulae". Astronomy and Astrophysics. 523: A18.
+// https://arxiv.org/abs/1008.1083
+// Bergeat, J.; Chevallier, L. (January 2005). "The 
+// mass loss of C-rich giants". Astronomy and 
+// Astrophysics. 429: 235–246.
+// https://arxiv.org/abs/astro-ph/0601366
+// The Gaia DR3
+// https://gea.esac.esa.int/archive/
 
 // 2.RSGC1-F01
 // https://simbad.cds.unistra.fr/simbad/sim-basic?Ident=%5BFMR2006%5D+1&submit=SIMBAD+search
@@ -1369,4 +1411,333 @@ Star "V* RW Cep/HD 212466/GEN# +1.00212466/2MASS J22230701+5557477/UBV M 26377/A
 	LumBol  300000
 	Teff    4200 // 4400
 	FeH     0.17
+}
+
+// 81.NSV 25875
+// http://simbad.cds.unistra.fr/simbad/sim-basic?Ident=NSV+25875&submit=SIMBAD+search
+Star "RAFGL 2885/NSV 25875/2MASS J22192747+5951217/[LFO93] 2217+59/AKARI-IRC-V1 J2219274+595121/OH 104.91+02.41/TIC 421848694/[PCC93] 463/IRAS 22177+5936/OH 104.9+02.5/WISE J221927.50+595121.7/[TCH91] 22177+5936/IRCO 243/OH 104.9+02.4/[DLS93] 22177+5936/[TVH89] 438"
+{
+	/*Observation data*/
+	RA      22 19 27.47784
+	Dec     +59 51 21.7080
+	//AppMagnK 6.857
+	/*Characteristics*/
+	Class   "" // O-rich
+	/*Astrometry*/
+	Dist    2300
+	/*Details*/
+	RadSol  891
+	LumBol  40871
+	Teff    2750
+}
+
+// 82.V774 Sagittarii
+// http://simbad.cds.unistra.fr/simbad/sim-basic?Ident=V774+Sagittarii&submit=SIMBAD+search
+Star "V* V774 Sgr/CD-23 13645/IRAS 17513-2313/SV* HV 10303/BAaDE ad3a-06634/IRC -20397/TIC 102711334/WISE J175426.05-231413.4/GSC 06841-01586/2MASS J17542613-2314097/TYC 6841-1586-1/Gaia DR2 4070129060958537728/HIC 87668/PPM 733545/UCAC2 22529663/Gaia DR3 4070129060958537728/HIP 87668/RAFGL 2024/UCAC4 334-127413"
+{
+	/*Observation data*/
+	RA      17 54 26.1329090544
+	Dec     -23 14 09.662935344
+	AppMagn 9.576
+	/*Characteristics*/
+	Class   "M4I"
+	/*Astrometry*/
+	Parallax 0.4627212746182686
+	AbsMagn -4.7822506547210875 // Calculated (+2.684847992688624)
+	/*Details*/
+	RadSol  889.3309710890579
+	LumBol  110581.60269091501 // MBol = -7.86921126608789
+	Teff    3535
+}
+
+// 83.V923 Centauri
+// http://simbad.cds.unistra.fr/simbad/sim-basic?Ident=V923+Centauri&submit=SIMBAD+search
+Star "V* V923 Cen/HD 103052/HIC 57843/SAO 251615/WISE J115142.93-610930.6/BM V 281/HIP 57843/SKY# 22385/[A72c] 75/CD-60 3809/IRAS 11492-6052/SRS 10622/Gaia DR2 5335171374005762560/CPC 20.1 3368/IRSV 1149-6052/TIC 304164760/Gaia DR3 5335171374005762560/CPD-60 3442/LLNS 6429/TYC 8973-1012-1/Gaia DR1 5335171369658042496/GCRV 22545/2MASS J11514295-6109303/UCAC3 58-212034/GSC 08973-01012/PPM 359019"
+{
+	/*Observation data*/
+	RA      11 51 42.9366511944
+	Dec     -61 09 30.386262060
+	AppMagn 7.9
+	/*Characteristics*/
+	Class   "M3Ia-Iab"
+	/*Astrometry*/
+	Parallax 0.3050872433398319
+	AbsMagn -5.978991606459859 // Calculated (+1.3011118504578254)
+	/*Details*/
+	RadSol  881.3133113544452
+	LumBol  117457.32591986467 // MBol = -7.93470433932757
+	Teff    3605
+}
+
+// 84.IRAS 20341+4047
+// http://simbad.cds.unistra.fr/simbad/sim-basic?Ident=IRAS+20341%2B4047&submit=SIMBAD+search
+Star "IRAS 20341+4047/ATO J308.9779+40.9611/StRS 376/Gaia DR2 2064838276679949184/AKARI-IRC-V1 J2035548+405739/2MASS J20355472+4057401/TIC 64147737/Gaia DR3 2064838276679949184"
+{
+	/*Observation data*/
+	RA      20 35 54.7289567808
+	Dec     +40 57 40.055181084
+	AppMagn 14 // Guess, citation needed
+	//AppMagnK 3.518
+	/*Characteristics*/
+	Class   "M6I" // M6/8
+	/*Astrometry*/
+	Parallax 0.19727918098582284
+	AbsMagn -12.954400144048709 // Calculated (+13.429806425351698)
+	/*Details*/
+	MassSol 34.44660065199362 // log(g) = 0.086 cm/s^2
+	RadSol  880.2652651873075
+	LumBol  117178.13461801448 // MBol = -7.93212051634669
+	Teff    3605
+	FeH     -0.203
+}
+
+// 85.V540 Sagittarii
+// http://simbad.cds.unistra.fr/simbad/sim-basic?Ident=V540+Sagittarii&submit=SIMBAD+search
+Star "V* V540 Sgr/HD 163869/GSC 07403-06301/SAO 209570/WISE J180004.33-355540.0/CD-35 12140/IRAS 17566-3555/SV* HV 7077/Gaia DR2 4037470061000962048/CPC 18 9151/2MASS J18000429-3555392/TIC 263431099/Gaia DR3 4037470061000962048/CPD-35 7616/PPM 297105/TYC 7403-6301-1/GEN# +1.00163869/RAFGL 5424"
+{
+	/*Observation data*/
+	RA      18 00 04.2981475296
+	Dec     -35 55 39.377427240
+	AppMagn 8.99
+	/*Characteristics*/
+	Class   "M5Iab"
+	/*Astrometry*/
+	Parallax 0.2796159773515795
+	AbsMagn -4.912021543092457 // Calculated (+1.1348314606741572)
+	/*Details*/
+	RadSol  879.7157691002323
+	LumBol  98165.64118425024 // MBol = -7.73990283505996
+	Teff    3450
+}
+
+// 86.V386 Cephei
+// http://simbad.cds.unistra.fr/simbad/sim-basic?Ident=V386+Cephei&submit=SIMBAD+search
+Star "V* V386 Cep/DO 42141/IRC +60374/RAFGL 2982/AAVSO 2249+60/CSS 1314/IRCO 723/TIC 12954390/Gaia DR3 2206826700034196480/GSC 04278-00479/2MASS J22531232+6117003/Gaia DR2 2206826700034196480/IRAS 22512+6100/MSX6C G109.2152+01.6007/[NBM54] 79"
+{
+	/*Observation data*/
+	RA      22 53 12.3313692888
+	Dec     +61 17 00.548668032
+	AppMagn 10.79
+	/*Characteristics*/
+	Class   "M3Ib"
+	/*Astrometry*/
+	Parallax 0.30132617270305795
+	AbsMagn -5.322527644463475 // Calculated (+3.5077119215965284)
+	/*Details*/
+	RadSol  879.4627850008333
+	LumBol  116964.58474137461 // MBol = -7.93014002429882
+	Teff    3605
+}
+
+// 87.T Lyrae
+// http://simbad.cds.unistra.fr/simbad/sim-basic?Ident=T+Lyrae&submit=SIMBAD+search
+Remove "T Lyr"
+Star "V* T Lyr/BD+36 3168/HIP 90883/SKY# 33922/[LMW2001] 637/C* 2608/IRAS 18306+3657/TIC 289321783/[LTY2003] NIRS 18306+3657/CGCS 4038/IRC +40321/TYC 2636-1142-1/[V58] 73/DO 16869/JP11 157/UBV 15790/AAVSO 1828+36/GC 25326/LAMOST J183218.24+365906.9/UBV M 2708/Gaia DR3 2096185937305282048/GCRV 11009/LEE 206/UCAC3 254-132727/Gaia DR2 2096185937305282048/GEN# +0.03603168/2MASS J18322009+3659555/GSC 02636-01142/RAFGL 2187/WEB 15585/HIC 90883/SAO 67087/[LFO93] 1830+36"
+{
+	/*Observation data*/
+	RA      18 32 20.0767626264
+	Dec     +36 59 55.635218376
+	AppMagn 7.84
+	/*Characteristics*/
+	Class   "C-J4"
+	/*Astrometry*/
+	Parallax 2.321
+	AbsMagn -5.33162429772041335 // Calculated (+5)
+	/*Details*/
+	RadSol  876
+	LumBol  9000
+	Teff    1900
+}
+
+// 88.Trumpler 27 MMU 1
+// https://en.wikipedia.org/wiki/Trumpler_27-1
+
+// 89.V437 Scuti
+// https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=V437+Scuti&submit=SIMBAD+search
+Star "OH 026.5+00.6/OH 026.543+00.618/WISE J183732.34-052358.5/[SVM2001b] 167/AKARI-FIS-V1 J1837328-052405/RAFGL 2205/[DLS93] 18348-0526/[TCH91] 18348-0526/IRAS 18348-0526/TIC 173901184/[DLS93b] 18348-0526/[TVH89] 329/2MASS J18373250-0523591/V* V437 Sct/[LFO93] 1834-05/MSX5C G026.5439+00.6178/WISEA J183732.50-052359.1/[PCC93] 283"
+{
+	/*Observation data*/
+	RA      18 37 32.50920
+	Dec     -05 23 59.1936
+	//AppMagnK 7.984
+	/*Characteristics*/
+	Class   "" // O-rich
+	/*Astrometry*/
+	Dist    1370
+	/*Details*/
+	RadSol  874
+	LumBol  39362
+	Teff    2750
+}
+
+// 90.TYC 3996-552-2
+// https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=TYC+3996-552-2&submit=SIMBAD+search
+StarBarycenter "DO 41868/IRC +60364/UCAC3 300-172054/[NBM54] 77/** TDT 3675/2MASS J22431380+5945085/UCAC4 749-076101/Gaia DR3 2008562591517782016/AN 394.1933/NSV 14295/WDS J22432+5945AB/Gaia DR2 2008562591517782016/GSC 03996-00552/RAFGL 2941/WISEA J224313.77+594508.5/IRAS 22413+5929/TIC 428240861/WISE J224313.73+594507.7"
+{
+	/*Observation data*/
+	RA      22 43 13.800408
+	Dec     +59 45 09.29700
+	AppMagn 11.33
+	/*Characteristics*/
+	Class   "M5Ib"
+	/*Astrometry*/
+	Parallax 0.2966206574604339
+	AbsMagn -3.962664774482631 // Calculated (+2.6536717403900383)
+}
+
+// 91.V1417 Aquilae
+// https://simbad.cds.unistra.fr/simbad/sim-basic?Ident=V1417+Aquilae&submit=SIMBAD+search
+Star "V* V1417 Aql/C* 2642/IRAS 18398-0220/OGLE DG1008.31.13087/WISE J184224.52-021723.1/AKARI-IRC-V1 J1842249-021726/IRC +00365/RAFGL 2233/[LFO93] 1839-02/AKARI-FIS-V1 J1842249-021706/2MASS J18422486-0217271/TIC 183433259/Gaia DR2 4259526638970008192/Case 176/MSX5C G029.8653+00.9615/UCAC4 439-081050/Gaia DR3 4259526638970008192/CGCS 4077/NSV 11233/DENIS J184224.8-021727/OGLE GD-LPV-20207/WISEA J184224.86-021726.9"
+{
+	/*Observation data*/
+	RA      18 42 24.8730446016
+	Dec     -02 17 27.088299816
+	AppMagn 13.49
+	/*Characteristics*/
+	Class   "C"
+	/*Astrometry*/
+	Dist    1370
+	/*Details*/
+	RadSol  874
+	LumBol  39362
+	Teff    2750
+}
+
+// 92.V669 Cassiopeiae
+// https://en.wikipedia.org/wiki/V669_Cassiopeiae
+Star "OH 127.8-00.0/OH 127.82-00.02/2MASS J01335121+6226532/TIC 389839857/[LFO93] 0130+62/AKARI-IRC-V1 J0133511+622653/OH 127.8-00.02/V* V669 Cas/[PCC93] 19/AKARI-FIS-V1 J0133502+622702/WISEA J013351.20+622653.3/[TCH91] 01304+6211/IRAS 01304+6211/OH 127.8+00.0/WISE J013351.19+622653.2/[TVH89] 4/IRCO 3035/RAFGL 230/[FT96] 127.8+0.0"
+{
+	/*Observation data*/
+	RA      01 33 51.21048
+	Dec     +62 26 53.2032
+	AppMagn 17.48
+	/*Characteristics*/
+	Class   "M9III"
+	/*Astrometry*/
+	Dist    2100
+	AbsMagn -4.131096473669595 // Calculated (+10)
+	/*Details*/
+	RadSol  859
+	LumBol  10000 // 36000
+	Teff    2750
+}
+
+// 93.FX Serpentis
+// https://simbad.cds.unistra.fr/simbad/sim-basic?Ident=FX+Serpentis&submit=SIMBAD+search
+Star "V* FX Ser/IRC -10396/DENIS J180650.2-094116/UCAC2 28407889/[LFO93] 1804-09/AKARI-IRC-V1 J1806502-094115/IRAS 18040-0941/UCAC4 402-074909/Gaia DR2 4158167231822032640/ASASSN-V J180650.10-094117.2/2MASS J18065022-0941162/Gaia DR3 4158167231822032640/ATO J271.7092-09.6879/RAFGL 2067/WISEA J180650.21-094116.7/CGCS 6711/TIC 204955592/WISE J180650.17-094120.6"
+{
+	/*Observation data*/
+	RA      18 06 50.2066800624
+	Dec     -09 41 16.576025784
+	AppMagn 14.8
+	/*Characteristics*/
+	Class   "C"
+	/*Astrometry*/
+	Parallax 1.1091
+	AbsMagn -4.975146473536153 // Calculated (+10)
+	/*Details*/
+	RadSol  857
+	LumBol  11694.950112545182 // MBol = -5.43
+	Teff    2050
+}
+
+// 94.Westerlund 1 W20 (Westerlund 1 BKS D)
+// https://en.wikipedia.org/wiki/Westerlund_1-20
+
+// 95.V348 Velorum
+// https://simbad.cds.unistra.fr/simbad/sim-basic?Ident=V348+Velorum&submit=SIMBAD+search
+Star "V* V348 Vel/HD 90586/GC 14341/2MASS J10261563-5353293/UCAC3 73-119294/** HJ 4319/GCRV 25906/NSV 4860/CCDM J10263-5354A/GSC 08600-03573/PPM 339037/WDS J10263-5353A/CD-53 3516/HIC 51087/SAO 238059/WISE J102615.62-535329.0/CPC 19 3926/HIP 51087/SKY# 20046/Gaia DR2 5355604835516835712/CPD-53 3793/IDS 10223-5323 A/TIC 464509446/Gaia DR3 5355604835516835712/CSI-53 3793 42/IRAS 10243-5338/TYC 8600-3573-1"
+{
+	/*Observation data*/
+	RA      10 26 15.6388518336
+	Dec     -53 53 29.268044124
+	AppMagn 6.93
+	/*Characteristics*/
+	Class   "M3Iab"
+	/*Astrometry*/
+	Parallax 0.35838080927784466
+	AbsMagn -6.48222796108638 // Calculated (+1.1839516902572491)
+	/*Details*/
+	RadSol  855.1155051492299
+	LumBol  117482.25599063459 // MBol = -7.93493476010472
+	Teff    3660
+}
+
+// 96.Stephenson 2 DFK 3
+// https://simbad.cds.unistra.fr/simbad/sim-basic?Ident=Cl*+Stephenson+2+DFK+3&submit=SIMBAD+search
+
+// 97.BI Cygni
+// https://en.wikipedia.org/wiki/List_of_largest_known_stars
+Star "V* BI Cyg/BD+36 4025/IDS 20176+3637 A/RAFGL 2559/WDS J20214+3656A/AN 23.1919/IRAS 20194+3646/TIC 13249363/AAVSO 2017+36B/CCDM J20215+3656A/IRC +40408/TYC 2684-522-1/Gaia DR3 2057564148278709760/GEN# +0.03604025/JP11 158/UBV M 2712/Gaia DR2 2057564148278709760/GSC 02684-00522/2MASS J20212192+3655555"
+{
+	/*Observation data*/
+	RA      20 21 21.8869298736
+	Dec     +36 55 55.728708060
+	AppMagn 8.4 // 9.9
+	/*Characteristics*/
+	Class   "M4Iab"
+	/*Astrometry*/
+	Dist    2579
+	AbsMagn -6.78
+	/*Details*/
+	MassSol 6.3
+	RadSol  797 // 852 - 908
+	LumBol  64000 // 67000
+	Teff    3550
+	FeH     0.4
+}
+
+// 98.MY Cephei
+// https://en.wikipedia.org/wiki/MY_Cephei
+Star "V* MY Cep/IRC +60375/CSV 8802/TIC 12961551/[MO2001] 23/AKARI-IRC-V1 J2254316+604938/IRAS 22525+6033/UCAC4 755-075760/[PCC93] 474/Cl* NGC 7419 BMD 950/2MASS J22543171+6049388/Gaia DR2 2014636804844397824/Cl* NGC 7419 BNSW b/RAFGL 2987/WISE J225431.85+604938.2/Gaia DR3 2014636804844397824"
+{
+	/*Observation data*/
+	RA      22 54 31.6975387464
+	Dec     +60 49 38.973030780
+	AppMagn 14.4 // 15.5
+	/*Characteristics*/
+	Class   "M7I" // M7-7.5I, Extreme OH/IR red supergiant
+	/*Astrometry*/
+	Dist    3000
+	AbsMagn -5.9856062735983127 // Calculated (+8)
+	/*Details*/
+	MassSol 14.5
+	RadSol  1134 // 2061
+	LumBol  155000 // 310000
+	Teff    3000 // 3595
+	Age     0.009
+}
+
+// 99.V509 Cassiopeiae
+// https://en.wikipedia.org/wiki/V509_Cassiopeiae
+StarBarycenter "V* V509 Cas/HD 217476/HIC 113561/PMC 90-93 1469/uvby98 100217476/AG+56 1666/HIP 113561/PPM 41360/BD+56 2923/HR 8752/RAFGL 3006/WEB 20188/FK5 3839/IRAS 22579+5640/ROT 3349/YZ 56 13633/GC 32063/IRC +60379/SAO 35039/[KW97] 66-50/GCRV 14433/JP11 3566/SKY# 43664/AAVSO 2255+56/GEN# +1.00217476/2MASS J23000509+5656433/TIC 313555973/Gaia DR3 2009856132592845568/GSC 03993-02269/PLX 5576/TYC 3993-2269-1/Gaia DR2 2009856132592845568/HBHA 5706-41/PLX 5576.00/UBV 19726"
+{
+	/*Observation data*/
+	RA      23 00 05.1012218544
+	Dec     +56 56 43.350876312
+	AppMagn 4.6 // 6.1
+	/*Characteristics*/
+	Class   "G0Ia+" // K5Ia+ - A6Ia+
+	/*Astrometry*/
+	Dist    4810
+	AbsMagn -8.6
+}
+
+// 100.TW Carinae
+// https://simbad.cds.unistra.fr/simbad/sim-basic?Ident=TW+Carinae&submit=SIMBAD+search
+Star "V* TW Car/SV* HV 1231/BM VIII 19/TIC 459847143/Gaia DR2 5338815361690749824/AKARI-IRC-V1 J1055040-590324/IRAS 10530-5847/Gaia DR3 5338815361690749824/AN 72.1906/2MASS J10550409-5903250/WISE J105504.07-590325.2"
+{
+	/*Observation data*/
+	RA      10 55 04.0867947336
+	Dec     -59 03 24.906135888
+	AppMagn 11.85
+	/*Characteristics*/
+	Class   "M1Iab"
+	/*Astrometry*/
+	Parallax 0.0911105132234447
+	AbsMagn -7.661223263026374 // Calculated (+4.309065728105061)
+	/*Details*/
+	RadSol  835.4109393798946
+	LumBol  122915.30905719077 // MBol = -7.98401900976944
+	Teff    3745
 }

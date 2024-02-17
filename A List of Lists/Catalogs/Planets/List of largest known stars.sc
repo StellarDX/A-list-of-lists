@@ -365,3 +365,52 @@ Star	"The Garnet Star"
 		RefPlane        "Static"
 	}
 }
+
+// TYC 3996-552-2
+Star	"TYC 3996-552-1/** TDT 3675A/WDS J22432+5945A"
+{
+	ParentBody     "** TDT 3675"
+	Class	       "MIII?"
+
+	BinaryOrbit
+	{
+		Separation      2798.18 // 0.83"
+	}
+}
+
+Star	"TYC 3996-552-2/** TDT 3675B/WDS J22432+5945B"
+{
+	ParentBody     "** TDT 3675"
+	Class	       "M5Ib"
+	AbsMagn        -3.962664774482631
+	RadSol         870.829689454698
+	Luminosity     96192.49915042444 // MBol = -7.71785708649249
+	Teff           3450
+	Oblateness     0
+}
+
+// V509 Cassiopeiae
+Star	"V509 Cas A"
+{
+	ParentBody     "V* V509 Cas"
+	Class          "G0Ia+"
+	AbsMagn        -8.6
+	MassSol        11
+	RadSol         845 // 390 - 910
+	LumBol         269000 // 180000 - 400000
+	Teff           4000 // 8000
+	FeH            0
+	Oblateness     0
+
+	BinaryOrbit
+	{
+		Separation      1400
+	}
+}
+
+Star	"V509 Cas B"
+{
+	ParentBody     "V* V509 Cas"
+	Class          "B1V"
+	AbsMagn        -4.5
+}

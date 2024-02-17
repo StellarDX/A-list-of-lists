@@ -1,5 +1,5 @@
 // This is a list of hottest stars so far discovered (excluding degenerate stars), arranged by decreasing temperature.
-// The stars with temperatures higher than 60,000 K are included.
+// Stars with temperatures higher than 60,000 K are included.
 // Reference: https://en.wikipedia.org/wiki/List_of_hottest_stars
 
 // 1.WR 102
