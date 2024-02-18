@@ -414,3 +414,75 @@ Star	"V509 Cas B"
 	Class          "B1V"
 	AbsMagn        -4.5
 }
+
+// HD 300933
+Star	"HD 300933 A"
+{
+	ParentBody     "GSC 08609-02644"
+	Class          "M3Iab"
+	AbsMagn        -5.4761062129994915
+	RadSol         806.4053905781446
+	LumBol         104479.1329008191 // MBol = -7.80757796514157
+	Teff           3660
+	Oblateness     0
+
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          125.021751
+		Eccentricity    0.381933078
+		Inclination     -1.52161455
+		AscendingNode   0
+		ArgOfPericenter 75.8716837
+		MeanAnomaly     78.2153893
+	}
+}
+
+Star	"HD 300933 B"
+{
+	ParentBody     "GSC 08609-02644"
+	Class          "B2V"
+	AbsMagn        -2.5 // https://ui.adsabs.harvard.edu/abs/1970ApJ...162..199K/abstract
+}
+
+// GU Cephei
+Star	"V* GU Cep A/TYC 4279-27-1/** TDT 3909A/WDS J23102+6114A"
+{
+	ParentBody     "V* GU Cep"
+	Class          "M3I"
+	AbsMagn        -5.7247741461711534
+	RadSol         767
+	Oblateness     0
+
+	BinaryOrbit // Generated
+	{
+		Separation      1330.98 // 0.45"
+	}
+}
+
+Star	"V* GU Cep B/TYC 4279-27-2/** TDT 3909B/WDS J23102+6114B"
+{
+	ParentBody     "V* GU Cep"
+	Class          "MIII?"
+}
+
+// Betelgeuse
+Star "Betelgeuse A"
+{
+	DateUpdated "2020-10-13"
+	ParentBody "HIP 27989"
+	Class      "M1Ia" // M1-M2Ia-ab
+	AbsMagn    -5.85
+	MassSol    14 // 19
+	RadSol     764 // 640 - 1021
+	LumBol     87100 // 126000 // 90000 - 150000
+	Teff       3600
+	FeH        0.05
+	RotationPeriod 315569.2518747072 // 36 years
+	Age        0.008 // 0.0085
+
+	Orbit
+	{
+		RefPlane "Static"
+	}
+}
