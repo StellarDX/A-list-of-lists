@@ -348,23 +348,23 @@ Star	"HD 203339/CSI+58 2249 4/PMSC 21165+5814B/WDS J21193+5837B/** STF 2790B/GEN
 }
 
 // μ Cephei
-Star	"The Garnet Star"
-{
-	DateUpdated    "2020-03-16"
-	ParentBody     "MU Cep"
-	Class	       "M2Iae"
-	MassSol        19.2
-	RadSol         972 // 1259 // 1420
-	Luminosity     269000 // 135000 /// 340000
-	Teff           3551 // 3750 // 3700
-	Age            0.01
-	Oblateness     0
+// Star	"The Garnet Star"
+// {
+// 	DateUpdated    "2020-03-16"
+// 	ParentBody     "MU Cep"
+// 	Class	       "M2Iae"
+// 	MassSol        19.2
+// 	RadSol         972 // 1259 // 1420
+// 	Luminosity     269000 // 135000 /// 340000
+// 	Teff           3551 // 3750 // 3700
+// 	Age            0.01
+// 	Oblateness     0
 
-	Orbit
-	{
-		RefPlane        "Static"
-	}
-}
+// 	Orbit
+// 	{
+// 		RefPlane        "Static"
+// 	}
+// }
 
 // TYC 3996-552-2
 Star	"TYC 3996-552-1/** TDT 3675A/WDS J22432+5945A"
