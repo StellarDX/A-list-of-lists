@@ -1246,27 +1246,27 @@ Star "LEE 259/DO 27089/IRC +50096/RAFGL 489/[LFO93] 0322+47/ATO J051.6230+47.530
 
 // 71.ψ1 Aurigae
 // https://en.wikipedia.org/wiki/Psi1_Aurigae
-Remove "PSI1 Aur"
-Star "座旗增一/PSI1 Aur/46 Aur/GSC 03384-01194/N30 1379/UBV 21528/HD 44537/PLX 1476/uvby98 100044537/AG+49 672/HIC 30520/PLX 1476.00/V* PSI1 Aur/BD+49 1488/HIP 30520/PMC 90-93 174/WEB 6077/DO 30344/HR 2289/PPM 49029/AAVSO 0617+49/FK5 242/IRAS 06210+4918/SAO 41076/Gaia DR3 970675154497903616/GC 8235/IRC +50164/SKY# 10981/Gaia DR2 970675154497903616/GCRV 4058/JP11 1373/TIC 258622975/GEN# +1.00044537/2MASS J06245390+4917163/TYC 3384-1194-1"
-{
-	DateUpdated "2019-05-25"
-	/*Observation data*/
-	RA      06 24 53.9015502096
-	Dec     +49 17 16.411221960
-	AppMagn 4.75
-	/*Characteristics*/
-	Class   "K5Iab" // K5-M1Iab-Ib
-	/*Astrometry*/
-	Dist    2300
-	AbsMagn -5.53
-	/*Details*/
-	MassSol 14.4
-	RadSol  726
-	LumBol  63579
-	Teff    3750
-	FeH     0.08
-	Age     0.0123
-}
+// Remove "PSI1 Aur"
+// Star "座旗增一/PSI1 Aur/46 Aur/GSC 03384-01194/N30 1379/UBV 21528/HD 44537/PLX 1476/uvby98 100044537/AG+49 672/HIC 30520/PLX 1476.00/V* PSI1 Aur/BD+49 1488/HIP 30520/PMC 90-93 174/WEB 6077/DO 30344/HR 2289/PPM 49029/AAVSO 0617+49/FK5 242/IRAS 06210+4918/SAO 41076/Gaia DR3 970675154497903616/GC 8235/IRC +50164/SKY# 10981/Gaia DR2 970675154497903616/GCRV 4058/JP11 1373/TIC 258622975/GEN# +1.00044537/2MASS J06245390+4917163/TYC 3384-1194-1"
+// {
+// 	DateUpdated "2019-05-25"
+// 	/*Observation data*/
+// 	RA      06 24 53.9015502096
+// 	Dec     +49 17 16.411221960
+// 	AppMagn 4.75
+// 	/*Characteristics*/
+// 	Class   "K5Iab" // K5-M1Iab-Ib
+// 	/*Astrometry*/
+// 	Dist    2300
+// 	AbsMagn -5.53
+// 	/*Details*/
+// 	MassSol 14.4
+// 	RadSol  726
+// 	LumBol  63579
+// 	Teff    3750
+// 	FeH     0.08
+// 	Age     0.0123
+// }
 
 // 72.GX Monocerotis
 // https://simbad.cds.unistra.fr/simbad/sim-basic?Ident=GX+Monocerotis&submit=SIMBAD+search
