@@ -467,7 +467,7 @@ Star	"V* GU Cep B/TYC 4279-27-2/** TDT 3909B/WDS J23102+6114B"
 }
 
 // Betelgeuse
-Star "Betelgeuse A"
+/*Star "Betelgeuse A"
 {
 	DateUpdated "2020-10-13"
 	ParentBody "HIP 27989"
@@ -485,4 +485,4 @@ Star "Betelgeuse A"
 	{
 		RefPlane "Static"
 	}
-}
+}*/
