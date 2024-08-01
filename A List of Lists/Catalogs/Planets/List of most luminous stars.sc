@@ -76,8 +76,8 @@ Star	"M33-013406.63 B"
 
 // 海山二(LBV**)
 // SpaceEngineer; wiki
-Remove "ETA Car A" {ParentBody "ETA Car"}
-Remove "ETA Car B" {ParentBody "ETA Car"}
+// Remove "ETA Car A" {ParentBody "ETA Car"}
+// Remove "ETA Car B" {ParentBody "ETA Car"}
 /*Star	"ETA Car A"
 {
 	DateUpdated "2019-08-24"
