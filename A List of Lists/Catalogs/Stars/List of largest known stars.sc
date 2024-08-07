@@ -2509,3 +2509,4 @@ Star "V* IM Cas/HIP 7139/Gaia DR3 512307311144571008/TIC 389760625/2MASS J013200
 
 // 140.RSGC3-S3
 // https://simbad.cds.unistra.fr/simbad/sim-basic?Ident=%5BCND2009%5D+S3&submit=SIMBAD+search
+
