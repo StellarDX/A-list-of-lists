@@ -2,8 +2,8 @@
 //                                                                                                //
 //                                  List of largest known stars                                   //
 //                                                                                                //
-//    This list includes 7 sub-lists, classified based on host galaxy includes the Milky Way,     //
-//    Magellanic Clouds, Andromeda, Triangulum, and other galaxies.                               //                                          
+//    This list includes 4 sub-lists, classified based on host galaxy includes the Milky Way,     //
+//    Magellanic Clouds, Andromeda and Triangulum, and other galaxies.                               //                                          
 //    This is a dynamic list and may never be able to satisfy particular standards for            //
 //    completeness. You can help by adding missing items with reliable sources.                   //
 //    Stars larger than 700 RSun are included.                                                    //
@@ -83,7 +83,10 @@ StarBarycenter "WOH G 64/MACHO 47.2368.9/OGLE LMC-LPV-6819/Gaia DR2 466152726279
 // but Not As Cool As We Thought". The Astrophysical 
 // Journal. 628 (2): 973–985.
 // https://arxiv.org/abs/astro-ph/0504337
-// 7.The Gaia DR3
+// 7.Siderud, Emelie (2020). Dust emission modelling of 
+// AGB stars
+// https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-423949
+// 8.The Gaia DR3
 // https://gea.esac.esa.int/archive/
 
 // 2.RSGC1-F01
@@ -1844,6 +1847,7 @@ Star "V* R Cyg/HD 185456/GC 27152/PPM 37581/WEB 16927/AG+50 1398/GCRV 12027/RAFG
 	Class   "S2.5,9e-S6,9e(Tc)"
 	/*Astrometry*/
 	Dist    670
+	AbsMagn -3.030374013504133 // Calculated
 	/*Details*/
 	MassSol 0.85
 	RadSol  825
@@ -2510,3 +2514,252 @@ Star "V* IM Cas/HIP 7139/Gaia DR3 512307311144571008/TIC 389760625/2MASS J013200
 // 140.RSGC3-S3
 // https://simbad.cds.unistra.fr/simbad/sim-basic?Ident=%5BCND2009%5D+S3&submit=SIMBAD+search
 
+// 141.Stephenson 2 DFK 10
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=Cl*%20Stephenson%202%20DFK%2010
+
+// 142.V1259 Orionis
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=V1259%20Orionis
+Star "RAFGL 865/WISEA J060400.03+072551.9/TIC 156636300/CGCS 6113/IRAS 06012+0726/V* V1259 Ori/[LFO93] 0601+07/AKARI-IRC-V1 J0604000+072551/AKARI-FIS-V1 J0603598+072554/2MASS J06040004+0725520/WISE J060359.91+072553.0"
+{
+	DateUpdated     "2024-08-07"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              6 4 0.04728
+	Dec             7 25 52.0104
+	Dist            1600
+	Class           "C-rich"
+	// Measures     
+	RadSol          729
+	LumBol          9300
+	Teff            2100
+}
+
+// 143.RSGC3-S15
+// https://simbad.cds.unistra.fr/simbad/sim-basic?Ident=%5BCND2009%5D+S15
+
+// 144.HD 105563 A
+// https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD+105563&submit=SIMBAD+search
+Remove "HD 105563"
+StarBarycenter "HD 105563/IDS 12041-6316 A/uvby98 100105563/ALS 15773/SAO 251765/PPM 359220/NSV 5477/IRSV 1206-6332/HIC 59265/Glazar Cru 212/CPD-63 2160/CPC 20.1 3485/CEL 4060/CD-63 716/LLNS 7420/LLNS 7421/HIP 59265/Gaia DR3 6054081691687449728/WISEA J120923.23-634912.8/TIC 381040922/TYC 8982-4531-1/HD 105563A/** HRG 74A/CCDM J12094-6349A/WDS J12094-6349A/IRAS 12067-6332/Gaia DR2 6054081691687449728/2MASS J12092321-6349131/UCAC4 131-064377/WISE J120923.44-634914.3/[A72c] 80"
+{
+	DateUpdated     "2024-08-08"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              12 9 23.2121800224
+	Dec             -63 49 13.146354264
+	Parallax        0.3681
+	AppMagn         7.27
+	Class           "M1III:ep"
+}
+
+// 145.XX Persei
+// https://en.wikipedia.org/wiki/XX_Persei
+Star "V* XX Per/HIP 9582/Gaia DR3 456507783227720576/TIC 445566490/2MASS J02030935+5513566/AAVSO 0156+54/AG+54 232/AN 19.1917/BD+54 444/CCDM J02032+5512A/DO 25196/GCRV 52503/GEN# +1.00012401/GSC 03689-01837/HD 12401/HIC 9582/IDS 01564+5445 A/IRAS 01597+5459/IRC +50052/JP11 575/PPM 27055/RAFGL 4153S/SAO 22875/SV* HV 3414/TYC 3689-1837-1/UBV M 8615/YZ 54 949/WDS J02032+5514A/Gaia DR1 456507778926607360/Gaia DR2 456507783227720576"
+{
+	DateUpdated     "2024-08-08"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              2 3 9.3585397752
+	Dec             55 13 56.622913212
+	Parallax        0.398
+	AppMagn         8.2
+	Class           "M4Ib+"
+	// Measures     
+	AbsMagn         -4.6
+	MassSol         16
+	RadSol          718
+	LumBol          42000
+	Teff            3339
+}
+
+// 146.RX Telescopii
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=RX%20Telescopii
+Star "V* RX Tel/WISE J190658.43-455814.3/Gaia DR3 6662929658466129920/TIC 425670707/AAVSO 1859-46/AN 131.1910/CD-46 12809/CPC 0 17941/CPD-46 9615/GC 26277/GCRV 27295/GSC 08374-02717/HD 177456/IRAS 19032-4602/PPM 324783/RAFGL 5554/SAO 229497/SKY# 35370/SV* HV 3303/TYC 8374-2717-1/2MASS J19065823-4558136/Gaia DR1 6662929654167476992/Gaia DR2 6662929654167476992"
+{
+	DateUpdated     "2024-08-08"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              19 6 58.206196284
+	Dec             -45 58 13.54342962
+	Parallax        0.4914
+	AppMagn         8.9
+	Class           "M3Iab"
+	// Measures     
+	AbsMagn         -2.8501402401006803 // Calculated (+0.207316000820992)
+	RadSol          716.469989992301
+	LumBol          77627.47470192377 // MBol = -7.48504271199732
+	Teff            3605
+}
+
+// 147.V Camelopardalis
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=RX%20Telescopii
+Star "V* V Cam/AKARI-IRC-V1 J0602322+743027/ASASSN-V J060231.73+743027.2/Gaia DR3 1114589544261128064/WISEA J060232.23+743027.1/TIC 138074750/BD+74 266a/2MASS J06023232+7430268/AAVSO 0549+74/AN 8.1902/DO 29814/GSC 04357-00683/HD 39741/IRAS 05559+7430/IRC +70067/RAFGL 849/TYC 4357-683-1/[LFO93] 0555+74/[PCC93] 88/[WWV2004] J0602322+743031/Gaia DR2 1114589544261128064/WISE J060231.68+743031.4"
+{
+	DateUpdated     "2024-08-08"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              6 2 32.2682825832
+	Dec             74 30 27.210065112
+	Parallax        1.5657
+	AppMagn         10.98
+	Class           "M7I"
+	// Measures     
+	AbsMagn         1.9535427578756135 // Calculated
+	RadSol          716
+}
+
+// 148.CD-61 3575
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=CD-61%203575
+StarBarycenter "CD-61 3575/Gaia DR3 6055427493901807104/LLNS 8960/TIC 434362356/AAVSO 1238-61/Hen 3-814/IRAS 12413-6139/JP11 5227/PPM 779130/SS73 35/[A72c] 89/[GM76] 167/2MASS J12441615-6156209/** DUN 117/TYC 8992-314-1/Gaia DR2 6055427493901807104"
+{
+	DateUpdated     "2024-08-08"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              12 44 16.1485186896
+	Dec             -61 56 21.185840436
+	Parallax        0.4596
+	AppMagn         9.86
+	Class           "M2Iaep+B"
+}
+
+// 149.S Cephei
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=S%20Cephei
+Star "V* S Cep/Gaia DR3 2284711568256711040/TIC 264405368/2MASS J21351284+7837282/AAVSO 2136+78/BD+77 827/C* 3055/CGCS 5406/GC 30287/GCRV 13590/HD 206362/HIC 106583/HIP 106583/IRAS 21358+7823/IRC +80048/LEE 336/POVR 3/RAFGL 2785/SAO 10100/SKY# 41158/[LFO93] 2135+78/TYC 4603-770-1/WEB 19282/DO 39837/Gaia DR2 2284711568256711040"
+{
+	DateUpdated     "2024-08-08"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              21 35 12.8233100592
+	Dec             78 37 28.185141792
+	Parallax        2.0452
+	AppMagn         7.4
+	Class           "C7.3e"
+	// Measures     
+	AbsMagn         -1.0463210797275035 // Calculated
+	RadSol          715
+	LumBol          11587.730165437035 // MBol = -5.42
+	Teff            2240
+}
+
+// 150.AS Cephei
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=AS%20Cephei
+Star "V* AS Cep/Gaia DR3 2013630378050340480/TIC 314043470/AAVSO 2258+59B/BD+59 2627/GEN# +0.05902627/GSC 03997-00641/IRAS 23000+5932/IRC +60382/RAFGL 3016/SV* SVS 604/SV* P 5712/UBV M 4216/2MASS J23020522+5949062/TYC 3997-641-1/UCAC3 300-176859/Gaia DR2 2013630378050340480"
+{
+	DateUpdated     "2024-08-08"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              23 2 5.2113146664
+	Dec             59 49 6.206697048
+	Parallax        0.373
+	AppMagn         9.99
+	Class           "M3I"
+	// Measures     
+	AbsMagn         -3.4711343043408895 // Calculated (+1.31967846338433)
+	RadSol          712.882268557155
+	LumBol          76851.98249586554 // MBol = -7.47414175399492
+	Teff            3605
+}
+
+// 151.V770 Cassiopeiae (BD+60 299)
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=V770%20Cassiopeiae
+Star "BD+60 299/HIP 7755/Gaia DR3 509928345942944640/TIC 444753518/2MASS J01395168+6054081/AAVSO 0133+60/AG+60 187/GCRV 51843/GSC 04031-01880/HIC 7755/IRAS 01364+6038/IRC +60060/LF 5 +60 159/PPM 13155/RAFGL 4127S/SAO 11899/TYC 4031-1880-1/V* V770 Cas/UCAC3 302-42123/Gaia DR1 509928341634066816/WEB 1667/Gaia DR2 509928345942944640/DO 24581"
+{
+	DateUpdated     "2024-08-08"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              1 39 51.6625318536
+	Dec             60 54 8.259251652
+	Parallax        0.3297
+	AppMagn         7.78
+	Class           "M2Iab"
+	// Measures     
+	AbsMagn         -5.698427515573945 // Calculated (+1.06902225128971)
+	RadSol          712.786669373383
+	LumBol          81628.50693342931 // MBol = -7.53960869831577
+	Teff            3660
+}
+
+// 152.AZ Cephei
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=AZ%20Cephei
+Star "V* AZ Cep/Gaia DR3 2199947949140348288/TIC 328744769/AG+59 1496/AN 41.1939/BD+58 2396/GEN# +0.05802396/IRAS 22069+5918/IRC +60343/IRCO 115/JP11 212/PPM 40275/RAFGL 2857/2MASS J22083849+5933013/TYC 3981-1028-1/GSC 03981-01028/UCAC3 300-164108/Gaia DR1 2199947944836987264/Gaia DR2 2199947949140348288/DO 40830"
+{
+	DateUpdated     "2024-08-08"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              22 8 38.4909261024
+	Dec             59 33 1.4580081
+	Parallax        0.2706
+	AppMagn         10.03
+	Class           "M2Ia"
+	// Measures     
+	AbsMagn         -5.2382494488651385 // Calculated (+2.42988841017316)
+	RadSol          712.084771896271
+	LumBol          89303.61891307376 // MBol = -7.6371767122418
+	Teff            3745
+}
+
+// 153.MZ Puppis
+// https://en.wikipedia.org/wiki/MZ_Puppis
+Star "V* MZ Pup/HIP 39487/Gaia DR3 5547686493207863424/TIC 419425547/2MASS J08041619-3240291/PLX 1919/CD-32 4796/CPC 17 3741/CPD-32 1955/GC 10960/GCRV 5368/GEN# +1.00066888/GSC 07124-03767/HD 66888/HIC 39487/HR 3170/IRAS 08023-3231/IRC -30115/PPM 284752/RAFGL 1224/SAO 198764/SKY# 15195/SRS 41800/TYC 7124-3767-1/UBV M 13969/PLX 1919.00/[L69b] 6 1/WEB 7720/Gaia DR2 5547686493207863424"
+{
+	DateUpdated     "2024-08-08"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              8 4 16.1895113976
+	Dec             -32 40 29.389546632
+	Parallax        0.8126
+	AppMagn         5.12
+	Class           "M1Iab-Ib"
+	// Measures     
+	AbsMagn         -6.030407192912677 // Calculated (+0.699791282864641)
+	MassSol         14
+	RadSol          707.801939764938
+	LumBol          88232.61660017887 // MBol = -7.62407696289408
+	Teff            3745
+	Age             0.025
+}
+
+// 154.GP Cassiopeiae
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=GP%20Cassiopeiae
+Star "V* GP Cas/HIP 12416/Gaia DR3 464371421669045248/TIC 245619397/2MASS J02395046+5935513/AG+59 284/AN 41.1940/BD+58 501/GCRV 53246/GEN# +0.05800501/GSC 03699-02124/HIC 12416/IRAS 02360+5922/IRC +60094/JP11 211/PPM 27846/RAFGL 359/SV* ZI 139/TYC 3699-2124-1/UBV M 4073/[KSP2003] G136.2609-00.4396/[KSP2003] J023950.14+593549.9/UCAC3 300-54003/Gaia DR2 464371421669045248"
+{
+	DateUpdated     "2024-08-08"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              2 39 50.4400348008
+	Dec             59 35 51.296129808
+	Parallax        0.3683
+	AppMagn         11.5
+	Class           "M2Iab"
+	// Measures     
+	AbsMagn         -3.2137322360289557 // Calculated (+2.54474083030352)
+	RadSol          706.648737352321
+	LumBol          80228.72487227333 // MBol = -7.6371767122418
+	Teff            3660
+}
+
+// 155.GCIRS 12N
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=GCIRS+12N
+
+// 156.V Cygni
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=V%20Cygni
+Star "V* V Cyg/AKARI-IRC-V1 J2041181+480828/WISEA J204118.30+480829.8/ASASSN-V J204118.25+480829.2/Gaia DR3 2167591280437990656/TIC 286094845/AAVSO 2038+47/BD+47 3167a/C* 2923/CGCS 4939/Case 468/GC 28844/GCRV 12970/HIC 102082/HIP 102082/IRAS 20396+4757/IRC +50338/Kiso C3-46/LEE 327/MSB 39/NOVA Cyg 1974/RAFGL 2632/SAO 49940/SKY# 39194/[KW97] 48-29/[LFO93] 2039+47/2MASS J20411826+4808288/TYC 3578-2382-1/Gaia DR1 2167591276131388544/WEB 18462/DO 38726/Gaia DR2 2167591280437990656"
+{
+	DateUpdated     "2024-08-08"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              20 41 18.2676815496
+	Dec             48 8 28.81098042
+	Parallax        1.8331
+	AppMagn         7.7
+	Class           "C7.4eJ"
+	// Measures     
+	RadSol          700
+	LumBol          6.6E3
+	Teff            1875
+}
+
+// 157.V528 Carinae
+// https://en.wikipedia.org/wiki/V528_Carinae
+Star "V* V528 Car/HIP 54021/Gaia DR3 5338040205991255296/WISEA J110306.16-605438.6/TIC 466325776/BM V 254/CD-60 3327/CPC 20.1 3038/CPD-60 2479/GC 15194/GCRV 25994/GSC 08958-01448/HD 95950/HIC 54021/PPM 358434/SAO 251235/SKY# 21105/TYC 8958-1448-1/uvby98 100095950/2MASS J11030616-6054387/GAL 290.139-00.772/IRAS 11010-6038/MSX6C G290.1423-00.7577/AKARI-IRC-V1 J1103061-605437/WISE J110305.99-605438.7/GEN# +1.00095950/Gaia DR2 5338040205991255296"
+{
+	DateUpdated     "2024-08-08"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              11 3 6.1541602056
+	Dec             -60 54 38.626811532
+	Parallax        0.4504
+	AppMagn         6.57
+	Class           "M2Ib:"
+	// Measures     
+	AbsMagn         -6.09
+	RadSol          700
+	LumBol          81000
+	Teff            3700
+}

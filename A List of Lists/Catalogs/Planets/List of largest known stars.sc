@@ -486,3 +486,58 @@ Star	"V* GU Cep B/TYC 4279-27-2/** TDT 3909B/WDS J23102+6114B"
 		RefPlane "Static"
 	}
 }*/
+
+// HD 105563 (VV Cep variable)
+Star "HD 105563 A"
+{
+	DateUpdated     "2024-08-08"
+	ParentBody      "HD 105563"
+	Class           "M1III:ep"
+	AbsMagn         -5.3
+	RadSol          722.691052738987
+	LumBol          83912.77260999332 // MBol = -7.56957424383316
+	Teff            3660
+
+	BinaryOrbit     
+	{
+		Separation      6275.46781508212 // 2.31 asec
+	}
+}
+
+Star "HD 105563 B/Gaia DR3 6054081622967973120/TYC 8982-4531-2/** HRG 74B/CCDM J12094-6349B/WDS J12094-6349B/UCAC4 131-064379/[L68] 108/Gaia DR2 6054081622967973120"
+{
+	DateUpdated     "2024-08-08"
+	ParentBody      "HD 105563"
+	Class           "B1.5V"
+	AbsMagn         -4
+}
+
+// CD-61 3575
+Star "CD-61 3575 A"
+{
+	DateUpdated     "2024-08-08"
+	ParentBody      "CD-61 3575"
+	Class           "M2Iaep"
+	AbsMagn         -5.985834687443703 // Calculated (+4.15773478752494)
+	RadSol          715.548428568649
+	LumBol          82262.28708186878 // MBol = -7.54800601541106
+	Teff            3660
+
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		SemiMajorAxis   33.4108878
+		Eccentricity    0.0836633096
+		Inclination     0.873829365
+		AscendingNode   0
+		ArgOfPericenter 104.79924
+		MeanAnomaly     -108.201775
+	}
+}
+
+Star "CD-61 3575 B"
+{
+	DateUpdated     "2024-08-08"
+	ParentBody      "CD-61 3575"
+	Class           "B"
+}
