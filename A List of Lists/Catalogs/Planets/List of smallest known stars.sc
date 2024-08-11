@@ -923,3 +923,265 @@ Planet	"Methuselah/PSR B1620-26 b"
 	}
 }
 
+// HD 49798
+Star "HD 49798 A"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "HD 49798"
+	Class           "sdO6"
+	AbsMagn         -0.2969462936980811 // Calculated
+	MassSol         1.50
+	RadSol          1.45
+	LumBol          3943
+	Teff            47500
+
+	BinaryOrbit     
+	{
+		PeriodDays      1.55
+		Eccentricity    0.0
+		Inclination     82
+	}
+}
+
+Star "HD 49798 B"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "HD 49798"
+	Class           "WD"
+	MassSol         1.28
+	Radius          1600
+	LumBol          12.212925540586173 // Calculated
+	Teff            225000
+}
+
+// Wolf 1130
+// NoirLab: http://www.ctio.noirlab.edu/~atokovin/stars/stars.php?cat=HIP&number=98906
+Remove "Wolf 1130 A" {ParentBody "Wolf 1130"}
+Remove "Wolf 1130 B" {ParentBody "Wolf 1130"}
+Barycenter "Wolf 1130 A"
+{
+	ParentBody      "GJ 781"
+	BinaryOrbit     
+	{
+		Period          137030
+		Separation      3150
+	}
+}
+
+Star "Wolf 1130 Aa"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "Wolf 1130 A"
+	Class           "sdM1"
+	AbsMagn         12.784435308598715 // Calculated
+	MassSol         0.26
+	Radius          229580
+	LumBol          0.015234092778604982 // Calculated
+	Teff            3530
+	FeH             -0.70
+	TiH             -0.22
+	OtoH            -0.5
+	CaH             -0.20
+	Age             10
+	RotationPeriod  11.9208 // Equal to orbital period
+	Obliquity       29
+	TidalLocked     true
+
+	BinaryOrbit // 2018ApJ...854..145M (Visible Light)
+	{
+		PeriodDays      0.4967013
+		SemiMajorAxisKm 2087100      
+		Eccentricity    0.011
+		Inclination     29
+		AscendingNode   210
+		Epoch           2449559.04
+		ArgOfPericenter 210
+		MeanAnomaly     0
+	}
+
+	/*BinaryOrbit // 2018ApJ...854..145M (Infrared)
+	{
+		PeriodDays      0.4967040
+		SemiMajorAxisKm 2087100      
+		Eccentricity    0.002
+		Inclination     29
+		AscendingNode   210
+		Epoch           2456849.09
+		ArgOfPericenter 160
+		MeanAnomaly     0
+	}*/
+
+	/*BinaryOrbit // 2018ApJ...854..145M (Free-parameter)
+	{
+		PeriodDays      0.49670419
+		SemiMajorAxisKm 2087100      
+		Eccentricity    0.002
+		Inclination     29
+		AscendingNode   210
+		Epoch           2456849.10
+		ArgOfPericenter 164
+		MeanAnomaly     0
+	}*/
+}
+
+Star "Wolf 1130 Ab"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "Wolf 1130 A"
+	Class           "WDONe"
+	MassSol         1.24
+	Radius          3480
+	LumBol          5.412530037091634e-05 // Calculated
+	Teff            7000
+}
+
+Star "Wolf 1130 B/GJ 781 B/WISEA J200520.35+542433.6/WISE J200520.38+542433.9/** MGN 1B/WDS J20050+5426B"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "GJ 781"
+	Class           "sdT8p"
+	MassJup         44.9
+	Radius          58625
+	LumBol          1.121069418515309e-06 // Calculated
+	Teff            647
+}
+
+// IK Pegasi
+Remove "IK Peg A" {ParentBody "IK Peg"}
+Remove "IK Peg B" {ParentBody "IK Peg"}
+Star "IK Peg A"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "V* IK Peg"
+	Class           "A8m:"
+	AbsMagn         2.75
+	MassSol         1.65
+	RadSol          1.47
+	LumBol          6.568
+	Teff            7624
+	FeH             0.07
+	Age             0.050 // 0.6
+
+	BinaryOrbit     
+	{
+		PeriodDays      21.72168
+		Inclination     90
+	}
+}
+
+Star "IK Peg B"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "V* IK Peg"
+	Class           "DA"
+	MassSol         1.15
+	Radius          4174
+	LumBol          0.12
+	Teff            35500
+}
+
+// U Gem
+Remove "U Gem A" {ParentBody "U Gem"}
+Remove "U Gem B" {ParentBody "U Gem"}
+Star "U Gem A"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "V* U Gem"
+	Class           "DA"
+	AbsMagn         9.68937309132553 // Calculated
+	MassSol         1.2
+	Radius          5565
+	LumBol          0.04190939724315617 // Calculated
+	Teff            29200
+
+	AccretionDisk
+	{
+		Radius        0.002838 // AU
+		Temperature   29200 // This temperature overrides the Teff above, commented out for now -MTan
+		Density       5000
+	}
+
+	BinaryOrbit     
+	{
+		PeriodDays      0.1769062
+		SemiMajorAxisKm 1078335 // 1.55 RSun
+		Eccentricity    0.027
+		Inclination     69.7
+	}
+}
+
+Star "U Gem B"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "V* U Gem"
+	Class           "M4.5Ve"
+	MassSol         0.42
+	Radius          299150
+}
+
+// AE Aqr
+Remove "AE Aqr A" {ParentBody "AE Aqr"}
+Remove "AE Aqr B" {ParentBody "AE Aqr"}
+Star "HIP 101991 A"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "V* AE Aqr"
+	Class           "WD"
+	AbsMagn         6.6
+	MassSol         0.63
+	Radius          6950
+	RotationPeriod  0.00918888888888888888888888888889
+
+	AccretionDisk
+	{
+		InnerRadiusKm     34750
+		OuterRadiusKm     48650
+		InnerThicknessKm  2000
+		OuterThicknessKm  3000
+		Temperature       12000
+		Brightness        10
+	}
+
+	BinaryOrbit     
+	{
+		PeriodDays      0.41166666666666666666666666666667
+		SemiMajorAxisKm 1627938
+		Inclination     70
+	}
+}
+
+Star "HIP 101991 B"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "V* AE Aqr"
+	Class           "K3IV" // K3-5IV/V
+	MassSol         0.37
+	RadSol          0.79
+}
+
+// AR Scorpii
+Remove "AR Sco A" {ParentBody "AR Sco"}
+Remove "AR Sco B" {ParentBody "AR Sco"}
+Star "AR Sco A"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "V* AR Sco"
+	Class           "WD"
+	AbsMagn         9.408229951563797 // Calculated
+	MassSol         0.8
+	Radius          6950
+	RotationPeriod  0.0325
+
+	BinaryOrbit     
+	{
+		PeriodDays      0.14853529166666666666666666666667
+	}
+}
+
+Star "AR Sco B"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "V* AR Sco"
+	Class           "M5"
+	MassSol         0.28 // 0.45
+}
