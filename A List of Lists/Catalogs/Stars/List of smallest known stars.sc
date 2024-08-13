@@ -226,7 +226,7 @@ StarBarycenter "PSR B1620-26/PSR J1623-2631/[BPH2004] CX 12/EQ J1623-2631"
 	Class           "Q"
 }
 
-// 17.HD 49798 WD
+// 17.HD 49798 WD (The smallest white dwarf stars known)
 // https://en.wikipedia.org/wiki/HD_49798
 StarBarycenter "HD 49798/HIP 32602/Gaia DR3 5562023884304074240/TIC 170203297/SBC9 422/UCAC2 12836082/1WGA J0648.0-4418/1WGA J0648.0-4419/AAVSO 0645-44/CD-44 2920/CEL 1390/CPC 0 3901/CPD-44 1096/GCRV 58075/GEN# +1.00049798/GSC 07639-01289/Glazar Vel 8/HIC 32602/INTREF 313/PPM 311129/RX J0648.0-4419/SAO 218207/SBC7 290/TD1 8248/TYC 7639-1289-1/UBV 6765/UBV M 12478/uvby98 100049798/RX J0648.0-4418/ALS 15821/2MASS J06480469-4418584/1RXS J064804.4-441905/RX J0648.1-4419/Renson 13500/2XMM J064804.6-441858/WEB 6574/Gaia DR2 5562023884304074240/3XMM J064804.6-441858"
 {
@@ -427,4 +427,590 @@ StarBarycenter "V* AR Sco/Gaia DR3 6050296829033196032/TIC 50098516/AN 216.1904/
 	Parallax        8.5437
 	AppMagn         14.75
 	Class           "M5+D?"
+}
+
+// 31.G 29-38
+// https://en.wikipedia.org/wiki/G_29-38
+Star "V* ZZ Psc/GJ 895.2/Gaia DR3 2660358032257156736/TIC 422526868/LSPM J2328+0514/NLTT 56992/2MASS J23284760+0514540/USNO-B1.0 0952-00593489/CSI+04-23263/EGGR 159/G 29-38A/GEN# +9.80029038/JP11 5933/LHS 5405/LTT 16907/PB 5398/PG 2326+049/PM 23263+0458/SV* SVS 2123/UBV M 42777/UBV 20113/USNO 99/WD 2326+049/WD 2326+04/[RRW93] Pn24l-5/PLX 5685.01/WISEA J232847.35+051451.4/LAMOST J232847.62+051454.2/G 29-38/Gaia DR2 2660358032257156736/PM J23287+0514"
+{
+	DateUpdated     "2024-08-11"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              23 28 47.6365087803
+	Dec             5 14 54.235051503
+	Parallax        57.062
+	AppMagn         13.03
+	Class           "DA4.4"
+	// Measures     
+	AbsMagn         11.81173494716801 // Calculated
+	MassSol         0.593
+	Radius          6950
+	LumBol          0.002
+	Teff            11820
+}
+
+// 32.LP 145-141
+// https://en.wikipedia.org/wiki/Gliese_440
+Remove "Gliese 440"
+Star "LAWD 37/GJ 440/HIP 57367/Gaia DR3 5332606522595645952/LLNS 6105/TIC 323485429/PLX 2716/AC2000 4195112/ALS 2481/BPM 7108/CSI-64-11430/CSI-64-11431/Ci 20 658/EGGR 82/GEN# +9.86145141/GSC 08981-04418/GSC 08981-04378/GSC 08981-04417/HIC 57367/L 145-141/LFT 844/LHS 43/LPM 396/LS 2481/LTT 4364/NLTT 28447/PM 11429-6434/UBV M 42331/UBV 10596/WD 1141-64/WD 1142-64/WD 1142-645/WG 20/Zkh 167/[L68] 74/uvby98 986145141/2MASS J11454297-6450297/PLX 2716.00/TYC 8981-4417-1/WISEA J114547.32-645033.2/Gaia DR1 5332606518269523072/UCAC4 126-052931/Gaia DR2 5332606522595645952"
+{
+	DateUpdated     "2024-08-11"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              11 45 42.9169346379
+	Dec             -64 50 29.461957832
+	Parallax        215.6753
+	AppMagn         11.513
+	Class           "DQ6"
+	// Measures     
+	AbsMagn         13.182002054026093 // Calculated
+	MassSol         0.56
+	RadSol          6950
+	LumBol          0.0005
+	Teff            8500
+	Age             1.44 // As of WD
+}
+
+// 33.PSR B1620-26 B
+// https://en.wikipedia.org/wiki/PSR_B1620-26
+
+// 34.Van Maanen 2
+// https://en.wikipedia.org/wiki/Van_Maanen_2
+Remove "Van Maanen 2"
+Star "Wolf 28/GJ 35/HIP 3829/Gaia DR3 2552928187080872832/TIC 257219223/WISEA J004910.78+052249.8/TYC 17-1272-1/van Maanen's Star/van Maanen Star/van Maanen 2/GCRV 26270/PLX 160/LSPM J0049+0523/ASCC 1001769/2MASS J00490996+0523173/USNO-B1.0 0953-00007838/8pc 226.95/AC +05 6-75/CSI+05-00465/Ci 20 58/EGGR 5/G 1-27/G 70-16/GAT 135/GCRV 453/GEN# +9.80001027/HIC 3829/LAWD 6/LFT 76/LHS 7/LTT 10292/vMA 2/NLTT 2724/PM 00465+0509/UBV 668/UCAC2 33505597/USNO 690/WD 0046+05/WD 0046+051/Zkh 18/uvby98 980001027/vMa 1-2/PLX 160.00/WEB 681/Gaia DR2 2552928187080872832/PM J00491+0523/SDSS J004910.62+052255.5/SDSS J004910.62+052255.4"
+{
+	DateUpdated     "2024-08-11"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              0 49 9.8983373329
+	Dec             5 23 18.993828947
+	Parallax        231.78
+	AppMagn         12.374
+	Class           "DZ8"
+	// Measures     
+	AbsMagn         14.21
+	MassSol         0.67
+	Radius          6950
+	LumBol          0.00016
+	Teff            6130
+	Age             3.45 // cooling age
+}
+
+// 35.WD 0810-353
+// https://en.wikipedia.org/wiki/WD_0810%E2%80%93353
+Star "UPM J0812-3529/WD 0810-353/Gaia DR3 5544743925212648320/TIC 145863747/Gaia DR2 5544743925212648320/UCAC4 273-028648/2MASS J08122707-3529433"
+{
+	DateUpdated     "2024-08-11"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              8 12 27.0660034296
+	Dec             -35 29 43.324074096
+	Parallax        89.5064
+	AppMagn         14.47
+	Class           "DAH"
+	// Measures     
+	AbsMagn         14.229270449501945 // Calculated
+	MassSol         0.63
+	Radius          6950
+	LumBol          0.00017
+	Teff            6093
+	Age             2.7 // cooling age
+}
+
+// 36.YZ Leonis Minoris A
+// https://en.wikipedia.org/wiki/YZ_Leonis_Minoris
+StarBarycenter "V* YZ LMi/Gaia DR3 798764346831516032/LAMOST J092638.71+362402.4/SDSS J092638.71+362402.4/2XMMi J092638.7+362402/CRTS J092638.7+362402/Gaia DR2 798764346831516032"
+{
+	DateUpdated     "2024-08-11"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              9 26 38.725046376
+	Dec             36 24 2.456809632
+	Parallax        1.2272
+	AppMagn         19.33
+	Class           "DB"
+}
+
+// 37.QS Virginis
+// https://en.wikipedia.org/wiki/QS_Virginis
+StarBarycenter "V* QS Vir/Gaia DR3 3612227169936143360/TIC 287346045/SBC9 1944/GSC 05559-00143/GSC 05559-01397/1RXS J134951.0-131338/EC 13471-1258/WD 1347-129/2XMM J134952.0-131336/UCAC2 27107016/UCAC4 384-063823/2MASS J13495200-1313369/Gaia DR2 3612227169936143360"
+{
+	DateUpdated     "2024-08-11"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              13 49 52.0029035208
+	Dec             -13 13 37.000132212
+	Parallax        19.9152
+	AppMagn         14.4
+	Class           "DA3+dM"
+}
+
+// 38.Stein 2051 B
+// https://en.wikipedia.org/wiki/Stein_2051
+Remove "Stein 2051"
+StarBarycenter "** STI 2051/CCDM J04312+5858/GJ 169.1/IDS 04224+5849/Stein 2051/8pc 181.36/WDS J04312+5858"
+{
+	DateUpdated     "2024-08-11"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              4 31 11.5144294005
+	Dec             58 58 37.463848495
+	Parallax        181.2438
+	AppMagn         10.98
+	Class           "M4.0V"
+}
+
+// 39.Ross 548 (ZZ Ceti)
+// https://en.wikipedia.org/wiki/Ross_548
+Star "V* ZZ Cet/GALEX J013613.7-112033/Gaia DR3 2457759374023232768/2MASS J01361358-1120327/PLX 268/BPS CS 22180-0018/CSI-11-01337/Ci 20 111/EGGR 10/G 272-52/G 271-106/GEN# +9.80271106/LAWD 9/LTT 873/NLTT 5358/PHL 1062/Ross 548/UBV 1659/USNO 298/WD 0133-11/WD 0133-116/PLX 332.01/PLX 268.00/USNO-B1.0 0786-00015517/WISEA J013613.95-112033.8/Gaia DR2 2457759374023232768/TIC 29854433"
+{
+	DateUpdated     "2024-08-11"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              1 36 13.6153974672
+	Dec             -11 20 32.632874601
+	Parallax        30.537
+	AppMagn         14.16
+	Class           "DA4.0"
+	// Measures     
+	AbsMagn         11.78
+	MassSol         0.65
+	Radius          8209
+	LumBol          0.0029
+	Teff            12281
+	RotationPeriod  1.5766666666666666666666666666667
+}
+
+// 40.CR Bootis
+// https://en.wikipedia.org/wiki/CR_Bo%C3%B6tis
+StarBarycenter "V* CR Boo/Gaia DR3 3721961488404743040/TIC 399167781/AAVSO 1344+08/PG 1346+082/2MASS J13485521+0757358/2EUVE J1348+07.9/EUVE J1348+07.9/[ZEH2003] RX J1348.8+0757 4/2XMM J134855.2+075735/SDSS J134855.21+075735.7/LINEAR 10136638/Gaia DR2 3721961488404743040"
+{
+	DateUpdated     "2024-08-11"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              13 48 55.2218717736
+	Dec             7 57 35.72411868
+	Parallax        2.8438
+	AppMagn         15
+	Class           "~"
+}
+
+// 41.DQ Herculis A
+// https://en.wikipedia.org/wiki/DQ_Herculis
+StarBarycenter "V* DQ Her/Gaia DR3 2116226254706461568/WISEA J180730.25+455132.5/WISE J180730.26+455132.6/UCAC4 680-061811/TIC 332624864/PLX 4164/SBC9 1029/2MASS J18073024+4551325/2RXP J180730.0+455136/AAVSO 1804+45/AN 452.1934/CSI+45-18061/EM* CDS 959/GCRV 10587/NOVA Her 1934/SBC7 665/1SWASP J180730.28+455131.9/WEB 15046/Gaia DR2 2116226254706461568"
+{
+	DateUpdated     "2024-08-12"
+	CenterOf        "Ced 155"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              18 7 30.2510391864
+	Dec             45 51 32.564791872
+	Parallax        2.016
+	AppMagn         14.443
+	Class           "M3+Ve"
+}
+
+// 42.Procyon B
+// https://en.wikipedia.org/wiki/Procyon
+
+// 43.GD 165 A
+// https://en.wikipedia.org/wiki/GD_165
+Remove "GD 165"
+StarBarycenter "GD 165/** ZUC 12/WDS J14247+0917"
+{
+	DateUpdated     "2024-08-12"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              14 24 39.1495824408
+	Dec             9 17 14.16075396
+	Parallax        29.9941
+	AppMagn         14.32
+	Class           "DA4.1"
+}
+
+// 44.ESO 439-26
+// https://en.wikipedia.org/wiki/ESO_439-26
+Star "Ruiz 439-26/Gaia DR3 3483746453090944896/WD 1136-286/WD 1136-285/GSC2.3 S57S010752/Gaia DR2 3483746453090944896"
+{
+	DateUpdated     "2024-08-12"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              11 39 3.1039070557
+	Dec             -28 52 16.629435604
+	Parallax        9.739
+	AppMagn         20.64
+	Class           "DC9"
+	// Measures     
+	AbsMagn         17.47
+	MassSol         1.19
+	Radius          8775.5
+	LumBol          1.15E-5
+	Teff            4490
+}
+
+// 45.Gliese 293
+// https://en.wikipedia.org/wiki/L_97-12
+Star "LAWD 26/GJ 293/Gaia DR3 5273943488410008832/TIC 300970893/PLX 1882/BPM 4729/CSI-67-07528/EGGR 56/GEN# +6.00204729/GEN# +9.86097012/GSC 09180-02245/L 97-12/LFT 555/LHS 34/LPM 274/LTT 2981/PM 07528-6738/UBV 7660/USNO-B1.0 0222-00190851/WD 0752-67/WD 0752-676/WG 11/Zkh 114/uvby98 986097012/2MASS J07530814-6747314/PLX 1882.00/Gaia DR2 5273943488410008832/NLTT 18638"
+{
+	DateUpdated     "2024-08-12"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              7 53 8.1439021017
+	Dec             -67 47 31.382011435
+	Parallax        122.413
+	AppMagn         14.09
+	Class           "DA9.0"
+	// Measures     
+	AbsMagn         14.47
+	MassSol         0.59
+	Radius          8900
+	LumBol          0.00015564282595206466 // Calculated
+	Teff            5700
+	Age             2.65 // Cooling Age
+}
+
+// 46.Wolf 489
+// https://en.wikipedia.org/wiki/Wolf_489
+Remove "Wolf 489"
+Star "Wolf 489/GJ 518/Gaia DR3 3713594960831605760/TIC 365181746/PLX 3112/LSPM J1336+0340/NLTT 34618/2MASS J13363181+0340458/USNO-B1.0 0936-00229354/CSI+03-13342/Ci 20 791/EGGR 100/G 64-4/G 62-53/GEN# +9.80062053/LAWD 49/LFT 1023/LHS 46/LTT 13961/PM 13342+0357/UBV 12210/USNO 46/WD 1334+03/WD 1334+039/Zkh 201/PLX 3112.00/SDSS J133631.55+034044.5/WISEA J133629.22+034034.3/PM J13365+0340/UCAC4 469-047857"
+{
+	DateUpdated     "2024-08-12"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              13 36 31.852183952
+	Dec             3 40 45.942173346
+	Parallax        119.7566
+	Class           "DC9" // DZ10
+	// Measures     
+	AbsMagn         15.08
+	MassSol         0.55
+	Radius          9044
+	LumBol          9.746366066186794e-05 // Calculated
+	Teff            5030
+	Age             5.19 // Cooling Age
+}
+
+// 47.HD 44120 C
+// https://en.wikipedia.org/wiki/HD_44120
+Remove "HD 44120"
+StarBarycenter "** LDS 157/CCDM J06163-5913/GJ 9209/IDS 06149-5910/uvby98 100044120/WDS J06163-5913"
+{
+	DateUpdated     "2024-08-12"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              6 16 18.7856158311
+	Dec             -59 12 48.609682671
+	Parallax        27.7563
+	AppMagn         6.43
+	Class           "F9.5V"
+}
+
+// 48.WD 1856+534
+// https://en.wikipedia.org/wiki/WD_1856%2B534
+Remove "WD 1856+534"
+StarBarycenter "** LDS 4802/WDS J18576+5331"
+{
+	DateUpdated     "2024-08-12"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              18 57 39.3436703328
+	Dec             53 30 33.301040904
+	Parallax        40.3931
+	AppMagn         17.244
+	Class           "DC"
+}
+
+// 49.Epsilon Reticuli B
+// https://en.wikipedia.org/wiki/Epsilon_Reticuli
+Remove "EPS Ret"
+Remove "* eps Ret B"
+StarBarycenter "EPS Ret/** JSP 56/CCDM J04165-5918/HD 27442/IDS 04148-5932/WDS J04165-5918"
+{
+	DateUpdated     "2024-08-12"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              4 16 29.028147026
+	Dec             -59 18 7.755891304
+	Parallax        54.2286
+	AppMagn         4.44
+	Class           "K2III"
+}
+
+// 50.KOI-256 B
+// https://en.wikipedia.org/wiki/KOI-256
+StarBarycenter "KOI-256/Gaia DR3 2132027576829358208/TIC 48528261/Gaia DR2 2132027576829358208/2MASS J19004443+4933553/KIC 11548140"
+{
+	DateUpdated     "2024-08-12"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              19 0 44.4248866152
+	Dec             49 33 55.24891866
+	Parallax        5.6681
+	Class           "M3V"
+}
+
+// 51.RR Caeli white dwarf
+// https://en.wikipedia.org/wiki/RR_Caeli
+StarBarycenter "V* RR Cae/GJ 2034/Gaia DR3 4788741548375134336/TIC 219244444/2RXP J042104.8-483903/BPM 31852/GEN# +6.00231852/GEN# +9.86302089/GSC 08072-01454/L 302-89/LFT 349/LHS 1660/LTT 1951/PM 04196-4846/WD 0419-48/WD 0419-487/WG 46/uvby98 600101951/2MASS J04210556-4839070/2XMM J042105.5-483910/UCAC3 83-9563/USNO-B1.0 0413-00035386/WISEA J042105.59-483912.6/Gaia DR2 4788741548375134336/NLTT 13114"
+{
+	DateUpdated     "2024-08-12"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              4 21 5.5631820426
+	Dec             -48 39 7.061113433
+	Parallax        47.2
+	AppMagn         14.4
+	Class           "DA7.8"
+}
+
+// 52.WD 1145+017
+// https://en.wikipedia.org/wiki/WD_1145%2B017
+Remove "WD 1145+017"
+Star "LBQS 1145+0145/Gaia DR3 3796414192429498880/WD 1145+017/SDSS J114833.62+012859.4/EPIC 201563164/HE 1145+0145/Gaia DR2 3796414192429498880"
+{
+	DateUpdated     "2024-08-12"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              11 48 33.6297189672
+	Dec             1 28 59.42044686
+	Parallax        6.8534
+	AppMagn         17.24
+	Class           "DB"
+	// Measures     
+	AbsMagn         11.419530401187604 // Calculated
+	MassSol         0.63
+	Radius          13926.84
+	LumBol          0.0088
+	Teff            15020
+	Age             0.774
+}
+
+// 53.NN Serpentis white dwarf
+// https://en.wikipedia.org/wiki/NN_Serpentis
+StarBarycenter "V* NN Ser/ZTF J155256.08+125443.4/Gaia DR3 1191504471436192512/WISEA J155256.11+125443.6/ATO J238.2337+12.9121/TIC 172608008/PG 1550+131/WD 1550+130/Gaia DR2 1191504471436192512/2MASS J15525613+1254446/[HH95] NN Ser-9/CRTS J155256.0+125444/PTF1 J155256.11+125443.9/WISE J155256.12+125443.4"
+{
+	DateUpdated     "2024-08-12"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              15 52 56.120352408
+	Dec             12 54 44.429312196
+	Parallax        1.9438
+	AppMagn         16.51
+	Class           "DAO1+M4"
+}
+
+// 54.Beta Crateris B
+// https://en.wikipedia.org/wiki/Beta_Crateris
+
+// 55.Feige 55
+// https://en.wikipedia.org/wiki/Feige_55
+StarBarycenter "Feige 55/GALEX J120438.4+603208/Gaia DR3 1582231699483080192/TIC 157328515/CSI+60-12025/FB 81/GEN# +6.00002197/GSC 04154-00827/LB 2197/PG 1202+608/SBSS 1202+608/UBV M 42260/WD 1202+608/uvby98 600002197/2MASS J12043856+6032082/[TFW97] J120438.56+603208.30/UCAC4 753-048661/GCRV 21670/GD 314/Gaia DR2 1582231699483080192"
+{
+	DateUpdated     "2024-08-12"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              12 4 38.5359546168
+	Dec             60 32 8.086967232
+	Parallax        4.9485
+	AppMagn         13.568
+	Class           "DAO.9"
+}
+
+// 56.Central star of the Dumbbell Nebula
+// https://en.wikipedia.org/wiki/Dumbbell_Nebula
+Star "M 27 Central star/Gaia DR3 1827256624493300096/2MASX J19593637+2243157/PLX 4735/2E 4308/BD+22 3878/CSI+22-19572/GCRV 12336/Hen 2-452/IRAS 19574+2234/NGC 6853 Central star/PK 060-03 1/PK 060-03/PN G060.8-03.6/PN VV' 521/PN VV 246/RE J1959+224/RE J195935+224359/WD 1957+225/PN ARO 14/PLX 4735.00/1RXS J195936.2+224309/2E 1957.4+2235/2EUVE J1959+22.7/EUVE J1959+22.7/RX J1959.6+2243/Diabolo Nebula Central star/Dumbbell Nebula Central star/Gaia DR2 1827256624493300096"
+{
+	DateUpdated     "2024-08-13"
+	CenterOf        "M 27"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              19 59 36.3631850088
+	Dec             22 43 16.312059552
+	//Parallax        2.57
+	Dist            417
+	AppMagn         14.089
+	Class           "DAO0.6"
+	// Measures     
+	AbsMagn         -0.6 // Nebula
+	MassSol         0.56
+	Radius          38265
+}
+
+// 57.KPD 0005+5106
+// https://en.wikipedia.org/wiki/KPD_0005%2B5106
+Star "KPD 0005+5106/GALEX J000818.2+512315/Gaia DR3 395429431270137728/WISEA J000818.20+512316.6/TIC 201740925/2RXF J000817.7+512315/USNO-A2.0 1350-00155255/WD 0005+511/1RXS J000818.4+512319/[TFW97] J000818.14+512316.74/1SWASP J000818.17+512316.7/UCAC2 48175230/UCAC4 707-001264/2MASS J00081816+5123165/WISE J000818.20+512316.7/Gaia DR2 395429431270137728"
+{
+	DateUpdated     "2024-08-13"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              0 8 18.1703149584
+	Dec             51 23 16.598370912
+	Parallax        2.4089
+	AppMagn         13.32
+	Class           "DOZ1"
+	// Measures     
+	AbsMagn         5.229093858128673 // Calculated
+	MassSol         0.64
+	Radius          41045
+	LumBol          5011.9
+	Teff            200000 // 120000
+}
+
+// 48.PSR J0348+0432 B
+// https://en.wikipedia.org/wiki/PSR_J0348%2B0432
+
+// 49.TMTS J052610.43+593445.1 (Smallest known non-degenerate star.)
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=ZTF%20J0526%2b5934
+StarBarycenter "ZTF J0526+5934/PSO J081.5434+59.5792/Gaia DR3 282679289838317184/Gaia DR2 282679289838317184"
+{
+	DateUpdated     "2024-08-13"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              5 26 10.416796908
+	Dec             59 34 45.305482512
+	Parallax        1.1826
+	Class           "~"
+}
+
+// 50.WISEA 1810−1010 (Smallest known brown dwarf)
+// https://en.wikipedia.org/wiki/WISEA_1810%E2%88%921010
+Remove "CWISEP J181006.00-101001.1"
+Star "CWISEP J181006.00-101001.1/WISE J181005.5-101002.3/WISEA J181006.18-101000.5"
+{
+	DateUpdated     "2024-08-13"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              18 10 6.18
+	Dec             -10 10 0.5
+	Parallax        112.5
+	Class           "sdL7" // L7-T1.5 (esdT)
+	// Measures     
+	AbsMagn         19.850 // Bolometric
+	MassJup         17
+	Radius          46840
+	LumBol          9.036460895626431e-07
+	Teff            800
+	FeH             -1.5
+}
+
+// 51.EPIC 201702477
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=EPIC%20201702477
+StarBarycenter "UCAC2 33047398/Gaia DR3 3800676968946363648/TIC 281888055/Gaia DR2 3800676968946363648/2MASS J11405777+0340535/EPIC 201702477/UCAC4 469-045211"
+{
+	DateUpdated     "2024-08-13"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              11 40 57.788324772
+	Dec             3 40 53.646749112
+	Parallax        1.2379
+	AppMagn         14.569
+	Class           ""
+}
+
+// 52.BE Ursae Majoris A
+// https://en.wikipedia.org/wiki/BE_Ursae_Majoris
+StarBarycenter "V* BE UMa/ZTF J115744.84+485618.1/LAMOST J115744.83+485618.1/ZTF18aaadclg/UCAC4 695-052298/GALEX J115744.8+485617/Gaia DR3 786919754746647424/ATO J179.4368+48.9383/TIC 11940011/SBC9 696/PG 1155+492/SBSS 1155+492/SV* SVS 1424/PN G144.8+65.8/LTNF 1/GSC2 N21200127065/PK 144+65 1/2MASS J11574483+4856184/LINEAR 2639856/SDSS J115744.83+485618.2/CRTS J115744.8+485619/PTF1 J115744.84+485618.2/WD 1155+492/SDSS J115744.83+485618.1/WEB 10430/Gaia DR2 786919754746647424/SDSS J115744.83+485618.4"
+{
+	DateUpdated     "2024-08-13"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              11 57 44.8279856952
+	Dec             48 56 18.313757772
+	Parallax        0.7079
+	AppMagn         15.373
+	Class           "DO+M1/5e"
+}
+
+// 53.LP 40-365
+// https://en.wikipedia.org/wiki/LP_40-365
+Star "GD 492/GALEX J140635.2+741859/Gaia DR3 1711956376295435520/WISEA J140635.28+741859.7/TIC 198510602/LSPM J1406+7418/2MASS J14063545+7418579/USNO-B1.0 1643-00083247/LP 40-365/Gaia DR2 1711956376295435520/UCAC4 822-018082/WISE J140635.30+741859.8"
+{
+	DateUpdated     "2024-08-13"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              14 6 35.416237248
+	Dec             74 18 58.013654688
+	Parallax        1.6375
+	AppMagn         15.51
+	Class           "DZ"
+	// Measures     
+	AbsMagn         8.14
+	MassSol         0.14
+	Radius          54250
+	LumBol          0.05700784861407414 // Calculated
+	Teff            10100
+}
+
+// 54.CWISE J124909.08+362116.0
+// https://arxiv.org/abs/2407.08578
+Star "CWISE J124909.08+362116.0"
+{
+	DateUpdated     "2024-08-13"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              12 49 09.08
+	Dec             36 21 16
+	Dist            125
+	Class           "sdL1"
+	// Measures     
+	MassSol         0.082
+	Radius          55650
+	LumBol          4.986967138012731e-05 // Calculated
+	Teff            1715 // 2320
+	FeH             -1.4 // -0.5
+}
+
+// 55.Epsilon Indi Ba
+// https://en.wikipedia.org/wiki/Epsilon_Indi
+Remove "EPS Ind"
+StarBarycenter "EPS Ind/GJ 845/Gaia DR3 6412595290592307840/TIC 231698181/PLX 5314/2E 4554/AC2000 4384302/CD-57 8464/CPC 20 6944/CPD-57 10015/Ci 20 1330/FK5 825/GC 30817/GCRV 13838/GEN# +1.00209100/HD 209100/HIC 108870/HIP 108870/HR 8387/JP11 3425/LFT 1677/LHS 67/LPM 805/LTT 8813/N30 4855/NLTT 52724/PM 21596-5700/PPM 349918/RBS 1817/SACS 480/SAO 247287/SKY# 42020/TD1 28679/UBV M 26050/UBV 18808/UGP 544/Zkh 326/2MASS J22032156-5647093/PLX 5314.00/1RXS J220318.1-564650/2E 2159.7-5701/RX J2203.2-5646/IRAS 21598-5700/TYC 8817-984-1/WDS J22034-5647A/WISEA J220326.69-564735.5/uvby98 100209100/WEB 19578/Gaia DR2 6412595290592307840"
+{
+	DateUpdated     "2024-08-13"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              22 3 21.6536261624
+	Dec             -56 47 9.522795714
+	Parallax        274.8431
+	AppMagn         4.69
+	Class           "K5V"
+}
+
+// 56.LHS 6343 C
+// https://en.wikipedia.org/wiki/LHS_6343
+Remove "LHS 6343"
+StarBarycenter "G 205-57/AP J19101435+4657261/LAMOST J191014.28+465724.1/TIC 158490401/LSPM J1910+4657/USNO-B1.0 1369-00345359/LHS 6343/NLTT 47499/2MASS J19101435+4657261/KOI-959/WISEA J191014.18+465721.3/KIC 10002261"
+{
+	DateUpdated     "2024-08-13"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              19 10 14.284032
+	Dec             46 57 24.10632
+	Dist            36.6
+	Class           "M1"
+}
+
+// 57.Epsilon Indi Bb
+// https://en.wikipedia.org/wiki/Epsilon_Indi
+
+// 58.54 Piscium B
+// https://en.wikipedia.org/wiki/54_Piscium
+
+// 59.2MASS J1126−5003
+// https://en.wikipedia.org/wiki/2MASS_J11263991%E2%88%925003550
+Remove "2MASS J11263991-5003550"
+Star "DENIS J112639.9-500355/Gaia DR3 5372923621096443008/TIC 91837388/2MASS J11263991-5003550/Gaia DR2 5372923621096443008/WISEA J112638.07-500350.1"
+{
+	DateUpdated     "2024-08-13"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              11 26 39.8047127039
+	Dec             -50 3 54.846166563
+	Parallax        61.8331
+	Class           "L5.5"
+	// Measures     
+	Radius          57193.5
+	LumBol          1.584009945519136e-05 // Calculated
+	Teff            1270
+	RotationPeriod  3.2
+}
+
+// 60.UGPS J0521+3640
+// https://en.wikipedia.org/wiki/UGPS_J0521%2B3640
+Remove "UGPS J052127.27+364048.6"
+Star "UGPS J052127.27+364048.6"
+{
+	DateUpdated     "2024-08-13"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              5 21 26.94
+	Dec             36 41 0.4
+	Parallax        122.2
+	Class           "T8.5"
+	// Measures     
+	MassJup         14 // 32
+	Radius          57193.5
+	LumBol          7.891290327955671e-07 // Calculated
+	Teff            600 // 650
+}
+
+// 69.Wolf 1130 C
+// https://en.wikipedia.org/wiki/Wolf_1130
+
+// 70.Gliese 570 D
+// https://en.wikipedia.org/wiki/Gliese_570
+StarBarycenter "** HN 28/ADS 9446/CCDM J14574-2124/GJ 570/8pc 169.32/PMSC 14516-2058/uvby98 100131977/WDS J14575-2125"
+{
+	DateUpdated     "2024-08-13"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              14 57 28.0007918772
+	Dec             -21 24 55.72726531
+	Parallax        169.8843
+	AppMagn         5.72
+	Class           "K4V"
 }

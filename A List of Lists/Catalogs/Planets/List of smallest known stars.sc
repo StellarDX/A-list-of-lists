@@ -1185,3 +1185,1062 @@ Star "AR Sco B"
 	Class           "M5"
 	MassSol         0.28 // 0.45
 }
+
+// YZ Leonis Minoris
+Star "YZ LMi A"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "V* YZ LMi"
+	Class           "DB"
+	AbsMagn         9.774576733024528 // Calculated
+	MassSol         0.79 // 0/89
+	Radius          6957
+	LumBol          0.00946 // 0.0352
+	Teff            18000 // 25000
+
+	AccretionDisk
+	{
+		InnerRadiusKm     20871
+		OuterRadiusKm     166968
+		Temperature       8000
+	}
+
+	BinaryOrbit     
+	{
+		PeriodDays      0.47166666666666666666666666666667
+		SemiMajorAxisKm 201753
+		Inclination     83.1
+	}
+}
+
+Star "YZ LMi B"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "V* YZ LMi"
+	Class           ""
+	MassJup         28.3 // 39.8
+	Radius          29900
+	LumBol          0.00035
+	Teff            3570
+}
+
+// QS Virginis
+Star "QS Vir A"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "V* QS Vir"
+	Class           "DA3"
+	AbsMagn         11.74
+	MassSol         0.78
+	Radius          7658
+	LumBol          0.0044
+	Teff            14200
+
+	AccretionDisk{Temperature 14200}
+
+	BinaryOrbit     
+	{
+		PeriodDays      0.15075833333333333333333333333333
+		Separation      0.0056
+		Eccentricity    0.0
+		Inclination     60
+	}
+}
+
+Star "QS Vir B"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "V* QS Vir"
+	Class           "M3.5V"
+	AbsMagn         11.82
+	MassSol         0.43
+	RadSol          0.42
+	LumBol          0.015
+	Teff            3100
+}
+
+Planet "QS Vir c"
+{
+	ParentBody     "V* QS Vir"
+	DiscMethod     "TTV"
+	DiscDate       "2009"
+	Class          "GasGiant"
+	MassJup        57.71
+	Oblateness     0
+
+	Orbit
+	{
+		PeriodDays      6091.85
+		SemiMajorAxis   7.06
+		Eccentricity    0.91
+		Inclination     90
+		ArgOfPericen    215.95
+	}
+}
+
+Planet "QS Vir d"
+{
+	ParentBody     "V* QS Vir"
+	DiscMethod     "TTV"
+	DiscDate       "2009"
+	Class          "GasGiant"
+	MassJup        9
+	Oblateness     0
+
+	Orbit
+	{
+		PeriodDays      5259.6
+		Eccentricity    0.62
+	}
+}
+
+// Stein 2051
+Remove "Stein 2051 A" {ParentBody "Stein 2051"}
+Remove "Stein 2051 B" {ParentBody "Stein 2051"}
+Remove "GJ 169.1 A" {ParentBody "GJ 169.1"}
+Remove "GJ 169.1 B" {ParentBody "GJ 169.1"}
+Star "G 175-34/GJ 169.1 A/HIP 21088/AP J04311147+5858375/Gaia DR3 470826482637310080/TIC 356322721/ASCC 176742/2MASS J04311147+5858375/USNO-B1.0 1489-00136092/8pc 181.36A/CCDM J04312+5858A/CSI+58-04268 1/IDS 04224+5849 A/JP11 5943/LHS 26/NLTT 13373/UBV 4295/USNO 120/USNO 807/Zkh 62/[RHG95] 780/LSPM J0431+5858W/WDS J04312+5858A/Gaia DR2 470826482635704064/IRAS 04268+5852/AKARI-IRC-V1 J0431126+585823/WISE J043113.20+585816.7/UCAC4 745-033846/WISEA J043113.21+585816.7/PM J04311+5858/Stein 2051A/Karmn J04311+589/HIC 21088/PM 04268+5854/** STI 2051A"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "CCDM J04312+5858"
+	Parallax        181.2438
+	AppMagn         10.98
+	Class           "M4.0V"
+	AbsMagn         12.271315795612619 // Calculated
+	MassSol         0.252
+	Radius          203150
+	LumBol          0.0081
+	Teff            3277
+	FeH             0.26
+
+	BinaryOrbit     
+	{
+		Separation      49.7672200622355 // 9.02 asec
+	}
+}
+
+Star "EGGR 180/GJ 169.1 B/Gaia DR3 470826482637310848/TYC 3744-2062-1/ASCC 176743/LSPM J0431+5858E/8pc 181.36B/AC +58 2500/CCDM J04312+5858B/CSI+58-04268 2/G 175-34B/IDS 04224+5849 B/KPD 0426+5852/LHS 27/NLTT 13375/UBV 4296/USNO 121/USNO 808/WD 0426+588/Zkh 63/WDS J04312+5858B/UCAC4 745-033849/Stein 2051 B/Gaia DR2 470826482635701376/PM J04312+5858/TYC 3744-412-1/** STI 2051B"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "CCDM J04312+5858"
+	Parallax        181.273
+	Class           "DC5"
+	MassSol         0.675
+	Radius          7930
+	LumBol          0.0003011646011050155 // Calculated
+	Teff            7122
+}
+
+// CR Bootis
+Star "CR Boo A"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "V* CR Boo"
+	Class           "WD"
+	AbsMagn         7.269495249404969 // Calculated
+	MassSol         0.80
+	Radius          8350
+
+	BinaryOrbit     
+	{
+		PeriodDays      0.01702916666666666666666666666667
+		Inclination     30
+	}
+}
+
+Star "CR Boo B"
+{
+	DateUpdated     "2024-08-11"
+	ParentBody      "V* CR Boo"
+	Class           "DB"
+	MassSol         0.07
+	Radius          36593.82
+}
+
+// DQ Herculis
+Star "DQ Her A"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "V* DQ Her"
+	Class           "DBe"
+	//AbsMagn         -6.94
+	MassSol         0.6
+	Radius          8420
+
+	AccretionDisk 
+	{
+		Luminosity      51200 // AbsMagn = -6.94
+	}
+
+	BinaryOrbit     
+	{
+		PeriodDays      0.1936208977
+		Separation      0.003
+		Inclination     86.5
+	}
+}
+
+Star "DQ Her B"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "V* DQ Her"
+	Class           "M2V"
+	MassSol         0.4
+}
+
+Planet "DQ Her c"
+{
+	ParentBody     "V* DQ Her"
+	DiscMethod     "Other"
+	DiscDate       "2009"
+	Class          "GasGiant"
+	MassJup        20
+	Oblateness     0
+
+	Orbit
+	{
+		PeriodDays      6460
+		SemiMajorAxis   6.49
+		Inclination     86.5
+	}
+}
+
+// GD 165
+Remove "GD 165 A" {ParentBody "GD 165"}
+Remove "GD 165 B" {ParentBody "GD 165"}
+Star "GD 165A/GALEX J142439.1+091712/Gaia DR3 1176717792385803136/TIC 421809466/NLTT 37242/LSPM J1424+0917/2MASS J14243914+0917139/USNO-B1.0 0992-00238920/BPS CS 22883-0042/EGGR 222/GEN# +6.10060165/L 1124-10/LP 500-17/LTT 14236/PG 1422+095/V* CX Boo/WD 1422+09/WD 1422+095/uvby98 610060165/PLX 3269.01/1SWASP J142439.16+091714.2/** ZUC 12A/WDS J14247+0917A/Gaia DR2 1176717792385803136/PM J14246+0917/SDSS J142439.10+091713.7/SDSS J142439.10+091713.6"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "WDS J14247+0917"
+	Class           "DA4.1"
+	AbsMagn         11.705179175358404 // Calculated
+	MassSol         0.64
+	Radius          8626.5
+	LumBol          0.0030
+	Teff            12130
+	RotationPeriod  2.3870833333333333333333333333333
+	Age             1.2 // 5.5
+
+	BinaryOrbit     
+	{
+		Separation      123
+	}
+}
+
+Star "GD 165B/TIC 421809465/[B2006] J142439.0+091710/2MASS J14243909+0917104/2MASSW J1424390+091710/WISEP J142438.96+091709.8/** ZUC 12B/WDS J14247+0917B/ULAS J142438.98+091709.4"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "WDS J14247+0917"
+	Parallax        31.7
+	Class           "L4V"
+	MassJup         62.58
+	Radius          71492
+	LumBol          9.025536942155812e-05 // Calculated
+	Teff            1755
+	Age             1.2 // 5.5
+}
+
+// HD 44120
+Star "HD 44120/GJ 9209 A/HIP 29788/Gaia DR3 5482551183847322752/TIC 260266504/2MASS J06161877-5912483/IRAS 06156-5911/PLX 1471/uvby98 100044120 A/UBV M 11987/UBV 6365/SPOCS 301/SKY# 10599/SAO 234418/PPM 335049/NLTT 16354/LTT 2510/IDS 06149-5910 A/HR 2274/HIC 29788/GCRV 57418/GC 8084/CSI-59 619 41/CPD-59 619/CPC 20 1543/CD-59 1275/CCDM J06163-5913A/** LDS 157A/WDS J06163-5913A/TYC 8546-1675-1/WISEA J061618.73-591252.0/WEB 5883/Gaia DR2 5482551183847322752"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "CCDM J06163-5913"
+	Class           "F9.5V"
+	AbsMagn         3.57
+	MassSol         1.214
+	RadSol          1.58
+	LumBol          2.952
+	Teff            6005
+	FeH             0.09
+	Age             4.105
+
+	BinaryOrbit     
+	{
+		Period          51100
+		Separation      1702.6
+	}
+}
+
+Star "WG 8/GJ 9209 B/Gaia DR3 5482551252566796928/TIC 260266507/2MASS J06161426-5912275/BPM 18164/CCDM J06163-5913C/IDS 06149-5910 C/L 182-61/LTT 2511/NLTT 16355/NSV 16822/WD 0615-591/WD 0615-59/uvby98 600102511/WDS J06163-5913C/** LDS 157C/GCRV 27424/Gaia DR2 5482551252566796928"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "CCDM J06163-5913"
+	Class           "DB3.2"
+	MassSol         0.67
+	Radius          9044
+	LumBol          0.009359481007071685 // Calculated
+	Teff            15746
+}
+
+// WD 1856+534
+// NoirLab: http://www.ctio.noirlab.edu/~atokovin/stars/stars.php?ids=18576%2B5331
+Remove "WD 1856+534 b" {ParentBody "WD 1856+534"}
+Barycenter "G 229-20/ASCC 268218/2MASS J18573793+5331140/USNO-B1.0 1435-00280837/WISEA J185738.22+533113.6/PM J18576+5331N/UCAC4 718-062610/LSPM J1857+5331/** LDS 4802AB/WDS J18576+5331AB"
+{
+	ParentBody      "WDS J18576+5331"
+	BinaryOrbit     
+	{
+		Period          31722
+		Separation      1030
+	}
+}
+
+Star "G 229-20A/Gaia DR3 2146576757065535360/** LDS 4802A/WDS J18576+5331A/Gaia DR2 2146576757065535360/LSPM J1857+5331E/NLTT 47260"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "G 229-20"
+	Class           ""
+	MassSol         0.335
+	RadSol          0.35
+	LumBol          0.01696265648829511 // Calculated
+	Teff            3521
+
+	BinaryOrbit     
+	{
+		Period          513.622
+		Separation      56
+	}
+}
+
+Star "G 229-20B/Gaia DR3 2146576761360909056/** LDS 4802B/WDS J18576+5331B/Gaia DR2 2146576761360909056/LSPM J1857+5331W/NLTT 47261/LP 141-13"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "G 229-20"
+	Class           ""
+	MassSol         0.322
+	RadSol          0.34
+	LumBol          0.015862225205487444 // Calculated
+	Teff            3513
+}
+
+Star "LP 141-14/Gaia DR3 2146576589564898688/PSO J284.4153+53.5090/LSPM J1857+5330/USNO-B1.0 1435-00280850/NLTT 47263/WD 1856+534/2MASS J18573936+5330332/** LDS 4802C/WDS J18576+5331C/Gaia DR2 2146576589564898688/PM J18576+5330/TIC 267574918/TOI-1690"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "WDS J18576+5331"
+	Class           "DC" // DC11
+	AbsMagn         15.2755359235908 // Calculated
+	MassSol         0.518
+	Radius          9113.67
+	LumBol          7.608865339585333e-05 // Calculated
+	Teff            4710
+	FeH             -8.8
+	Age             5.85
+}
+
+Planet "WD 1856+534 b"
+{
+	ParentBody     "LP 141-14"
+	DiscMethod     "Transit"
+	DiscDate       "2020"
+	Class          "GasGiant"
+	MassJup        2.4 // 13.8
+	Radius         66332.6248
+	Oblateness     0
+
+	Surface {Preset "neptune_warm_default.cfg"}
+
+	Atmosphere
+	{
+		Model          "Earth"
+		Bright          10
+		Opacity         1
+		SkyLight        3.33333
+		Hue             0.2
+		Saturation      1.5
+	}
+
+	Orbit
+	{
+		Epoch           2458779.37508 // Transit date
+		PeriodDays      1.4079405
+		SemiMajorAxis   0.0204
+		Eccentricity    0
+		Inclination     88.778
+	}
+}
+
+// Epsilon Reticuli
+Remove "EPS Ret A" {ParentBody "EPS Ret"}
+Remove "EPS Ret B" {ParentBody "EPS Ret"}
+Remove "EPS Ret A b" {ParentBody "EPS Ret A"}
+Star "EPS Ret A/GJ 9153/GJ 167.3/HIP 19921/Gaia DR3 4678664766393829504/1RXS J041631.2-591815/TIC 198079199/PLX 958/HD 27442A/CCDM J04165-5918A/CPC 20 1085/CPD-59 324/CSI-59 324 41/FAUST 538/GC 5194/GCRV 2468/GEN# +1.00027442/GSC 08508-02041/HIC 19921/HR 1355/IDS 04148-5932 A/JP11 882/PPM 333351/SAO 233463/SKY# 6536/SPOCS 209/TD1 3044/TYC 8508-2041-1/UBV 4189/UBV M 10085/[BBW2000] FD 58/uvby98 100027442/Gaia DR2 4678664766394767616/PLX 958.00/WDS J04165-5918A/** JSP 56A/IRAS 04156-5925/AKARI-IRC-V1 J0416290-591809/2MASS J04162902-5918078/WEB 3804"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "CCDM J04165-5918"
+	Class           "K2III"
+	AbsMagn         0.87
+	MassSol         1.46
+	RadSol          3.18
+	LumBol          6.2
+	Teff            4961
+	FeH             0.26
+	Age             2.89
+
+	BinaryOrbit     
+	{
+		Period          2700
+		Separation      240
+	}
+}
+
+Star "EPS Ret B/GALEX J041629.7-591757/Gaia DR3 4678664766393827328/HD 27442B/WD 0415-594/CCDM J04165-5918B/CPD-59 324B/CSI-59 324 42/IDS 04148-5932 B/WDS J04165-5918B/** JSP 56B/Gaia DR2 4678664766393827328"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "CCDM J04165-5918"
+	Class           "DA3.3"
+	MassSol         0.60
+	Radius          9185
+	LumBol          0.008627972568136126 // Calculated
+	Teff            15310
+	Age             1.5
+}
+
+Planet "EPS Ret Ab/HD 27442 Ab"
+{
+	ParentBody     "EPS Ret A"
+	DiscMethod     "Radvel"
+	DiscDate       "2000"
+	Class          "GasGiant"
+	MassJup        1.55
+	Oblateness     0
+
+	Orbit
+	{
+		Epoch           2451849.3
+		PeriodDays      429.1
+		SemiMajorAxis   1.269
+		Eccentricity    0.057
+		ArgOfPericenter 347.0
+	}
+}
+
+// KOI-256
+Remove "KOI-256 A" {ParentBody "KOI-256"}
+Remove "KOI-256 B" {ParentBody "KOI-256"}
+Star "KOI-256 A"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "Gaia DR3 2132027576829358208"
+	Class           "M3V"
+	AbsMagn         9.137187518626128 // Calculated
+	MassSol         0.51
+	RadSol          0.54
+	LumBol          0.03721838964006643 // Calculated
+	Teff            3450
+	FeH             0.31
+
+	BinaryOrbit     
+	{
+		PeriodDays      1.3786548
+		Separation      0.0250
+		Eccentricity    0
+		Inclination     89.01
+		Epoch           2455373.635498
+		ArgOfPericenter 90
+		MeanAnomaly     0
+	}
+}
+
+Star "KOI-256 B"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "Gaia DR3 2132027576829358208"
+	Class           "WD"
+	AbsMagn         13.21718751862613 // Calculated
+	MassSol         0.592
+	Radius          9350
+	LumBol          0.0004135293018209554 // Calculated
+	Teff            7100
+
+	AccretionDisk{Temperature 7100}
+}
+
+// RR Caeli
+Remove "RR Cae A" {ParentBody "RR Cae"}
+Remove "RR Cae B" {ParentBody "RR Cae"}
+Remove "RR Cae b" {ParentBody "RR Cae"}
+Star "RR Cae A"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "V* RR Cae"
+	Class           "DA7.8"
+	AbsMagn         12.769709993170439 // Calculated
+	MassSol         0.453
+	Radius          10908.5
+	LumBol          0.0007
+	Teff            7540
+
+	AccretionDisk{Temperature 7540}
+
+	BinaryOrbit     
+	{
+		PeriodDays      0.30370833333333333333333333333333
+		SemiMajorAxisKm 1015722
+		Eccentricity    0
+		Inclination     87.9
+	}
+}
+
+Star "RR Cae B"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "V* RR Cae"
+	Class           "M4"
+	MassSol         0.168
+	RadSol          0.203 // 0.215
+	LumBol          0.0038
+	Teff            3100
+}
+
+Planet "RR Cae (AB) b"
+{
+	ParentBody     "V* RR Cae"
+	DiscMethod     "TTV"
+	DiscDate       "2012"
+	Class          "GasGiant"
+	MassJup        3.0
+	Oblateness     0
+
+	Orbit
+	{
+		PeriodDays      5479.0
+		SemiMajorAxis   5.2
+		Eccentricity    0
+		Inclination     17.6
+	}
+}
+
+Planet "RR Cae (AB) c"
+{
+	ParentBody     "V* RR Cae"
+	DiscMethod     "TTV"
+	DiscDate       "2021"
+	Class          "GasGiant"
+	MassJup        2.7
+	Oblateness     0
+
+	Orbit
+	{
+		PeriodDays      14244.75
+		SemiMajorAxis   9.7
+		Eccentricity    0
+	}
+}
+
+// WD 1145+017
+Remove "WD 1145+017 b" {ParentBody "WD 1145+017"}
+DwarfPlanet "WD 1145+017 b/EPIC 201563164.01"
+{
+	ParentBody     "EPIC 201563164"
+	DiscMethod     "Transit"
+	DiscDate       "2015"
+	Class          "Terra"
+	MassKg         95554688000000000000
+	Radius         200
+	Oblateness     0
+
+	CometTail{}
+
+	Orbit
+	{
+		PeriodDays      0.187454
+		SemiMajorAxis   0.0054
+		Inclination     90
+	}
+}
+
+// NN Serpentis
+Remove "NN Ser A" {ParentBody "NN Ser"}
+Remove "NN Ser B" {ParentBody "NN Ser"}
+Remove "NN Ser c" {ParentBody "NN Ser"}
+Remove "NN Ser d" {ParentBody "NN Ser"}
+Star "NN Ser A"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "V* NN Ser"
+	Class           "DAO1"
+	AbsMagn         7.953257888947327 // Calculated
+	MassSol         0.535
+	Radius          14679.5
+	LumBol          4.234202466567094 // Calculated
+	Teff            57000
+
+	BinaryOrbit     
+	{
+		PeriodDays      0.13008017141
+		SemiMajorAxisKm 649783.8
+		Eccentricity    0.0
+		Inclination     89.6 
+	}
+}
+
+Star "NN Ser B"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "V* NN Ser"
+	Class           "M4V"
+	MassSol         0.111
+	Radius          103660
+}
+
+Planet "NN Ser c"
+{
+	ParentBody     "V* NN Ser"
+	DiscMethod     "ETV"
+	DiscDate       "2010"
+	Class          "GasGiant"
+	MassJup        6.91
+	Oblateness     0
+
+	Orbit
+	{
+		PeriodDays      5660
+		SemiMajorAxis   5.38
+		Eccentricity    0
+	}
+}
+
+Planet "NN Ser d"
+{
+	ParentBody     "V* NN Ser"
+	DiscMethod     "ETV"
+	DiscDate       "2009"
+	Class          "GasGiant"
+	MassJup        2.28
+	Oblateness     0
+
+	Orbit
+	{
+		Epoch           2454515
+		PeriodDays      2830
+		SemiMajorAxis   3.39
+		Eccentricity    0.2
+		ArgOfPericenter 74
+	}
+}
+
+Planet "NN Ser e"
+{
+	ParentBody     "V* NN Ser"
+	DiscMethod     "TTV"
+	DiscDate       "2023"
+	Class          "GasGiant"
+	MassJup        9.43
+	Oblateness     0
+
+	Orbit
+	{
+		PeriodDays      7371
+		SemiMajorAxis   6.43
+		Eccentricity    0.2
+		Inclination     80 // ?
+		ArgOfPericenter -89.56
+	}
+}
+
+// Feige 55
+Star "Feige 55 A"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "Feige 55"
+	Class           "DAO0.9"
+	AbsMagn         7.040367873005124 // Calculated
+	MassSol         0.486
+	Radius          19450
+	LumBol          10.7
+	Teff            56300
+
+	AccretionDisk{Temperature 56300}
+
+	BinaryOrbit     
+	{
+		PeriodDays      1.49303
+		Epoch           2449793.678
+	}
+}
+
+Star "Feige 55 B"
+{
+	DateUpdated     "2024-08-12"
+	ParentBody      "Feige 55"
+	Class           "M5.5V"
+	MassSol         0.3
+	RadSol          0.33
+	LumBol          0.0079
+	Teff            3000
+}
+
+// TMTS J052610.43+593445.1
+// Reference:
+// A seven-Earth-radius helium-burning star inside a 20.5-min detached binary[J].
+// Nature Astronomy, 2024, 8(4):491-503.DOI:10.1038/s41550-023-02188-2.
+// https://arxiv.org/abs/2312.13612
+Star "ZTF J0526+5934 A"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "ZTF J0526+5934"
+	Class           "sdB"
+	MassSol         0.361
+	Radius          45916
+	LumBol          1.70
+	Teff            25410
+
+	BinaryOrbit     
+	{
+		PeriodDays      0.01424044625
+		SemiMajorAxisKm 177403.5
+		Inclination     68.2
+		Epoch           2459933.175697
+	}
+}
+
+Star "ZTF J0526+5934 B"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "ZTF J0526+5934"
+	Class           "WD"
+	MassSol          0.735
+}
+
+// EPIC 201702477
+// Reference:
+// Dragomir D .EPIC 201702477b: A TRANSITING BROWN DWARF FROM 
+// K2 IN A 41 DAY ORBIT[J].The Astronomical Journal, 2017, 153(1):15 (10pp).
+// DOI:10.3847/1538-3881/153/1/15.
+Star "EPIC 201702477 A"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "EPIC 201702477"
+	Class           ""
+	AbsMagn         5.032427814687454 // Calculated
+	MassSol         0.870
+	RadSol          0.901
+	LumBol          0.6775716024089933 // Calculated
+	Teff            5517
+	FeH             -0.164
+	Age             8.8
+}
+
+Planet "EPIC 201702477 b/EPIC 201702477.01"
+{
+	ParentBody     "EPIC 201702477 A"
+	DiscMethod     "TTV"
+	DiscDate       "2015"
+	Class          "GasGiant"
+	MassJup        66.9
+	Radius         54120
+	LumBol         4.2696073315825484e-07 // Calculated
+	Teff           529
+	Oblateness     0
+
+	Orbit
+	{
+		Epoch           2456811.5462
+		PeriodDays      40.73691
+		SemiMajorAxis   0.2265
+		Eccentricity    0.2281
+		Inclination     89.105
+		ArgOfPericenter 195.9
+	}
+}
+
+// BE Ursae Majoris
+Star "BE UMa A"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "V* BE UMa"
+	Class           "sdO"
+	AbsMagn         4.622859561644251 // Calculated
+	MassSol         0.59
+	Radius          54250
+	LumBol          665.895918366305 // Calculated
+	Teff            105000
+	FeH             1
+
+	BinaryOrbit     
+	{
+		PeriodDays      2.2911658
+		SemiMajorAxisKm 5217750
+		Inclination     84
+	}
+}
+
+Star "BE UMa B"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "V* BE UMa"
+	Class           "M1/5e"
+	MassSol         0.25
+	RadSol          0.72
+	LumBol          0.23775688909270332 // Calculated
+	Teff            4750
+	CtoO            0.6
+}
+
+// Epsilon Indi
+Remove "EPS Ind A" {ParentBody "EPS Ind"}
+Remove "EPS Ind A b" {ParentBody "EPS Ind A"}
+Remove "EPS Ind B" {ParentBody "EPS Ind"}
+Remove "EPS Ind Ba" {ParentBody "EPS Ind B"}
+Remove "EPS Ind Bb" {ParentBody "EPS Ind B"}
+Star "EPS Ind A/GJ 845 A/** SOZ 1A"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "GJ 845"
+	Class           "K5V"
+	AbsMagn         6.89
+	MassSol         0.782
+	RadSol          0.711
+	LumBol          0.21
+	Teff            4649
+	FeH             -0.13
+	RotationPeriod  857.568
+	Age             3.5
+}
+
+Planet "EPS Ind Ab"
+{
+	ParentBody     "EPS Ind A"
+	DiscMethod     "RadVel"
+	DiscDate       "2018"
+	Class          "GasGiant"
+	MassJup        2.96
+	Radius         77211.36
+	Oblateness     0
+
+	Orbit
+	{
+		Epoch           2443293.7
+		PeriodDays      63407.4 // 15676.5
+		SemiMajorAxis   28.4 // 11.08
+		Eccentricity    0.40 // 0.42
+		Inclination     103.7 // 98.73
+		ArgOfPericenter 77.83
+	}
+}
+
+Barycenter "EPS Ind B/GJ 845 C/GJ 845 B/Gaia DR3 6412596012146801152/TIC 231700016/V* CI Ind/2MASS J22041052-5646577/[B2006] J220410.5-564657/WDS J22034-5647Ba,Bb/WISEP J220415.66-564723.5/** VLK 1/WDS J22034-5647B/** SOZ 1B/WISE J220415.65-564723.6/Gaia DR2 6412596012146094848/WISEA J220415.75-564724.4/1WGA J2203.9-5647"
+{
+	ParentBody      "EPS Ind A"
+	Orbit     
+	{
+		SemiMajorAxis   1500 // 11600
+		ArgOfPericenter 89
+		MeanAnomaly     0
+	}
+}
+
+Star "EPS Ind Ba"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "Gaia DR3 6412596012146801152"
+	Class           "T1V"
+	MassJup         66.92
+	Radius          55656
+	LumBol          2.04E-5
+	Teff            1352 // 1385
+
+	BinaryOrbit // 2022AJ....163..288C
+	{
+		Period          11.0197
+		Separation      2.4058
+		Eccentricity    0.54042
+		Inclination     77.082
+		AscendingNode   147.959
+		Epoch           2455233.479605787899345
+		ArgOfPericenter 148.27
+		MeanAnomaly     0
+	}
+}
+
+Star "EPS Ind Bb"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "Gaia DR3 6412596012146801152"
+	Class           "T6V"
+	MassJup         53.25
+	Radius          57050
+	LumBol          5.97E-6
+	Teff            976 // 1011
+}
+
+// LHS 6343
+Remove "LHS 6343 AC" {ParentBody "LHS 6343"}
+Remove "LHS 6343 B" {ParentBody "LHS 6343"}
+Star "G 205-57A/Gaia DR3 2130469362695417856/** KOI 959A/WDS J19102+4657A/Gaia DR2 2130469362695417856/LHS 6343 A"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "G 205-57"
+	Class           "M2.5"
+	AbsMagn         11.118982974830267 // Calculated
+	MassSol         0.358
+	Radius          259495
+	LumBol          0.017369628590929456 // Calculated
+	Teff            3431
+	FeH             0.04
+	RotationPeriod  315.288
+
+	BinaryOrbit     
+	{
+		Separation      20
+	}
+}
+
+Star "G 205-57B/Gaia DR3 2130469362695417728/LHS 6343 B/** KOI 959B/WDS J19102+4657B/Gaia DR2 2130469362695417728"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "G 205-57"
+	Class           "M3.6"
+	MassSol         0.292
+	Radius          274100
+	LumBol          0.017697828232640052 // Calculated
+	Teff            3354
+	FeH             0.04
+}
+
+Star "G 205-57C/LHS 6343 C"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "G 205-57A"
+	DiscMethod      "Transit"
+	DiscDate        "2011"
+	Class           "TP"
+	MassJup         62.1
+	Radius          55978
+	LumBol          6.91E-6
+	Teff            1130
+	Age             5
+	Oblateness      0
+
+	Orbit
+	{
+		Epoch           2455008.07259
+		PeriodDays      12.7137941
+		SemiMajorAxis   0.0797
+		Eccentricity    0.030
+		Inclination     90.45
+		ArgOfPericenter 320
+	}
+}
+
+Planet "LHS 6343 Ab"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "G 205-57A"
+	DiscMethod      "TTV"
+	DiscDate        "2012"
+	Class           "IceGiant" // GasGiant
+	MassJup         0.1 // 1
+	Oblateness      0
+
+	Orbit
+	{
+		PeriodDays      44.45 // 101.6
+	}
+}
+
+// Gliese 570
+// NoirLab: http://www.ctio.noirlab.edu/~atokovin/stars/stars.php?cat=HD&number=131976
+Remove "Gliese 570 (ABC)" {ParentBody "Gliese 570"}
+Remove "Gliese 570 A" {ParentBody "Gliese 570 (ABC)"}
+Remove "Gliese 570 (BC)" {ParentBody "Gliese 570 (ABC)"}
+Remove "Gliese 570 B" {ParentBody "Gliese 570 (BC)"}
+Remove "Gliese 570 C" {ParentBody "Gliese 570 (BC)"}
+Remove "Gliese 570 D" {ParentBody "Gliese 570"}
+Star "HD 131977/GJ 570 A/HIP 73184/Gaia DR3 6232511606838403968/StKM 2-1093/TIC 287157634/PLX 3375/V* KX Lib/GSC 06180-00855/GSC 06180-01226/8pc 169.32A/ADS 9446 A/BD-20 4125/CCDM J14574-2124A/CSI-20 4125 1/Ci 20 900/FK5 1391/GC 20113/GCRV 8668/GEN# +1.00131977A/HIC 73184/HR 5568/IRAS 14545-2112/IRC -20275/JP11 2553/LAL 27173/LFT 1161/LHS 387/LPM 551/LTT 5949/N30 3376/NLTT 38872/PM 14545-2111/PMC 90-93 979/PPM 263609/SACS 325/SAO 183040/SKY# 27162/SPOCS 627/SRS 31391/TYC 6180-855-1/UBV 12988/VVO 266/YZ 111 6202/Zkh 214/[RHG95] 2367/uvby98 100131977 A/2MASS J14572788-2124526/WDS J14575-2125A/Gaia DR2 6232511606838403968/PMSC 14516-2058A/** HN 28A/MCC 726/UBV 12990/CSI-20 4123 2/UCAC4 343-073968/WEB 12542"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "ADS 9446"
+	Class           "K4V"
+	AbsMagn         6.89
+	MassSol         0.802
+	RadSol          0.739
+	LumBol          0.22
+	Luminosity      0.16
+	Teff            4597
+	FeH             0.06
+	RotationPeriod  1159.2
+}
+
+Barycenter "HD 131976/HIP 73182/StKM 2-1092/TIC 287157635/SBC9 1475/BD-20 4123/8pc 163.63B/CSI-20 4123 1/Ci 20 899/GC 20111/GCRV 8667/GEN# +1.00131976/HIC 73182/JP11 2550/LFT 1160/LHS 386/LPM 550/LTT 5948/NLTT 38871/PPM 263608/SAO 183039/UBV 12989/UBV M 20455/VVO 267/YZ 111 6201/Zkh 215/[RHG95] 2368/uvby98 100131976/GSC 06180-01230/GSC 06180-01225/TYC 6180-1230-1/2MASS J14572643-2124384/UCAC2 23639754/** HN 28B/WDS J14575-2125Ba,Bb/PMSC 14516-2058Bab/PMSC 14516-2058B/WDS J14575-2125B/CCDM J14574-2124B/ADS 9446 B/8pc 163.63C/** HN 28Ba,Bb/DENIS J145726.4-212439/UCAC4 343-073964/PM J14574-2124W/WEB 12541/Gaia DR2 6232511675556408320"
+{
+	ParentBody      "ADS 9446"
+	BinaryOrbit // VB6_Hle1994 H_N28AB Gr.5
+	{
+		Period          2130
+		Separation      190
+		Eccentricity    0.2
+		Inclination     72.5
+		AscendingNode   317.3
+		Epoch           2337954.209577208850533
+		ArgOfPericenter 252.1
+		MeanAnomaly     0
+	}
+}
+
+Star "GJ 570 Ba"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "HD 131976"
+	Class           "M1V"
+	AbsMagn         9.19
+	MassSol         0.55
+	RadSol          0.65
+	LumBol          0.04
+	Luminosity      0.003
+	Teff            2700
+
+	BinaryOrbit // SB9_1475 2000A&AS..145..215P
+	{
+		PeriodDays      307.8540
+		Separation      0.883141082583451 // 0.150 asec
+		Eccentricity    0.765
+		Inclination     107.6
+		AscendingNode   195.9
+		Epoch           2446564.801
+		ArgOfPericenter 311.5
+		MeanAnomaly     0
+	}
+}
+
+Star "GJ 570 Bb"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "HD 131976"
+	Class           "M3V"
+	AbsMagn         11.05
+	MassSol         0.35
+}
+
+Planet "GJ 570 D/TIC 287157669/2MASS J14571496-2121477/2MASSW J1457150-212148/8pc 169.32D/WISEP J145715.85-212207.6/WISEP J145715.84-212207.5/WDS J14575-2125G/WISEA J145715.83-212208.0"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "ADS 9446"
+	DiscMethod      "Imaging"
+	DiscDate        "2000"
+	Class           "T8" // GasGiant
+	MassJup         42.5
+	Radius          59350 // 66090
+	Oblateness      0
+
+	Orbit
+	{
+		Separation      1500
+	}
+}
+
+Planet "HD 131977 b/GJ 570 Ab"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "GJ 570 A"
+	DiscMethod      "RadVel"
+	DiscDate        "1997"
+	Class           "GasGiant"
+	MassJup         62.841
+	Oblateness      0
+
+	Orbit
+	{
+		PeriodDays      33
+	}
+}
