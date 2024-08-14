@@ -1014,3 +1014,151 @@ StarBarycenter "** HN 28/ADS 9446/CCDM J14574-2124/GJ 570/8pc 169.32/PMSC 14516-
 	AppMagn         5.72
 	Class           "K4V"
 }
+
+// 71.EBLM J0555-57Ab (the smallest hydrogen burning star currently known)
+// https://en.wikipedia.org/wiki/EBLM_J0555-57#EBLM_J0555-57Ab
+StarBarycenter "CD-57 1311/WISEA J055532.58-571726.7/TOI-165/WISE J055532.59-571726.7/GSC 08528-00926/** RST 164/TIC 350743714/2MASS J05553262-5717261/CCDM J05555-5717AB/CPC 20 1454/CPD-57 913/IDS 05539-5718 AB/PPM 334733/WDS J05555-5717AB/RAVE J055532.6-571726/1SWASP J055532.69-571726.0/Gaia DR1 4765618608388715776/EBLM J0555-57"
+{
+	DateUpdated     "2024-08-13"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              5 55 32.62392
+	Dec             -57 17 26.1312
+	Dist            205.1
+	Class           "~"
+}
+
+// 72.Luhman 16 A
+// https://en.wikipedia.org/wiki/Luhman_16
+Remove "Luhman 16"
+StarBarycenter "Luhman 16/Gaia DR3 5353626573555863424/TIC 119862115/WISE J104915.57-531906.1/** LUH 16/WDS J10493-5319AB/WISE J1049-5319AB/WISEA J104915.52-531906.1/2MASS J10491891-5319100/DENIS J104919.0-531910/UCAC4 184-061368"
+{
+	DateUpdated     "2024-08-14"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              10 49 18.91536
+	Dec             -53 19 10.0776
+	Parallax        496
+	AppMagn         16.2
+	Class           "L7.5+T0.5"
+}
+
+// 73.SSSPM J0829-1309
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=SSSPM%20J0829-1309
+Star "SSSPM J0829-1309/Gaia DR3 5723739672264914176/TIC 926898/2MASS J08283419-1309198/USNO-B1.0 0768-00204971/V* V484 Hya/DENIS J082834.3-130919/WISEA J082833.75-130919.5/Gaia DR2 5723739672264914176/EQ J0829-1309"
+{
+	DateUpdated     "2024-08-14"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              8 28 34.1716399433
+	Dec             -13 9 19.841445886
+	Parallax        85.6014
+	Class           "L2"
+	// Measures     
+	Radius          61300
+	LumBol          1.4288939585111028565155922547817e-4 // log(L) = -3.845
+	Teff            2117
+}
+
+// 74.WISE 1405+5534 (Free-floating gas giant?)
+// https://en.wikipedia.org/wiki/WISE_1405%2B5534
+Star "WISE J140518.39+553421.3/WISEP J140518.40+553421.5/WISEP J140518.40+553421.4/EQ J1405+5534/WISEA J140518.32+553421.3"
+{
+	DateUpdated     "2024-08-14"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              14 5 18.39384
+	Dec             55 34 21.3996
+	Parallax        133
+	Class           "Y0(pec?)"
+	// Measures     
+	MassJup         30
+	Radius          61483
+	LumBol          1.055922270151247e-07 // Calculated
+	Teff            350
+}
+
+// 75.2MASS 0939-2448
+// https://en.wikipedia.org/wiki/2MASS_J09393548%E2%88%922448279
+Remove "2MASS J09393548-2448279"
+StarBarycenter "2MASS J09393548-2448279/TIC 314997365/WISEA J093935.93-244838.9/WISE J093935.91-244838.5"
+{
+	DateUpdated     "2024-08-14"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              9 39 35.48976
+	Dec             -24 48 27.9432
+	Parallax        196
+	Class           "T8"
+}
+
+// 76.WISE 0855−0714
+// https://en.wikipedia.org/wiki/WISE_0855%E2%88%920714
+// Remove "WISE 0855-0714"
+StarBarycenter "WISEA J085510.74-071442.5/WISE J085510.83-071442.5"
+{
+	DateUpdated     "2024-08-14"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              8 55 10.83168
+	Dec             -7 14 42.5256
+	Parallax        448
+	Class           "Y4V" // Free-floating gas giant
+}
+
+// 77.2MASS 0243−2453
+// https://en.wikipedia.org/wiki/2MASS_J02431371%E2%88%922453298
+Remove "2MASS J02431371-2453298"
+Star "2MASSI J0243137-245329/TIC 65415207/2MASS J02431371-2453298/WISEP J024313.48-245331.5/WISE J024313.47-245331.9/WISEA J024313.47-245332.1/EQ J0243-2453"
+{
+	DateUpdated     "2024-08-14"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              2 43 13.71792
+	Dec             -24 53 29.8356
+	Parallax        93.62
+	Class           "T6.0"
+	// Measures     
+	MassSol         0.024 // 0.041
+	Radius          64000
+	LumBol          3.122982621343255e-06 // Calculated
+	Teff            800 // 1300
+	Age             0.4 // 1.7
+}
+
+// 78.W1906+40
+// https://simbad.cds.unistra.fr/simbad/sim-id?Ident=WISEP+J190648.47%2B401106.8
+Remove "2MASS J19064801+4011089"
+Star "2MASS J19064801+4011089/Gaia DR3 2100693797539808896/KIC 4996077/KIC 4996074/TIC 121013320/SDSS J190648.29+401107.6/WISEP J190648.47+401106.8/WISEA J190648.47+401106.6/Gaia DR2 2100693797539808896"
+{
+	DateUpdated     "2024-08-14"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              19 6 48.0751379413
+	Dec             40 11 8.59057577
+	Parallax        59.671
+	Class           "L1"
+	// Measures     
+	Radius          64350
+	LumBol          0.0002
+	Teff            2300
+	RotationPeriod  8.9
+}
+
+// 79.2MASS J0348−6022
+// https://en.wikipedia.org/wiki/2MASS_J03480772%E2%88%926022270
+Remove "2MASS 03480-60222"
+StarBarycenter "2MASS J03480772-6022270/TIC 237922091/WISEP J034807.34-602234.9/WISE J034807.33-602234.9/WISEA J034807.33-602235.2"
+{
+	DateUpdated     "2024-08-14"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              3 48 7.72104
+	Dec             -60 22 27.0624
+	Parallax        120.1
+	Class           "T7"
+}
+
+// 80.SDSS J1416+1348 A
+// https://en.wikipedia.org/wiki/SDSS_J141624.08%2B134826.7
+Remove "2MASS J14162408+1348263"
+StarBarycenter "** SOZ 3/WDS J14164+1348/[BLL2010] SDSS J1416+13"
+{
+	DateUpdated     "2024-08-14"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              14 16 24.073969896
+	Dec             13 48 26.193281184
+	Parallax        107.7375
+	Class           "L5"
+}

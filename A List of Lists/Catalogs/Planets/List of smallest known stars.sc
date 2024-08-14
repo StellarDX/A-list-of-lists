@@ -2244,3 +2244,225 @@ Planet "HD 131977 b/GJ 570 Ab"
 		PeriodDays      33
 	}
 }
+
+// EBLM J0555-57
+Barycenter "CD-57 1311A/Gaia DR3 4765618612685018368/UCAC4 164-006717/WDS J05555-5717A/** RST 164A/TIC 734505581/Gaia DR2 4765618612685018368/TYC 8528-926-1"
+{
+	ParentBody      "EBLM J0555-57"
+	BinaryOrbit     
+	{
+		Epoch           2450815
+		Separation      479
+		PositionAngle   254
+	}
+}
+
+Star "EBLM J0555-57 Aa"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "CD-57 1311A"
+	Parallax        4.8611
+	AppMagn         10.03
+	Class           "F8"
+	AbsMagn         3.4636727762238566 // Calculated
+	MassSol         1.13
+	RadSol          0.99
+	LumBol          3.245
+	Teff            6461
+	FeH             -0.24
+	Age             1.9
+
+	BinaryOrbit     
+	{
+		PeriodDays      7.757676
+		Separation      0.0817
+		Eccentricity    0.0894
+		Inclination     89.84
+		ArgOfPericenter 126.3
+		MeanAnomaly     0
+	}
+}
+
+Star "EBLM J0555-57 Ab"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "CD-57 1311A"
+	Class           "M"
+	MassJup         85.2
+	Radius          60000
+	Teff            1800 // Unknown
+}
+
+Star "CD-57 1311B/Gaia DR3 4765618681404494976/UCAC4 164-006716/Gaia DR2 4765618681404494976/TIC 734505586/WDS J05555-5717B/** RST 164B/TYC 8528-926-2"
+{
+	DateUpdated     "2024-08-13"
+	ParentBody      "EBLM J0555-57"
+	Parallax        4.8747
+	AppMagn         10.98
+	Class           "G0V"
+	AbsMagn         4.419739466989592 // Calculated
+	MassSol         1.01
+	RadSol          0.94
+	LumBol          1.501
+	Teff            5717
+	FeH             -0.38
+}
+
+// Luhman 16
+Remove "Luhman 16 A" {ParentBody "Luhman 16"}
+Remove "Luhman 16 B" {ParentBody "Luhman 16"}
+Star "Luhman 16A/WISE J1049-5319A/** LUH 16A/WDS J10493-5319A/Gaia DR2 5353626573555863424"
+{
+	DateUpdated     "2024-08-14"
+	ParentBody      "** LUH 16"
+	Class           "L7.5"
+	AbsMagn         19.677408382450984 // Calculated
+	MassJup         35.4
+	Radius          60768
+	LumBol          0.0000219
+	Teff            1350
+	RotationPeriod  6.94
+
+	BinaryOrbit     
+	{
+		Period          26.55
+		Separation      3.52
+		Eccentricity    0.344
+		Inclination     79.92
+		AscendingNode   130.02
+		Epoch           2458140.807508084923029
+		ArgOfPericenter 316.67
+		MeanAnomaly     0
+	}
+}
+
+Star "Luhman 16B/WISE J1049-5319B/** LUH 16B/WDS J10493-5319B/Gaia DR2 5353626573562355584"
+{
+	DateUpdated     "2024-08-14"
+	ParentBody      "** LUH 16"
+	Class           "T0.5"
+	MassJup         29.4
+	Radius          74350
+	LumBol          0.0000209
+	Teff            1210
+	RotationPeriod  5.28
+
+	Surface
+	{
+		DiffMap         "Luhman16B-VLT"
+		DayAmbient      0
+		RingsWinter     0 
+		GlowMap         "Luhman16B-VLT"
+		GlowMode        "Permanent"
+		GlowColor       (1.0, 1.0, 1.0)
+		GlowBright      2.0
+	}
+
+	NoClouds        true
+}
+
+// 2MASS 0939-2448
+Star "2MASS J09393548-2448279 A"
+{
+	DateUpdated     "2024-08-14"
+	ParentBody      "2MASS J09393548-2448279"
+	Class           "T8"
+	MassJup         20 // 50
+	Radius          87220
+	LumBol          0.000002
+	Teff            611
+	FeH             -0.3 // 0
+	Age             2 // 10
+
+	BinaryOrbit // Generated
+	{
+		RefPlane        "Equator"
+		Period          0.0125484269
+		SemiMajorAxis   0.0223335542
+		Eccentricity    0
+		Inclination     -1.97912025
+		AscendingNode   0
+		ArgOfPericenter 90.6103308
+		MeanAnomaly     -175.033391
+	}
+}
+
+Star "2MASS J09393548-2448279 B"
+{
+	DateUpdated     "2024-08-14"
+	ParentBody      "2MASS J09393548-2448279"
+	Class           ""
+	MassJup         20 // 50
+	Radius          62600
+	LumBol          9.453733153862217e-07 // Calculated
+	Teff            600 // 700
+	FeH             -0.3 // 0
+	Age             2 // 10
+}
+
+// WISE 0855-0714
+Remove "WISE 0855-0714 b" {ParentBody "WISE 0855-0714"}
+Planet "WISEA J085510.74-071442.5 A"
+{
+	DateUpdated     "2024-08-14"
+	ParentBody      "WISEA J085510.74-071442.5"
+	DiscMethod      "Imaging"
+	DiscDate        "2014"
+	Class           "GasGiant"
+	MassJup         3 // 10
+	Radius          63500
+	LumBol          4.9545E-8
+	Teff            285
+	FeH             0
+	Age             1 // 10
+	Oblateness      0
+}
+
+// 2MASS J0348−6022
+Remove "2MASS J03480772-6022270" {ParentBody "2MASS 03480-60222"}
+Star "2MASS J03480772-6022270 A"
+{
+	DateUpdated     "2024-08-14"
+	ParentBody      "2MASS J03480772-6022270"
+	Class           "T7"
+	MassSol         0.041
+	Radius          64700
+	LumBol          4.672926192170577e-06 // Calculated
+	Teff            880
+	Age             3.5
+	RotationPeriod  1.080
+	Oblateness      0.08
+	Obliquity       81
+}
+
+// SDSS J1416+1348
+Remove "SDSS J141624.08+134826.7"{ParentBody "2MASS J14162408+1348263"}
+Remove "2MASS J14162408+1348263A"{ParentBody "2MASS J14162408+1348263"}
+Star "2MASS J14162408+1348263/SDSS J141624.12+134827.4/Gaia DR3 1227133699053734528/TIC 310417889/SDSS J141624.08+134826.7/WDS J14164+1348A/[BLL2010] SDSS J1416+13A/** SOZ 3A/WISEA J141624.14+134827.6/SDSS J141624.09+134826.7/Gaia DR2 1227133699053734528"
+{
+	DateUpdated     "2024-08-14"
+	ParentBody      "WDS J14164+1348"
+	Class           "sdL7"
+	MassJup         60
+	Radius          65772.5
+	LumBol          6.6069344800759600650964628363505e-5 // log(L) = -4.18
+	Teff            1694
+	Age             0.5 // 10
+
+	BinaryOrbit     
+	{
+		Separation      89.3 // 105
+	}
+}
+
+Star "ULAS J141623.94+134836.3/WISEA J141623.96+134836.0/WDS J14164+1348B/[BLL2010] SDSS J1416+13B/** SOZ 3B/WISE J141623.93+134836.0"
+{
+	DateUpdated     "2024-08-14"
+	ParentBody      "WDS J14164+1348"
+	Class           "T7.5p"
+	MassJup         33
+	Radius          67200
+	LumBol          1.5848931924611134852021013733915e-6 // log(l) = -5.80
+	Teff            660
+	Age             0.5 // 10
+}
